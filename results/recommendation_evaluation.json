@@ -1,0 +1,424 @@
+{
+  "evaluation_method": "Transformer and association rules evaluated on held-out test transactions",
+  "association_rules_fit_on": "training_transactions_only",
+  "test_transactions": 1000,
+  "transformer": {
+    "test_loss": 3.444106748090248,
+    "top1_accuracy": 0.1498120942944995,
+    "top3_accuracy": 0.28817902289033137,
+    "model_size_mb": 0.25528430938720703,
+    "parameter_count": 61678,
+    "average_inference_time_ms": 0.9207439999954659,
+    "test_examples": 5854
+  },
+  "comparison": {
+    "test_examples_with_nonempty_product_prefix": 4854,
+    "transformer_top1_accuracy": 0.17222908941079523,
+    "transformer_top3_accuracy": 0.3238566131025958,
+    "association_rule_top1_accuracy": 0.2624639472599918,
+    "association_rule_top3_accuracy": 0.41944787803873096,
+    "association_rule_coverage": 0.9946435929130614,
+    "association_rule_recommendation_source": "association_rule",
+    "transformer_recommendation_source": "transformer"
+  },
+  "itemset_parameters": {
+    "min_support": 0.005,
+    "min_confidence": 0.2,
+    "max_itemset_size": 3
+  },
+  "examples": [
+    {
+      "basket_prefix": [
+        "Bananas"
+      ],
+      "actual_next_product": "Rice",
+      "transformer_predictions": [
+        {
+          "product": "Milk",
+          "product_id": 24,
+          "score": 0.17080694437026978,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Strawberries",
+          "product_id": 37,
+          "score": 0.08775325864553452,
+          "category": "Fruits",
+          "source": "transformer"
+        },
+        {
+          "product": "Yogurt",
+          "product_id": 42,
+          "score": 0.08214043080806732,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Cereal",
+          "product_id": 9,
+          "score": 0.07805460691452026,
+          "category": "Breakfast",
+          "source": "transformer"
+        },
+        {
+          "product": "Cookies",
+          "product_id": 14,
+          "score": 0.03448396548628807,
+          "category": "Snacks",
+          "source": "transformer"
+        }
+      ],
+      "association_rule_recommendations": [
+        {
+          "product": "Milk",
+          "category": "Dairy",
+          "score": 0.45356917245735945,
+          "support": 0.08975,
+          "confidence": 0.45356917245735945,
+          "lift": 1.751232326090191,
+          "antecedent": [
+            "Bananas"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Yogurt",
+          "category": "Dairy",
+          "score": 0.4327226784586229,
+          "support": 0.085625,
+          "confidence": 0.4327226784586229,
+          "lift": 2.2091776819840354,
+          "antecedent": [
+            "Bananas"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Cereal",
+          "category": "Breakfast",
+          "score": 0.3929248262792167,
+          "support": 0.07775,
+          "confidence": 0.3929248262792167,
+          "lift": 3.0577807492546047,
+          "antecedent": [
+            "Bananas"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Strawberries",
+          "category": "Fruits",
+          "score": 0.3891345546430828,
+          "support": 0.077,
+          "confidence": 0.3891345546430828,
+          "lift": 3.046063050043701,
+          "antecedent": [
+            "Bananas"
+          ],
+          "source": "association_rule"
+        }
+      ]
+    },
+    {
+      "basket_prefix": [
+        "Pasta"
+      ],
+      "actual_next_product": "Chocolate",
+      "transformer_predictions": [
+        {
+          "product": "Pasta Sauce",
+          "product_id": 32,
+          "score": 0.1762278825044632,
+          "category": "Pantry",
+          "source": "transformer"
+        },
+        {
+          "product": "Cheese",
+          "product_id": 10,
+          "score": 0.052303314208984375,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Tea",
+          "product_id": 39,
+          "score": 0.05182262510061264,
+          "category": "Beverages",
+          "source": "transformer"
+        },
+        {
+          "product": "Soap",
+          "product_id": 35,
+          "score": 0.04665280878543854,
+          "category": "Personal care",
+          "source": "transformer"
+        },
+        {
+          "product": "Tomatoes",
+          "product_id": 40,
+          "score": 0.04159753397107124,
+          "category": "Vegetables",
+          "source": "transformer"
+        }
+      ],
+      "association_rule_recommendations": [
+        {
+          "product": "Pasta Sauce",
+          "category": "Pantry",
+          "score": 0.6082164328657315,
+          "support": 0.075875,
+          "confidence": 0.6082164328657315,
+          "lift": 4.719429158996947,
+          "antecedent": [
+            "Pasta"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Cheese",
+          "category": "Dairy",
+          "score": 0.6002004008016032,
+          "support": 0.074875,
+          "confidence": 0.6002004008016032,
+          "lift": 4.6392301511235035,
+          "antecedent": [
+            "Pasta"
+          ],
+          "source": "association_rule"
+        }
+      ]
+    },
+    {
+      "basket_prefix": [
+        "Onions"
+      ],
+      "actual_next_product": "Muffins",
+      "transformer_predictions": [
+        {
+          "product": "Canned Tomatoes",
+          "product_id": 7,
+          "score": 0.15218177437782288,
+          "category": "Pantry",
+          "source": "transformer"
+        },
+        {
+          "product": "Rice",
+          "product_id": 33,
+          "score": 0.1339615434408188,
+          "category": "Pantry",
+          "source": "transformer"
+        },
+        {
+          "product": "Butter",
+          "product_id": 6,
+          "score": 0.05045540630817413,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Eggs",
+          "product_id": 19,
+          "score": 0.04461631178855896,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Croissants",
+          "product_id": 17,
+          "score": 0.0358278863132,
+          "category": "Bakery",
+          "source": "transformer"
+        }
+      ],
+      "association_rule_recommendations": [
+        {
+          "product": "Canned Tomatoes",
+          "category": "Pantry",
+          "score": 0.5889872173058014,
+          "support": 0.074875,
+          "confidence": 0.5889872173058014,
+          "lift": 4.633134452749667,
+          "antecedent": [
+            "Onions"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Rice",
+          "category": "Pantry",
+          "score": 0.5781710914454278,
+          "support": 0.0735,
+          "confidence": 0.5781710914454278,
+          "lift": 4.499385925645353,
+          "antecedent": [
+            "Onions"
+          ],
+          "source": "association_rule"
+        }
+      ]
+    },
+    {
+      "basket_prefix": [
+        "Cereal"
+      ],
+      "actual_next_product": "Shampoo",
+      "transformer_predictions": [
+        {
+          "product": "Milk",
+          "product_id": 24,
+          "score": 0.1259172558784485,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Bananas",
+          "product_id": 3,
+          "score": 0.12087445706129074,
+          "category": "Fruits",
+          "source": "transformer"
+        },
+        {
+          "product": "Yogurt",
+          "product_id": 42,
+          "score": 0.04599025845527649,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Croissants",
+          "product_id": 17,
+          "score": 0.04025140032172203,
+          "category": "Bakery",
+          "source": "transformer"
+        },
+        {
+          "product": "Sugar",
+          "product_id": 38,
+          "score": 0.03936111554503441,
+          "category": "Baking",
+          "source": "transformer"
+        }
+      ],
+      "association_rule_recommendations": [
+        {
+          "product": "Milk",
+          "category": "Dairy",
+          "score": 0.6108949416342412,
+          "support": 0.0785,
+          "confidence": 0.6108949416342412,
+          "lift": 2.3586677283175335,
+          "antecedent": [
+            "Cereal"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Bananas",
+          "category": "Fruits",
+          "score": 0.6050583657587548,
+          "support": 0.07775,
+          "confidence": 0.6050583657587548,
+          "lift": 3.0577807492546043,
+          "antecedent": [
+            "Cereal"
+          ],
+          "source": "association_rule"
+        }
+      ]
+    },
+    {
+      "basket_prefix": [
+        "Cookies"
+      ],
+      "actual_next_product": "Tea",
+      "transformer_predictions": [
+        {
+          "product": "Milk",
+          "product_id": 24,
+          "score": 0.10567788034677505,
+          "category": "Dairy",
+          "source": "transformer"
+        },
+        {
+          "product": "Tea",
+          "product_id": 39,
+          "score": 0.10152444243431091,
+          "category": "Beverages",
+          "source": "transformer"
+        },
+        {
+          "product": "Honey",
+          "product_id": 21,
+          "score": 0.09823109954595566,
+          "category": "Pantry",
+          "source": "transformer"
+        },
+        {
+          "product": "Chocolate",
+          "product_id": 12,
+          "score": 0.07002293318510056,
+          "category": "Snacks",
+          "source": "transformer"
+        },
+        {
+          "product": "Cheese",
+          "product_id": 10,
+          "score": 0.03462562337517738,
+          "category": "Dairy",
+          "source": "transformer"
+        }
+      ],
+      "association_rule_recommendations": [
+        {
+          "product": "Milk",
+          "category": "Dairy",
+          "score": 0.46016571064372214,
+          "support": 0.09025,
+          "confidence": 0.46016571064372214,
+          "lift": 1.7767015854969965,
+          "antecedent": [
+            "Cookies"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Chocolate",
+          "category": "Snacks",
+          "score": 0.4059910771191842,
+          "support": 0.079625,
+          "confidence": 0.4059910771191842,
+          "lift": 3.1936367914980077,
+          "antecedent": [
+            "Cookies"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Tea",
+          "category": "Beverages",
+          "score": 0.40535372848948376,
+          "support": 0.0795,
+          "confidence": 0.40535372848948376,
+          "lift": 3.0796104728545775,
+          "antecedent": [
+            "Cookies"
+          ],
+          "source": "association_rule"
+        },
+        {
+          "product": "Honey",
+          "category": "Pantry",
+          "score": 0.3977055449330784,
+          "support": 0.078,
+          "confidence": 0.3977055449330784,
+          "lift": 2.976280972371027,
+          "antecedent": [
+            "Cookies"
+          ],
+          "source": "association_rule"
+        }
+      ]
+    }
+  ]
+}

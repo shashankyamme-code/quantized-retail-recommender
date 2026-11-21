@@ -1,0 +1,27 @@
+{
+  "test_loss": 3.444106748090248,
+  "top1_accuracy": 0.1498120942944995,
+  "top3_accuracy": 0.28817902289033137,
+  "model_size_mb": 0.267685,
+  "parameter_count": 61678,
+  "average_inference_time_ms": 0.5907807999992656,
+  "inference_benchmark": {
+    "device": "cpu",
+    "warmup_iterations": 20,
+    "repetitions": 5,
+    "samples_per_repetition": 100,
+    "average_latency_ms": 0.5907807999992656,
+    "median_latency_ms": 0.505349999457394,
+    "p95_latency_ms": 1.0731299997587482,
+    "repetition_average_latency_ms": [
+      0.5992539999988367,
+      0.6053350000001956,
+      0.5768979999993462,
+      0.6229249999978492,
+      0.5494920000001002
+    ],
+    "input_sha256": "4eced252e99f38c7cb7c6c9c77e43448a17f02dec9fba8752db08d87130842d2",
+    "benchmark_method": "single-example CPU forward pass; same ordered test prefixes for each repetition"
+  },
+  "test_examples": 5854
+}

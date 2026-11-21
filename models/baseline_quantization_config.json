@@ -1,0 +1,15 @@
+{
+  "model": "baseline",
+  "method": "Unquantized FP32 baseline checkpoint",
+  "baseline_checkpoint_sha256": "7fc0dd68f734f7b41dcc82206250e1c06e1939b0038a8fee286abd21b31fb742",
+  "vocabulary_path": "data\\product_vocabulary.json",
+  "vocabulary_size": 46,
+  "torch_version": "2.10.0+cpu",
+  "runtime_device": "cpu",
+  "quantized_linear_dtype": null,
+  "static_quantization_engine": null,
+  "static_qconfig": null,
+  "calibration": null,
+  "quantized_layers": [],
+  "unsupported_operations_kept_float": []
+}

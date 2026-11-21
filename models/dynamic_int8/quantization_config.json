@@ -1,0 +1,146 @@
+{
+  "model": "dynamic_int8",
+  "method": "PyTorch eager dynamic qint8 quantization of Linear modules; activations are dynamically quantized at runtime.",
+  "baseline_checkpoint_sha256": "7fc0dd68f734f7b41dcc82206250e1c06e1939b0038a8fee286abd21b31fb742",
+  "vocabulary_path": "data\\product_vocabulary.json",
+  "vocabulary_size": 46,
+  "torch_version": "2.10.0+cpu",
+  "runtime_device": "cpu",
+  "quantized_linear_dtype": "torch.qint8",
+  "static_quantization_engine": null,
+  "static_qconfig": null,
+  "calibration": null,
+  "quantized_layers": [
+    {
+      "name": "layers.0.attention.query",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.attention.key",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.attention.value",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.attention.output",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.feed_forward.0",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        192,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.feed_forward.2",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        192
+      ]
+    },
+    {
+      "name": "layers.1.attention.query",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.attention.key",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.attention.value",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.attention.output",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.feed_forward.0",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        192,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.feed_forward.2",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        48,
+        192
+      ]
+    },
+    {
+      "name": "output_projection",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_tensor_affine",
+      "weight_shape": [
+        46,
+        48
+      ]
+    }
+  ],
+  "unsupported_operations_kept_float": []
+}

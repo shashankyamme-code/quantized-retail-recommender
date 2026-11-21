@@ -1,0 +1,9 @@
+{
+  "test_loss": 3.359937456442979,
+  "top1_accuracy": 0.18211784095591266,
+  "top3_accuracy": 0.3292130201895344,
+  "model_size_mb": 0.0947122573852539,
+  "parameter_count": 61387,
+  "average_inference_time_ms": 6.354354000000058,
+  "test_examples": 4854
+}

@@ -1,0 +1,166 @@
+{
+  "model": "static_int8",
+  "method": "PyTorch eager static post-training quantization of supported Linear modules using observed activation ranges from representative training prefixes.",
+  "baseline_checkpoint_sha256": "7fc0dd68f734f7b41dcc82206250e1c06e1939b0038a8fee286abd21b31fb742",
+  "vocabulary_path": "data\\product_vocabulary.json",
+  "vocabulary_size": 46,
+  "torch_version": "2.10.0+cpu",
+  "runtime_device": "cpu",
+  "quantized_linear_dtype": "torch.qint8",
+  "static_quantization_engine": "onednn",
+  "static_qconfig": "torch.ao.quantization.get_default_qconfig('onednn')",
+  "calibration": {
+    "source": "training transaction prefixes only",
+    "training_transactions": 8000,
+    "available_training_examples": 46856,
+    "calibration_examples_used": 2048,
+    "calibration_batch_size": 64,
+    "calibration_batches": 32,
+    "calibration_examples_sha256": "29bdd81b119b40b0657964006871a85cc02fc21eee474c92abe36fddfe813657",
+    "seed": 42,
+    "sequence_max_length": 12,
+    "transaction_split_seed": 42,
+    "basket_order_shuffled": true,
+    "calibration_order": "first calibration_examples_used generated training prefixes",
+    "activation_observer": "default PyTorch eager qconfig observer"
+  },
+  "quantized_layers": [
+    {
+      "name": "layers.0.attention.query.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.attention.key.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.attention.value.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.attention.output.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.feed_forward.0.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        192,
+        48
+      ]
+    },
+    {
+      "name": "layers.0.feed_forward.2.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        192
+      ]
+    },
+    {
+      "name": "layers.1.attention.query.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.attention.key.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.attention.value.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.attention.output.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.feed_forward.0.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        192,
+        48
+      ]
+    },
+    {
+      "name": "layers.1.feed_forward.2.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        48,
+        192
+      ]
+    },
+    {
+      "name": "output_projection.linear",
+      "operator": "Linear",
+      "weight_dtype": "torch.qint8",
+      "weight_qscheme": "torch.per_channel_affine",
+      "weight_shape": [
+        46,
+        48
+      ]
+    }
+  ],
+  "unsupported_operations_kept_float": [
+    "Embedding tables",
+    "LayerNorm",
+    "GELU and Dropout",
+    "Attention score and value matrix multiplications",
+    "Softmax, causal/padding masks, residual additions, and tensor reshaping"
+  ]
+}

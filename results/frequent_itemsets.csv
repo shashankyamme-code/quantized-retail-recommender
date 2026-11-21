@@ -1,0 +1,2527 @@
+itemset,itemset_size,support,transaction_count
+"[""Milk""]",1,0.259,2072
+"[""Sugar""]",1,0.204375,1635
+"[""Eggs""]",1,0.202,1616
+"[""Coffee""]",1,0.201375,1611
+"[""Bananas""]",1,0.197875,1583
+"[""Butter""]",1,0.197875,1583
+"[""Cookies""]",1,0.196125,1569
+"[""Yogurt""]",1,0.195875,1567
+"[""Butter"", ""Eggs""]",2,0.146125,1169
+"[""Soft Drinks""]",1,0.140125,1121
+"[""Paper Towels""]",1,0.139375,1115
+"[""Tomatoes""]",1,0.135125,1081
+"[""Bagels""]",1,0.134375,1075
+"[""Cream Cheese""]",1,0.134125,1073
+"[""Cream""]",1,0.133875,1071
+"[""Honey""]",1,0.133625,1069
+"[""Chips""]",1,0.133125,1065
+"[""Orange Juice""]",1,0.133125,1065
+"[""Tea""]",1,0.131625,1053
+"[""Lettuce""]",1,0.131125,1049
+"[""Croissants""]",1,0.130375,1043
+"[""Cheese""]",1,0.129375,1035
+"[""Pasta Sauce""]",1,0.128875,1031
+"[""Cereal""]",1,0.1285,1028
+"[""Rice""]",1,0.1285,1028
+"[""Dish Soap""]",1,0.12825,1026
+"[""Laundry Detergent""]",1,0.128,1024
+"[""Carrots""]",1,0.127875,1023
+"[""Strawberries""]",1,0.12775,1022
+"[""Canned Tomatoes""]",1,0.127125,1017
+"[""Chocolate""]",1,0.127125,1017
+"[""Onions""]",1,0.127125,1017
+"[""Bread""]",1,0.12675,1014
+"[""Apples""]",1,0.126625,1013
+"[""Oatmeal""]",1,0.125875,1007
+"[""Soap""]",1,0.125875,1007
+"[""Flour""]",1,0.124875,999
+"[""Pasta""]",1,0.12475,998
+"[""Shampoo""]",1,0.1245,996
+"[""Toothpaste""]",1,0.1225,980
+"[""Cookies"", ""Milk""]",2,0.09025,722
+"[""Bananas"", ""Milk""]",2,0.08975,718
+"[""Coffee"", ""Sugar""]",2,0.088,704
+"[""Chips"", ""Soft Drinks""]",2,0.085875,687
+"[""Bananas"", ""Yogurt""]",2,0.085625,685
+"[""Eggs"", ""Sugar""]",2,0.084625,677
+"[""Coffee"", ""Cream""]",2,0.084375,675
+"[""Butter"", ""Sugar""]",2,0.084125,673
+"[""Chocolate"", ""Milk""]",2,0.08275,662
+"[""Cream"", ""Sugar""]",2,0.082,656
+"[""Bagels"", ""Coffee""]",2,0.081375,651
+"[""Flour"", ""Sugar""]",2,0.080125,641
+"[""Chocolate"", ""Cookies""]",2,0.079625,637
+"[""Coffee"", ""Cream Cheese""]",2,0.079625,637
+"[""Cookies"", ""Tea""]",2,0.0795,636
+"[""Milk"", ""Oatmeal""]",2,0.0795,636
+"[""Eggs"", ""Flour""]",2,0.079,632
+"[""Butter"", ""Flour""]",2,0.07875,630
+"[""Carrots"", ""Tomatoes""]",2,0.07875,630
+"[""Cereal"", ""Milk""]",2,0.0785,628
+"[""Apples"", ""Milk""]",2,0.078,624
+"[""Cookies"", ""Honey""]",2,0.078,624
+"[""Strawberries"", ""Yogurt""]",2,0.078,624
+"[""Laundry Detergent"", ""Paper Towels""]",2,0.077875,623
+"[""Bananas"", ""Cereal""]",2,0.07775,622
+"[""Bread"", ""Eggs""]",2,0.077625,621
+"[""Lettuce"", ""Tomatoes""]",2,0.0775,620
+"[""Orange Juice"", ""Yogurt""]",2,0.0775,620
+"[""Dish Soap"", ""Paper Towels""]",2,0.077375,619
+"[""Bread"", ""Butter""]",2,0.07725,618
+"[""Croissants"", ""Yogurt""]",2,0.077125,617
+"[""Bananas"", ""Strawberries""]",2,0.077,616
+"[""Carrots"", ""Lettuce""]",2,0.07675,614
+"[""Honey"", ""Tea""]",2,0.076375,611
+"[""Cheese"", ""Pasta Sauce""]",2,0.076,608
+"[""Pasta"", ""Pasta Sauce""]",2,0.075875,607
+"[""Bagels"", ""Cream Cheese""]",2,0.075125,601
+"[""Croissants"", ""Orange Juice""]",2,0.075125,601
+"[""Dish Soap"", ""Laundry Detergent""]",2,0.075,600
+"[""Canned Tomatoes"", ""Onions""]",2,0.074875,599
+"[""Cheese"", ""Pasta""]",2,0.074875,599
+"[""Butter"", ""Eggs"", ""Sugar""]",3,0.07475,598
+"[""Canned Tomatoes"", ""Rice""]",2,0.074,592
+"[""Shampoo"", ""Toothpaste""]",2,0.073875,591
+"[""Onions"", ""Rice""]",2,0.0735,588
+"[""Coffee"", ""Cream"", ""Sugar""]",3,0.0735,588
+"[""Butter"", ""Eggs"", ""Flour""]",3,0.073,584
+"[""Shampoo"", ""Soap""]",2,0.072875,583
+"[""Soap"", ""Toothpaste""]",2,0.071875,575
+"[""Bread"", ""Butter"", ""Eggs""]",3,0.0715,572
+"[""Apples"", ""Oatmeal""]",2,0.071,568
+"[""Carrots"", ""Lettuce"", ""Tomatoes""]",3,0.0705,564
+"[""Chocolate"", ""Cookies"", ""Milk""]",3,0.0705,564
+"[""Butter"", ""Flour"", ""Sugar""]",3,0.070375,563
+"[""Eggs"", ""Flour"", ""Sugar""]",3,0.070125,561
+"[""Dish Soap"", ""Laundry Detergent"", ""Paper Towels""]",3,0.06975,558
+"[""Cheese"", ""Pasta"", ""Pasta Sauce""]",3,0.068875,551
+"[""Bagels"", ""Coffee"", ""Cream Cheese""]",3,0.068375,547
+"[""Cookies"", ""Honey"", ""Tea""]",3,0.068375,547
+"[""Bananas"", ""Strawberries"", ""Yogurt""]",3,0.06775,542
+"[""Bananas"", ""Cereal"", ""Milk""]",3,0.06725,538
+"[""Croissants"", ""Orange Juice"", ""Yogurt""]",3,0.066625,533
+"[""Canned Tomatoes"", ""Onions"", ""Rice""]",3,0.0665,532
+"[""Shampoo"", ""Soap"", ""Toothpaste""]",3,0.065625,525
+"[""Apples"", ""Milk"", ""Oatmeal""]",3,0.06425,514
+"[""Bottled Water""]",1,0.06375,510
+"[""Muffins""]",1,0.06075,486
+"[""Oranges""]",1,0.05775,462
+"[""Milk"", ""Sugar""]",2,0.03525,282
+"[""Eggs"", ""Milk""]",2,0.0325,260
+"[""Coffee"", ""Milk""]",2,0.03225,258
+"[""Milk"", ""Yogurt""]",2,0.031625,253
+"[""Butter"", ""Milk""]",2,0.031,248
+"[""Butter"", ""Yogurt""]",2,0.027875,223
+"[""Sugar"", ""Yogurt""]",2,0.0275,220
+"[""Bananas"", ""Coffee""]",2,0.027,216
+"[""Butter"", ""Coffee""]",2,0.027,216
+"[""Bananas"", ""Eggs""]",2,0.02675,214
+"[""Bananas"", ""Butter""]",2,0.026375,211
+"[""Bananas"", ""Sugar""]",2,0.026375,211
+"[""Honey"", ""Milk""]",2,0.026375,211
+"[""Cookies"", ""Eggs""]",2,0.02625,210
+"[""Cookies"", ""Sugar""]",2,0.025875,207
+"[""Milk"", ""Tomatoes""]",2,0.025875,207
+"[""Coffee"", ""Yogurt""]",2,0.02575,206
+"[""Milk"", ""Soft Drinks""]",2,0.025625,205
+"[""Bagels"", ""Milk""]",2,0.02525,202
+"[""Bananas"", ""Cookies""]",2,0.02525,202
+"[""Cream Cheese"", ""Milk""]",2,0.02525,202
+"[""Coffee"", ""Cookies""]",2,0.024875,199
+"[""Milk"", ""Paper Towels""]",2,0.024875,199
+"[""Cheese"", ""Milk""]",2,0.02475,198
+"[""Cookies"", ""Yogurt""]",2,0.02475,198
+"[""Eggs"", ""Yogurt""]",2,0.024625,197
+"[""Milk"", ""Orange Juice""]",2,0.024625,197
+"[""Coffee"", ""Eggs""]",2,0.0245,196
+"[""Milk"", ""Tea""]",2,0.0245,196
+"[""Cream"", ""Milk""]",2,0.024375,195
+"[""Croissants"", ""Milk""]",2,0.02425,194
+"[""Bread"", ""Milk""]",2,0.024125,193
+"[""Milk"", ""Shampoo""]",2,0.023875,191
+"[""Milk"", ""Toothpaste""]",2,0.023875,191
+"[""Chips"", ""Milk""]",2,0.02375,190
+"[""Milk"", ""Pasta Sauce""]",2,0.02375,190
+"[""Milk"", ""Rice""]",2,0.0235,188
+"[""Coffee"", ""Tomatoes""]",2,0.02325,186
+"[""Milk"", ""Onions""]",2,0.02325,186
+"[""Canned Tomatoes"", ""Milk""]",2,0.023125,185
+"[""Butter"", ""Cookies""]",2,0.023,184
+"[""Carrots"", ""Milk""]",2,0.022875,183
+"[""Coffee"", ""Paper Towels""]",2,0.02275,182
+"[""Butter"", ""Paper Towels""]",2,0.022625,181
+"[""Laundry Detergent"", ""Milk""]",2,0.0225,180
+"[""Apples"", ""Bananas""]",2,0.022375,179
+"[""Bananas"", ""Bread""]",2,0.022125,177
+"[""Milk"", ""Soap""]",2,0.022125,177
+"[""Eggs"", ""Paper Towels""]",2,0.022,176
+"[""Coffee"", ""Soft Drinks""]",2,0.02175,174
+"[""Dish Soap"", ""Milk""]",2,0.02175,174
+"[""Eggs"", ""Soft Drinks""]",2,0.02175,174
+"[""Milk"", ""Strawberries""]",2,0.02175,174
+"[""Paper Towels"", ""Yogurt""]",2,0.02175,174
+"[""Eggs"", ""Honey""]",2,0.021625,173
+"[""Flour"", ""Milk""]",2,0.021625,173
+"[""Bananas"", ""Paper Towels""]",2,0.0215,172
+"[""Paper Towels"", ""Sugar""]",2,0.021375,171
+"[""Soft Drinks"", ""Sugar""]",2,0.021375,171
+"[""Butter"", ""Cream Cheese""]",2,0.02125,170
+"[""Cookies"", ""Soft Drinks""]",2,0.02125,170
+"[""Bagels"", ""Sugar""]",2,0.021125,169
+"[""Coffee"", ""Tea""]",2,0.021125,169
+"[""Cookies"", ""Orange Juice""]",2,0.021125,169
+"[""Cookies"", ""Tomatoes""]",2,0.021125,169
+"[""Cream"", ""Yogurt""]",2,0.021125,169
+"[""Bananas"", ""Cream Cheese""]",2,0.021,168
+"[""Chips"", ""Eggs""]",2,0.021,168
+"[""Coffee"", ""Lettuce""]",2,0.021,168
+"[""Cream Cheese"", ""Eggs""]",2,0.021,168
+"[""Lettuce"", ""Milk""]",2,0.021,168
+"[""Bagels"", ""Eggs""]",2,0.020875,167
+"[""Butter"", ""Soft Drinks""]",2,0.020875,167
+"[""Eggs"", ""Tea""]",2,0.020875,167
+"[""Pasta Sauce"", ""Sugar""]",2,0.020875,167
+"[""Cheese"", ""Cookies""]",2,0.02075,166
+"[""Chips"", ""Cookies""]",2,0.02075,166
+"[""Cookies"", ""Paper Towels""]",2,0.02075,166
+"[""Cheese"", ""Eggs""]",2,0.020625,165
+"[""Chips"", ""Sugar""]",2,0.020625,165
+"[""Butter"", ""Strawberries""]",2,0.0205,164
+"[""Coffee"", ""Honey""]",2,0.0205,164
+"[""Eggs"", ""Rice""]",2,0.0205,164
+"[""Bananas"", ""Laundry Detergent""]",2,0.020375,163
+"[""Bananas"", ""Lettuce""]",2,0.020375,163
+"[""Bananas"", ""Tomatoes""]",2,0.020375,163
+"[""Coffee"", ""Orange Juice""]",2,0.020375,163
+"[""Cookies"", ""Cream Cheese""]",2,0.020375,163
+"[""Bananas"", ""Chips""]",2,0.02025,162
+"[""Carrots"", ""Coffee""]",2,0.02025,162
+"[""Carrots"", ""Cookies""]",2,0.02025,162
+"[""Cereal"", ""Sugar""]",2,0.02025,162
+"[""Cereal"", ""Yogurt""]",2,0.02025,162
+"[""Sugar"", ""Tomatoes""]",2,0.02025,162
+"[""Tea"", ""Yogurt""]",2,0.02025,162
+"[""Butter"", ""Dish Soap""]",2,0.020125,161
+"[""Chips"", ""Coffee""]",2,0.020125,161
+"[""Cookies"", ""Dish Soap""]",2,0.020125,161
+"[""Butter"", ""Laundry Detergent""]",2,0.02,160
+"[""Pasta Sauce"", ""Yogurt""]",2,0.02,160
+"[""Canned Tomatoes"", ""Eggs""]",2,0.019875,159
+"[""Cereal"", ""Coffee""]",2,0.019875,159
+"[""Coffee"", ""Laundry Detergent""]",2,0.019875,159
+"[""Cookies"", ""Croissants""]",2,0.019875,159
+"[""Cream Cheese"", ""Yogurt""]",2,0.019875,159
+"[""Bananas"", ""Cheese""]",2,0.01975,158
+"[""Bananas"", ""Cream""]",2,0.01975,158
+"[""Eggs"", ""Pasta Sauce""]",2,0.01975,158
+"[""Milk"", ""Pasta""]",2,0.01975,158
+"[""Soap"", ""Sugar""]",2,0.01975,158
+"[""Bagels"", ""Bananas""]",2,0.019625,157
+"[""Bananas"", ""Oatmeal""]",2,0.019625,157
+"[""Bread"", ""Yogurt""]",2,0.019625,157
+"[""Cheese"", ""Yogurt""]",2,0.019625,157
+"[""Chips"", ""Yogurt""]",2,0.019625,157
+"[""Cookies"", ""Pasta Sauce""]",2,0.019625,157
+"[""Eggs"", ""Soap""]",2,0.019625,157
+"[""Bagels"", ""Soft Drinks""]",2,0.0195,156
+"[""Butter"", ""Rice""]",2,0.0195,156
+"[""Cookies"", ""Soap""]",2,0.0195,156
+"[""Eggs"", ""Laundry Detergent""]",2,0.0195,156
+"[""Eggs"", ""Onions""]",2,0.0195,156
+"[""Onions"", ""Sugar""]",2,0.0195,156
+"[""Apples"", ""Yogurt""]",2,0.019375,155
+"[""Bananas"", ""Orange Juice""]",2,0.019375,155
+"[""Coffee"", ""Croissants""]",2,0.019375,155
+"[""Cookies"", ""Laundry Detergent""]",2,0.019375,155
+"[""Cookies"", ""Pasta""]",2,0.019375,155
+"[""Croissants"", ""Sugar""]",2,0.019375,155
+"[""Dish Soap"", ""Eggs""]",2,0.019375,155
+"[""Rice"", ""Sugar""]",2,0.019375,155
+"[""Strawberries"", ""Sugar""]",2,0.019375,155
+"[""Apples"", ""Eggs""]",2,0.01925,154
+"[""Cheese"", ""Sugar""]",2,0.01925,154
+"[""Sugar"", ""Toothpaste""]",2,0.01925,154
+"[""Apples"", ""Cookies""]",2,0.019125,153
+"[""Butter"", ""Chips""]",2,0.019125,153
+"[""Coffee"", ""Dish Soap""]",2,0.019125,153
+"[""Coffee"", ""Rice""]",2,0.019125,153
+"[""Cookies"", ""Cream""]",2,0.019125,153
+"[""Cookies"", ""Lettuce""]",2,0.019125,153
+"[""Bread"", ""Sugar""]",2,0.019,152
+"[""Coffee"", ""Oatmeal""]",2,0.019,152
+"[""Dish Soap"", ""Sugar""]",2,0.019,152
+"[""Honey"", ""Yogurt""]",2,0.019,152
+"[""Lettuce"", ""Yogurt""]",2,0.019,152
+"[""Bagels"", ""Butter""]",2,0.018875,151
+"[""Bananas"", ""Soft Drinks""]",2,0.018875,151
+"[""Butter"", ""Cheese""]",2,0.018875,151
+"[""Butter"", ""Toothpaste""]",2,0.018875,151
+"[""Coffee"", ""Shampoo""]",2,0.018875,151
+"[""Coffee"", ""Strawberries""]",2,0.018875,151
+"[""Bagels"", ""Tomatoes""]",2,0.01875,150
+"[""Bananas"", ""Chocolate""]",2,0.01875,150
+"[""Bananas"", ""Croissants""]",2,0.01875,150
+"[""Cookies"", ""Oatmeal""]",2,0.01875,150
+"[""Cookies"", ""Onions""]",2,0.01875,150
+"[""Cookies"", ""Rice""]",2,0.01875,150
+"[""Cookies"", ""Shampoo""]",2,0.01875,150
+"[""Cream"", ""Eggs""]",2,0.01875,150
+"[""Orange Juice"", ""Sugar""]",2,0.01875,150
+"[""Pasta"", ""Yogurt""]",2,0.01875,150
+"[""Tomatoes"", ""Yogurt""]",2,0.01875,150
+"[""Bananas"", ""Dish Soap""]",2,0.018625,149
+"[""Bananas"", ""Tea""]",2,0.018625,149
+"[""Bread"", ""Coffee""]",2,0.018625,149
+"[""Butter"", ""Pasta Sauce""]",2,0.018625,149
+"[""Carrots"", ""Yogurt""]",2,0.018625,149
+"[""Soap"", ""Yogurt""]",2,0.018625,149
+"[""Bagels"", ""Cookies""]",2,0.0185,148
+"[""Bananas"", ""Honey""]",2,0.0185,148
+"[""Canned Tomatoes"", ""Coffee""]",2,0.0185,148
+"[""Cream Cheese"", ""Sugar""]",2,0.0185,148
+"[""Dish Soap"", ""Yogurt""]",2,0.0185,148
+"[""Honey"", ""Sugar""]",2,0.0185,148
+"[""Laundry Detergent"", ""Yogurt""]",2,0.0185,148
+"[""Oatmeal"", ""Sugar""]",2,0.0185,148
+"[""Shampoo"", ""Yogurt""]",2,0.0185,148
+"[""Bananas"", ""Pasta Sauce""]",2,0.018375,147
+"[""Coffee"", ""Soap""]",2,0.018375,147
+"[""Eggs"", ""Pasta""]",2,0.018375,147
+"[""Eggs"", ""Tomatoes""]",2,0.018375,147
+"[""Onions"", ""Yogurt""]",2,0.018375,147
+"[""Orange Juice"", ""Soft Drinks""]",2,0.018375,147
+"[""Apples"", ""Coffee""]",2,0.01825,146
+"[""Bread"", ""Cookies""]",2,0.01825,146
+"[""Butter"", ""Cream""]",2,0.01825,146
+"[""Butter"", ""Croissants""]",2,0.01825,146
+"[""Butter"", ""Orange Juice""]",2,0.01825,146
+"[""Butter"", ""Pasta""]",2,0.01825,146
+"[""Butter"", ""Soap""]",2,0.01825,146
+"[""Butter"", ""Tomatoes""]",2,0.01825,146
+"[""Canned Tomatoes"", ""Cookies""]",2,0.01825,146
+"[""Chocolate"", ""Eggs""]",2,0.01825,146
+"[""Coffee"", ""Flour""]",2,0.01825,146
+"[""Eggs"", ""Lettuce""]",2,0.01825,146
+"[""Rice"", ""Yogurt""]",2,0.01825,146
+"[""Soft Drinks"", ""Yogurt""]",2,0.01825,146
+"[""Bananas"", ""Carrots""]",2,0.018125,145
+"[""Bananas"", ""Shampoo""]",2,0.018125,145
+"[""Bread"", ""Paper Towels""]",2,0.018125,145
+"[""Canned Tomatoes"", ""Sugar""]",2,0.018125,145
+"[""Carrots"", ""Eggs""]",2,0.018125,145
+"[""Chocolate"", ""Sugar""]",2,0.018125,145
+"[""Coffee"", ""Toothpaste""]",2,0.018125,145
+"[""Croissants"", ""Eggs""]",2,0.018125,145
+"[""Eggs"", ""Strawberries""]",2,0.018125,145
+"[""Eggs"", ""Toothpaste""]",2,0.018125,145
+"[""Paper Towels"", ""Soft Drinks""]",2,0.018125,145
+"[""Bananas"", ""Canned Tomatoes""]",2,0.018,144
+"[""Bananas"", ""Toothpaste""]",2,0.018,144
+"[""Butter"", ""Canned Tomatoes""]",2,0.018,144
+"[""Canned Tomatoes"", ""Yogurt""]",2,0.018,144
+"[""Coffee"", ""Pasta Sauce""]",2,0.018,144
+"[""Eggs"", ""Orange Juice""]",2,0.018,144
+"[""Honey"", ""Paper Towels""]",2,0.018,144
+"[""Soap"", ""Soft Drinks""]",2,0.018,144
+"[""Butter"", ""Cereal""]",2,0.017875,143
+"[""Butter"", ""Onions""]",2,0.017875,143
+"[""Laundry Detergent"", ""Sugar""]",2,0.017875,143
+"[""Bananas"", ""Rice""]",2,0.01775,142
+"[""Bananas"", ""Soap""]",2,0.01775,142
+"[""Chocolate"", ""Yogurt""]",2,0.01775,142
+"[""Bagels"", ""Yogurt""]",2,0.017625,141
+"[""Cereal"", ""Soft Drinks""]",2,0.017625,141
+"[""Lettuce"", ""Sugar""]",2,0.017625,141
+"[""Butter"", ""Shampoo""]",2,0.0175,140
+"[""Cereal"", ""Eggs""]",2,0.0175,140
+"[""Butter"", ""Lettuce""]",2,0.017375,139
+"[""Cheese"", ""Coffee""]",2,0.017375,139
+"[""Cheese"", ""Soft Drinks""]",2,0.017375,139
+"[""Cream Cheese"", ""Laundry Detergent""]",2,0.017375,139
+"[""Eggs"", ""Shampoo""]",2,0.017375,139
+"[""Butter"", ""Eggs"", ""Milk""]",3,0.017375,139
+"[""Coffee"", ""Pasta""]",2,0.01725,138
+"[""Cookies"", ""Strawberries""]",2,0.01725,138
+"[""Soft Drinks"", ""Tomatoes""]",2,0.01725,138
+"[""Sugar"", ""Tea""]",2,0.01725,138
+"[""Bananas"", ""Pasta""]",2,0.017125,137
+"[""Bottled Water"", ""Milk""]",2,0.017125,137
+"[""Butter"", ""Tea""]",2,0.017125,137
+"[""Coffee"", ""Onions""]",2,0.017125,137
+"[""Oatmeal"", ""Yogurt""]",2,0.017125,137
+"[""Paper Towels"", ""Soap""]",2,0.017125,137
+"[""Bananas"", ""Flour""]",2,0.017,136
+"[""Cereal"", ""Cookies""]",2,0.017,136
+"[""Chocolate"", ""Coffee""]",2,0.017,136
+"[""Chocolate"", ""Soft Drinks""]",2,0.017,136
+"[""Dish Soap"", ""Soft Drinks""]",2,0.017,136
+"[""Shampoo"", ""Sugar""]",2,0.017,136
+"[""Butter"", ""Chocolate""]",2,0.016875,135
+"[""Eggs"", ""Oatmeal""]",2,0.016875,135
+"[""Orange Juice"", ""Soap""]",2,0.016875,135
+"[""Soft Drinks"", ""Tea""]",2,0.016875,135
+"[""Apples"", ""Tomatoes""]",2,0.01675,134
+"[""Bagels"", ""Paper Towels""]",2,0.01675,134
+"[""Bananas"", ""Onions""]",2,0.01675,134
+"[""Cream Cheese"", ""Honey""]",2,0.01675,134
+"[""Flour"", ""Yogurt""]",2,0.01675,134
+"[""Pasta"", ""Sugar""]",2,0.01675,134
+"[""Toothpaste"", ""Yogurt""]",2,0.01675,134
+"[""Apples"", ""Butter""]",2,0.016625,133
+"[""Apples"", ""Sugar""]",2,0.016625,133
+"[""Bagels"", ""Cream""]",2,0.016625,133
+"[""Carrots"", ""Sugar""]",2,0.016625,133
+"[""Chips"", ""Tomatoes""]",2,0.016625,133
+"[""Honey"", ""Soft Drinks""]",2,0.016625,133
+"[""Lettuce"", ""Strawberries""]",2,0.016625,133
+"[""Orange Juice"", ""Paper Towels""]",2,0.016625,133
+"[""Bagels"", ""Honey""]",2,0.0165,132
+"[""Butter"", ""Honey""]",2,0.0165,132
+"[""Canned Tomatoes"", ""Soft Drinks""]",2,0.0165,132
+"[""Chocolate"", ""Paper Towels""]",2,0.0165,132
+"[""Butter"", ""Carrots""]",2,0.016375,131
+"[""Cookies"", ""Toothpaste""]",2,0.016375,131
+"[""Cream Cheese"", ""Strawberries""]",2,0.016375,131
+"[""Croissants"", ""Soft Drinks""]",2,0.016375,131
+"[""Bagels"", ""Chips""]",2,0.01625,130
+"[""Cream"", ""Croissants""]",2,0.01625,130
+"[""Cream Cheese"", ""Paper Towels""]",2,0.01625,130
+"[""Honey"", ""Pasta""]",2,0.01625,130
+"[""Soft Drinks"", ""Toothpaste""]",2,0.01625,130
+"[""Bagels"", ""Lettuce""]",2,0.016125,129
+"[""Bread"", ""Rice""]",2,0.016125,129
+"[""Chips"", ""Orange Juice""]",2,0.016125,129
+"[""Chocolate"", ""Tomatoes""]",2,0.016125,129
+"[""Croissants"", ""Paper Towels""]",2,0.016125,129
+"[""Onions"", ""Orange Juice""]",2,0.016125,129
+"[""Bagels"", ""Strawberries""]",2,0.016,128
+"[""Cream"", ""Shampoo""]",2,0.016,128
+"[""Cream Cheese"", ""Dish Soap""]",2,0.016,128
+"[""Cream Cheese"", ""Soft Drinks""]",2,0.016,128
+"[""Milk"", ""Muffins""]",2,0.016,128
+"[""Paper Towels"", ""Strawberries""]",2,0.016,128
+"[""Rice"", ""Soft Drinks""]",2,0.016,128
+"[""Tea"", ""Tomatoes""]",2,0.016,128
+"[""Canned Tomatoes"", ""Chips""]",2,0.015875,127
+"[""Cream"", ""Orange Juice""]",2,0.015875,127
+"[""Dish Soap"", ""Tomatoes""]",2,0.015875,127
+"[""Paper Towels"", ""Shampoo""]",2,0.015875,127
+"[""Apples"", ""Croissants""]",2,0.01575,126
+"[""Carrots"", ""Onions""]",2,0.01575,126
+"[""Carrots"", ""Toothpaste""]",2,0.01575,126
+"[""Chips"", ""Rice""]",2,0.01575,126
+"[""Dish Soap"", ""Lettuce""]",2,0.01575,126
+"[""Lettuce"", ""Soft Drinks""]",2,0.01575,126
+"[""Oatmeal"", ""Soft Drinks""]",2,0.01575,126
+"[""Apples"", ""Honey""]",2,0.015625,125
+"[""Bread"", ""Soft Drinks""]",2,0.015625,125
+"[""Cereal"", ""Orange Juice""]",2,0.015625,125
+"[""Cheese"", ""Strawberries""]",2,0.015625,125
+"[""Chips"", ""Dish Soap""]",2,0.015625,125
+"[""Chips"", ""Oatmeal""]",2,0.015625,125
+"[""Chips"", ""Soap""]",2,0.015625,125
+"[""Chips"", ""Strawberries""]",2,0.015625,125
+"[""Honey"", ""Orange Juice""]",2,0.015625,125
+"[""Lettuce"", ""Paper Towels""]",2,0.015625,125
+"[""Apples"", ""Tea""]",2,0.0155,124
+"[""Bread"", ""Pasta""]",2,0.0155,124
+"[""Cereal"", ""Cheese""]",2,0.0155,124
+"[""Cereal"", ""Chips""]",2,0.0155,124
+"[""Cream Cheese"", ""Shampoo""]",2,0.0155,124
+"[""Laundry Detergent"", ""Soft Drinks""]",2,0.0155,124
+"[""Lettuce"", ""Shampoo""]",2,0.0155,124
+"[""Lettuce"", ""Toothpaste""]",2,0.0155,124
+"[""Onions"", ""Soft Drinks""]",2,0.0155,124
+"[""Soft Drinks"", ""Strawberries""]",2,0.0155,124
+"[""Bananas"", ""Milk"", ""Yogurt""]",3,0.0155,124
+"[""Bread"", ""Cereal""]",2,0.015375,123
+"[""Bread"", ""Tea""]",2,0.015375,123
+"[""Cereal"", ""Paper Towels""]",2,0.015375,123
+"[""Chips"", ""Chocolate""]",2,0.015375,123
+"[""Cookies"", ""Flour""]",2,0.015375,123
+"[""Cream"", ""Tomatoes""]",2,0.015375,123
+"[""Cream Cheese"", ""Tomatoes""]",2,0.015375,123
+"[""Croissants"", ""Tomatoes""]",2,0.015375,123
+"[""Flour"", ""Soft Drinks""]",2,0.015375,123
+"[""Laundry Detergent"", ""Tea""]",2,0.015375,123
+"[""Pasta"", ""Soft Drinks""]",2,0.015375,123
+"[""Pasta"", ""Tea""]",2,0.015375,123
+"[""Pasta Sauce"", ""Soft Drinks""]",2,0.015375,123
+"[""Butter"", ""Coffee"", ""Eggs""]",3,0.015375,123
+"[""Apples"", ""Soft Drinks""]",2,0.01525,122
+"[""Bagels"", ""Shampoo""]",2,0.01525,122
+"[""Chocolate"", ""Honey""]",2,0.01525,122
+"[""Cream"", ""Paper Towels""]",2,0.01525,122
+"[""Croissants"", ""Onions""]",2,0.01525,122
+"[""Honey"", ""Laundry Detergent""]",2,0.01525,122
+"[""Lettuce"", ""Tea""]",2,0.01525,122
+"[""Pasta Sauce"", ""Strawberries""]",2,0.01525,122
+"[""Strawberries"", ""Tomatoes""]",2,0.01525,122
+"[""Apples"", ""Lettuce""]",2,0.015125,121
+"[""Bagels"", ""Rice""]",2,0.015125,121
+"[""Carrots"", ""Oatmeal""]",2,0.015125,121
+"[""Carrots"", ""Shampoo""]",2,0.015125,121
+"[""Cheese"", ""Chips""]",2,0.015125,121
+"[""Cream"", ""Soft Drinks""]",2,0.015125,121
+"[""Dish Soap"", ""Tea""]",2,0.015125,121
+"[""Honey"", ""Soap""]",2,0.015125,121
+"[""Paper Towels"", ""Pasta""]",2,0.015125,121
+"[""Paper Towels"", ""Tea""]",2,0.015125,121
+"[""Bananas"", ""Butter"", ""Eggs""]",3,0.015125,121
+"[""Bagels"", ""Cheese""]",2,0.015,120
+"[""Bagels"", ""Tea""]",2,0.015,120
+"[""Bagels"", ""Toothpaste""]",2,0.015,120
+"[""Carrots"", ""Chips""]",2,0.015,120
+"[""Cereal"", ""Croissants""]",2,0.015,120
+"[""Chips"", ""Cream Cheese""]",2,0.015,120
+"[""Chips"", ""Lettuce""]",2,0.015,120
+"[""Chips"", ""Onions""]",2,0.015,120
+"[""Cream"", ""Rice""]",2,0.015,120
+"[""Lettuce"", ""Pasta Sauce""]",2,0.015,120
+"[""Oatmeal"", ""Paper Towels""]",2,0.015,120
+"[""Paper Towels"", ""Toothpaste""]",2,0.015,120
+"[""Apples"", ""Strawberries""]",2,0.014875,119
+"[""Bagels"", ""Carrots""]",2,0.014875,119
+"[""Bagels"", ""Croissants""]",2,0.014875,119
+"[""Bread"", ""Honey""]",2,0.014875,119
+"[""Canned Tomatoes"", ""Paper Towels""]",2,0.014875,119
+"[""Canned Tomatoes"", ""Tomatoes""]",2,0.014875,119
+"[""Carrots"", ""Cream Cheese""]",2,0.014875,119
+"[""Cereal"", ""Cream Cheese""]",2,0.014875,119
+"[""Cereal"", ""Oatmeal""]",2,0.014875,119
+"[""Chips"", ""Paper Towels""]",2,0.014875,119
+"[""Cream Cheese"", ""Orange Juice""]",2,0.014875,119
+"[""Croissants"", ""Honey""]",2,0.014875,119
+"[""Shampoo"", ""Soft Drinks""]",2,0.014875,119
+"[""Butter"", ""Eggs"", ""Yogurt""]",3,0.014875,119
+"[""Bagels"", ""Pasta""]",2,0.01475,118
+"[""Bagels"", ""Soap""]",2,0.01475,118
+"[""Canned Tomatoes"", ""Pasta Sauce""]",2,0.01475,118
+"[""Carrots"", ""Soap""]",2,0.01475,118
+"[""Carrots"", ""Tea""]",2,0.01475,118
+"[""Chips"", ""Cream""]",2,0.01475,118
+"[""Chips"", ""Croissants""]",2,0.01475,118
+"[""Cream Cheese"", ""Tea""]",2,0.01475,118
+"[""Croissants"", ""Soap""]",2,0.01475,118
+"[""Dish Soap"", ""Honey""]",2,0.01475,118
+"[""Orange Juice"", ""Tea""]",2,0.01475,118
+"[""Butter"", ""Oatmeal""]",2,0.014625,117
+"[""Carrots"", ""Strawberries""]",2,0.014625,117
+"[""Cereal"", ""Honey""]",2,0.014625,117
+"[""Cereal"", ""Rice""]",2,0.014625,117
+"[""Chocolate"", ""Lettuce""]",2,0.014625,117
+"[""Chocolate"", ""Orange Juice""]",2,0.014625,117
+"[""Cream"", ""Dish Soap""]",2,0.014625,117
+"[""Cream"", ""Toothpaste""]",2,0.014625,117
+"[""Croissants"", ""Rice""]",2,0.014625,117
+"[""Honey"", ""Oatmeal""]",2,0.014625,117
+"[""Oatmeal"", ""Pasta""]",2,0.014625,117
+"[""Oatmeal"", ""Soap""]",2,0.014625,117
+"[""Paper Towels"", ""Rice""]",2,0.014625,117
+"[""Rice"", ""Shampoo""]",2,0.014625,117
+"[""Apples"", ""Pasta Sauce""]",2,0.0145,116
+"[""Cereal"", ""Cream""]",2,0.0145,116
+"[""Cheese"", ""Orange Juice""]",2,0.0145,116
+"[""Chips"", ""Tea""]",2,0.0145,116
+"[""Chips"", ""Toothpaste""]",2,0.0145,116
+"[""Cream"", ""Lettuce""]",2,0.0145,116
+"[""Cream"", ""Onions""]",2,0.0145,116
+"[""Croissants"", ""Laundry Detergent""]",2,0.0145,116
+"[""Croissants"", ""Pasta Sauce""]",2,0.0145,116
+"[""Honey"", ""Tomatoes""]",2,0.0145,116
+"[""Oatmeal"", ""Tomatoes""]",2,0.0145,116
+"[""Onions"", ""Paper Towels""]",2,0.0145,116
+"[""Tomatoes"", ""Toothpaste""]",2,0.0145,116
+"[""Bread"", ""Toothpaste""]",2,0.014375,115
+"[""Carrots"", ""Cream""]",2,0.014375,115
+"[""Cheese"", ""Honey""]",2,0.014375,115
+"[""Chips"", ""Honey""]",2,0.014375,115
+"[""Cream"", ""Cream Cheese""]",2,0.014375,115
+"[""Cream"", ""Oatmeal""]",2,0.014375,115
+"[""Cream Cheese"", ""Croissants""]",2,0.014375,115
+"[""Cream Cheese"", ""Lettuce""]",2,0.014375,115
+"[""Cream Cheese"", ""Toothpaste""]",2,0.014375,115
+"[""Croissants"", ""Tea""]",2,0.014375,115
+"[""Dish Soap"", ""Rice""]",2,0.014375,115
+"[""Flour"", ""Lettuce""]",2,0.014375,115
+"[""Honey"", ""Lettuce""]",2,0.014375,115
+"[""Orange Juice"", ""Pasta""]",2,0.014375,115
+"[""Orange Juice"", ""Shampoo""]",2,0.014375,115
+"[""Paper Towels"", ""Tomatoes""]",2,0.014375,115
+"[""Soap"", ""Tea""]",2,0.014375,115
+"[""Cookies"", ""Honey"", ""Milk""]",3,0.014375,115
+"[""Bagels"", ""Cereal""]",2,0.01425,114
+"[""Bread"", ""Strawberries""]",2,0.01425,114
+"[""Chips"", ""Pasta Sauce""]",2,0.01425,114
+"[""Onions"", ""Tomatoes""]",2,0.01425,114
+"[""Rice"", ""Soap""]",2,0.01425,114
+"[""Apples"", ""Chips""]",2,0.014125,113
+"[""Bagels"", ""Laundry Detergent""]",2,0.014125,113
+"[""Bagels"", ""Orange Juice""]",2,0.014125,113
+"[""Bread"", ""Tomatoes""]",2,0.014125,113
+"[""Canned Tomatoes"", ""Honey""]",2,0.014125,113
+"[""Chips"", ""Laundry Detergent""]",2,0.014125,113
+"[""Chocolate"", ""Dish Soap""]",2,0.014125,113
+"[""Dish Soap"", ""Shampoo""]",2,0.014125,113
+"[""Oatmeal"", ""Pasta Sauce""]",2,0.014125,113
+"[""Oatmeal"", ""Toothpaste""]",2,0.014125,113
+"[""Orange Juice"", ""Rice""]",2,0.014125,113
+"[""Orange Juice"", ""Toothpaste""]",2,0.014125,113
+"[""Pasta Sauce"", ""Tomatoes""]",2,0.014125,113
+"[""Apples"", ""Bagels""]",2,0.014,112
+"[""Apples"", ""Toothpaste""]",2,0.014,112
+"[""Bagels"", ""Chocolate""]",2,0.014,112
+"[""Bread"", ""Chips""]",2,0.014,112
+"[""Bread"", ""Onions""]",2,0.014,112
+"[""Cheese"", ""Lettuce""]",2,0.014,112
+"[""Cheese"", ""Soap""]",2,0.014,112
+"[""Cheese"", ""Tea""]",2,0.014,112
+"[""Chips"", ""Pasta""]",2,0.014,112
+"[""Soap"", ""Strawberries""]",2,0.014,112
+"[""Butter"", ""Eggs"", ""Paper Towels""]",3,0.014,112
+"[""Bagels"", ""Dish Soap""]",2,0.013875,111
+"[""Bread"", ""Canned Tomatoes""]",2,0.013875,111
+"[""Canned Tomatoes"", ""Laundry Detergent""]",2,0.013875,111
+"[""Carrots"", ""Soft Drinks""]",2,0.013875,111
+"[""Cheese"", ""Croissants""]",2,0.013875,111
+"[""Chocolate"", ""Pasta Sauce""]",2,0.013875,111
+"[""Flour"", ""Laundry Detergent""]",2,0.013875,111
+"[""Honey"", ""Shampoo""]",2,0.013875,111
+"[""Laundry Detergent"", ""Soap""]",2,0.013875,111
+"[""Oatmeal"", ""Shampoo""]",2,0.013875,111
+"[""Paper Towels"", ""Pasta Sauce""]",2,0.013875,111
+"[""Apples"", ""Canned Tomatoes""]",2,0.01375,110
+"[""Apples"", ""Carrots""]",2,0.01375,110
+"[""Apples"", ""Chocolate""]",2,0.01375,110
+"[""Apples"", ""Pasta""]",2,0.01375,110
+"[""Apples"", ""Rice""]",2,0.01375,110
+"[""Bottled Water"", ""Cookies""]",2,0.01375,110
+"[""Bottled Water"", ""Eggs""]",2,0.01375,110
+"[""Bread"", ""Cheese""]",2,0.01375,110
+"[""Bread"", ""Laundry Detergent""]",2,0.01375,110
+"[""Canned Tomatoes"", ""Cream""]",2,0.01375,110
+"[""Cereal"", ""Laundry Detergent""]",2,0.01375,110
+"[""Cereal"", ""Tea""]",2,0.01375,110
+"[""Cheese"", ""Cream Cheese""]",2,0.01375,110
+"[""Chips"", ""Shampoo""]",2,0.01375,110
+"[""Chocolate"", ""Oatmeal""]",2,0.01375,110
+"[""Chocolate"", ""Tea""]",2,0.01375,110
+"[""Cream Cheese"", ""Onions""]",2,0.01375,110
+"[""Croissants"", ""Oatmeal""]",2,0.01375,110
+"[""Laundry Detergent"", ""Pasta Sauce""]",2,0.01375,110
+"[""Oatmeal"", ""Strawberries""]",2,0.01375,110
+"[""Onions"", ""Pasta Sauce""]",2,0.01375,110
+"[""Onions"", ""Toothpaste""]",2,0.01375,110
+"[""Pasta"", ""Rice""]",2,0.01375,110
+"[""Pasta"", ""Strawberries""]",2,0.01375,110
+"[""Pasta"", ""Tomatoes""]",2,0.01375,110
+"[""Shampoo"", ""Tea""]",2,0.01375,110
+"[""Apples"", ""Dish Soap""]",2,0.013625,109
+"[""Apples"", ""Laundry Detergent""]",2,0.013625,109
+"[""Apples"", ""Shampoo""]",2,0.013625,109
+"[""Apples"", ""Soap""]",2,0.013625,109
+"[""Bananas"", ""Bottled Water""]",2,0.013625,109
+"[""Bread"", ""Soap""]",2,0.013625,109
+"[""Butter"", ""Oranges""]",2,0.013625,109
+"[""Carrots"", ""Orange Juice""]",2,0.013625,109
+"[""Cereal"", ""Chocolate""]",2,0.013625,109
+"[""Cereal"", ""Pasta Sauce""]",2,0.013625,109
+"[""Cheese"", ""Cream""]",2,0.013625,109
+"[""Cheese"", ""Onions""]",2,0.013625,109
+"[""Cream"", ""Flour""]",2,0.013625,109
+"[""Cream"", ""Pasta Sauce""]",2,0.013625,109
+"[""Cream"", ""Tea""]",2,0.013625,109
+"[""Cream Cheese"", ""Rice""]",2,0.013625,109
+"[""Cream Cheese"", ""Soap""]",2,0.013625,109
+"[""Croissants"", ""Toothpaste""]",2,0.013625,109
+"[""Dish Soap"", ""Flour""]",2,0.013625,109
+"[""Dish Soap"", ""Orange Juice""]",2,0.013625,109
+"[""Eggs"", ""Oranges""]",2,0.013625,109
+"[""Flour"", ""Paper Towels""]",2,0.013625,109
+"[""Honey"", ""Pasta Sauce""]",2,0.013625,109
+"[""Honey"", ""Rice""]",2,0.013625,109
+"[""Laundry Detergent"", ""Toothpaste""]",2,0.013625,109
+"[""Lettuce"", ""Oatmeal""]",2,0.013625,109
+"[""Lettuce"", ""Soap""]",2,0.013625,109
+"[""Onions"", ""Pasta""]",2,0.013625,109
+"[""Rice"", ""Toothpaste""]",2,0.013625,109
+"[""Shampoo"", ""Strawberries""]",2,0.013625,109
+"[""Apples"", ""Paper Towels""]",2,0.0135,108
+"[""Bagels"", ""Oatmeal""]",2,0.0135,108
+"[""Bagels"", ""Pasta Sauce""]",2,0.0135,108
+"[""Bread"", ""Dish Soap""]",2,0.0135,108
+"[""Canned Tomatoes"", ""Orange Juice""]",2,0.0135,108
+"[""Cereal"", ""Onions""]",2,0.0135,108
+"[""Cheese"", ""Flour""]",2,0.0135,108
+"[""Cheese"", ""Oatmeal""]",2,0.0135,108
+"[""Cheese"", ""Paper Towels""]",2,0.0135,108
+"[""Cream"", ""Laundry Detergent""]",2,0.0135,108
+"[""Cream Cheese"", ""Pasta""]",2,0.0135,108
+"[""Flour"", ""Strawberries""]",2,0.0135,108
+"[""Laundry Detergent"", ""Orange Juice""]",2,0.0135,108
+"[""Pasta Sauce"", ""Rice""]",2,0.0135,108
+"[""Rice"", ""Tea""]",2,0.0135,108
+"[""Bananas"", ""Milk"", ""Oatmeal""]",3,0.0135,108
+"[""Butter"", ""Cookies"", ""Eggs""]",3,0.0135,108
+"[""Cookies"", ""Milk"", ""Tea""]",3,0.0135,108
+"[""Apples"", ""Cream""]",2,0.013375,107
+"[""Cereal"", ""Soap""]",2,0.013375,107
+"[""Cereal"", ""Tomatoes""]",2,0.013375,107
+"[""Cheese"", ""Tomatoes""]",2,0.013375,107
+"[""Chocolate"", ""Cream Cheese""]",2,0.013375,107
+"[""Chocolate"", ""Strawberries""]",2,0.013375,107
+"[""Cookies"", ""Muffins""]",2,0.013375,107
+"[""Cream"", ""Soap""]",2,0.013375,107
+"[""Cream"", ""Strawberries""]",2,0.013375,107
+"[""Croissants"", ""Dish Soap""]",2,0.013375,107
+"[""Croissants"", ""Lettuce""]",2,0.013375,107
+"[""Dish Soap"", ""Pasta Sauce""]",2,0.013375,107
+"[""Dish Soap"", ""Soap""]",2,0.013375,107
+"[""Orange Juice"", ""Strawberries""]",2,0.013375,107
+"[""Rice"", ""Tomatoes""]",2,0.013375,107
+"[""Shampoo"", ""Tomatoes""]",2,0.013375,107
+"[""Bagels"", ""Bread""]",2,0.01325,106
+"[""Bread"", ""Pasta Sauce""]",2,0.01325,106
+"[""Canned Tomatoes"", ""Pasta""]",2,0.01325,106
+"[""Carrots"", ""Chocolate""]",2,0.01325,106
+"[""Carrots"", ""Rice""]",2,0.01325,106
+"[""Chocolate"", ""Soap""]",2,0.01325,106
+"[""Cream"", ""Pasta""]",2,0.01325,106
+"[""Croissants"", ""Shampoo""]",2,0.01325,106
+"[""Flour"", ""Pasta Sauce""]",2,0.01325,106
+"[""Laundry Detergent"", ""Shampoo""]",2,0.01325,106
+"[""Lettuce"", ""Pasta""]",2,0.01325,106
+"[""Oatmeal"", ""Onions""]",2,0.01325,106
+"[""Onions"", ""Soap""]",2,0.01325,106
+"[""Pasta"", ""Soap""]",2,0.01325,106
+"[""Apples"", ""Cereal""]",2,0.013125,105
+"[""Apples"", ""Cheese""]",2,0.013125,105
+"[""Bagels"", ""Flour""]",2,0.013125,105
+"[""Bread"", ""Shampoo""]",2,0.013125,105
+"[""Canned Tomatoes"", ""Shampoo""]",2,0.013125,105
+"[""Canned Tomatoes"", ""Tea""]",2,0.013125,105
+"[""Cereal"", ""Flour""]",2,0.013125,105
+"[""Cheese"", ""Chocolate""]",2,0.013125,105
+"[""Cheese"", ""Toothpaste""]",2,0.013125,105
+"[""Croissants"", ""Pasta""]",2,0.013125,105
+"[""Flour"", ""Tomatoes""]",2,0.013125,105
+"[""Honey"", ""Onions""]",2,0.013125,105
+"[""Oatmeal"", ""Rice""]",2,0.013125,105
+"[""Pasta"", ""Shampoo""]",2,0.013125,105
+"[""Pasta Sauce"", ""Tea""]",2,0.013125,105
+"[""Rice"", ""Strawberries""]",2,0.013125,105
+"[""Tea"", ""Toothpaste""]",2,0.013125,105
+"[""Apples"", ""Onions""]",2,0.013,104
+"[""Bagels"", ""Canned Tomatoes""]",2,0.013,104
+"[""Canned Tomatoes"", ""Cream Cheese""]",2,0.013,104
+"[""Canned Tomatoes"", ""Dish Soap""]",2,0.013,104
+"[""Canned Tomatoes"", ""Toothpaste""]",2,0.013,104
+"[""Carrots"", ""Honey""]",2,0.013,104
+"[""Cereal"", ""Dish Soap""]",2,0.013,104
+"[""Cereal"", ""Shampoo""]",2,0.013,104
+"[""Cheese"", ""Laundry Detergent""]",2,0.013,104
+"[""Chocolate"", ""Croissants""]",2,0.013,104
+"[""Cream"", ""Honey""]",2,0.013,104
+"[""Dish Soap"", ""Strawberries""]",2,0.013,104
+"[""Flour"", ""Tea""]",2,0.013,104
+"[""Laundry Detergent"", ""Onions""]",2,0.013,104
+"[""Laundry Detergent"", ""Rice""]",2,0.013,104
+"[""Orange Juice"", ""Tomatoes""]",2,0.013,104
+"[""Soap"", ""Tomatoes""]",2,0.013,104
+"[""Apples"", ""Bananas"", ""Milk""]",3,0.013,104
+"[""Bananas"", ""Cookies"", ""Milk""]",3,0.013,104
+"[""Canned Tomatoes"", ""Cheese""]",2,0.012875,103
+"[""Canned Tomatoes"", ""Soap""]",2,0.012875,103
+"[""Canned Tomatoes"", ""Strawberries""]",2,0.012875,103
+"[""Carrots"", ""Croissants""]",2,0.012875,103
+"[""Cheese"", ""Shampoo""]",2,0.012875,103
+"[""Coffee"", ""Muffins""]",2,0.012875,103
+"[""Milk"", ""Oranges""]",2,0.012875,103
+"[""Oatmeal"", ""Tea""]",2,0.012875,103
+"[""Onions"", ""Shampoo""]",2,0.012875,103
+"[""Strawberries"", ""Toothpaste""]",2,0.012875,103
+"[""Apples"", ""Cream Cheese""]",2,0.01275,102
+"[""Bananas"", ""Muffins""]",2,0.01275,102
+"[""Bread"", ""Lettuce""]",2,0.01275,102
+"[""Canned Tomatoes"", ""Oatmeal""]",2,0.01275,102
+"[""Carrots"", ""Cereal""]",2,0.01275,102
+"[""Carrots"", ""Paper Towels""]",2,0.01275,102
+"[""Laundry Detergent"", ""Strawberries""]",2,0.01275,102
+"[""Lettuce"", ""Onions""]",2,0.01275,102
+"[""Butter"", ""Cheese"", ""Eggs""]",3,0.01275,102
+"[""Coffee"", ""Eggs"", ""Sugar""]",3,0.01275,102
+"[""Bananas"", ""Oranges""]",2,0.012625,101
+"[""Bread"", ""Cream Cheese""]",2,0.012625,101
+"[""Bread"", ""Croissants""]",2,0.012625,101
+"[""Canned Tomatoes"", ""Carrots""]",2,0.012625,101
+"[""Canned Tomatoes"", ""Cereal""]",2,0.012625,101
+"[""Cereal"", ""Pasta""]",2,0.012625,101
+"[""Cereal"", ""Strawberries""]",2,0.012625,101
+"[""Cheese"", ""Rice""]",2,0.012625,101
+"[""Chips"", ""Flour""]",2,0.012625,101
+"[""Chocolate"", ""Cream""]",2,0.012625,101
+"[""Croissants"", ""Strawberries""]",2,0.012625,101
+"[""Flour"", ""Honey""]",2,0.012625,101
+"[""Laundry Detergent"", ""Lettuce""]",2,0.012625,101
+"[""Onions"", ""Tea""]",2,0.012625,101
+"[""Pasta Sauce"", ""Shampoo""]",2,0.012625,101
+"[""Pasta Sauce"", ""Soap""]",2,0.012625,101
+"[""Apples"", ""Bread""]",2,0.0125,100
+"[""Apples"", ""Orange Juice""]",2,0.0125,100
+"[""Bread"", ""Orange Juice""]",2,0.0125,100
+"[""Canned Tomatoes"", ""Croissants""]",2,0.0125,100
+"[""Carrots"", ""Dish Soap""]",2,0.0125,100
+"[""Carrots"", ""Flour""]",2,0.0125,100
+"[""Chocolate"", ""Rice""]",2,0.0125,100
+"[""Laundry Detergent"", ""Oatmeal""]",2,0.0125,100
+"[""Lettuce"", ""Orange Juice""]",2,0.0125,100
+"[""Bagels"", ""Onions""]",2,0.012375,99
+"[""Bread"", ""Cream""]",2,0.012375,99
+"[""Canned Tomatoes"", ""Lettuce""]",2,0.012375,99
+"[""Cereal"", ""Lettuce""]",2,0.012375,99
+"[""Chocolate"", ""Shampoo""]",2,0.012375,99
+"[""Chocolate"", ""Toothpaste""]",2,0.012375,99
+"[""Dish Soap"", ""Oatmeal""]",2,0.012375,99
+"[""Honey"", ""Toothpaste""]",2,0.012375,99
+"[""Orange Juice"", ""Pasta Sauce""]",2,0.012375,99
+"[""Butter"", ""Coffee"", ""Sugar""]",3,0.012375,99
+"[""Carrots"", ""Pasta Sauce""]",2,0.01225,98
+"[""Chocolate"", ""Laundry Detergent""]",2,0.01225,98
+"[""Cream Cheese"", ""Pasta Sauce""]",2,0.01225,98
+"[""Oatmeal"", ""Orange Juice""]",2,0.01225,98
+"[""Pasta Sauce"", ""Toothpaste""]",2,0.01225,98
+"[""Strawberries"", ""Tea""]",2,0.01225,98
+"[""Bagels"", ""Coffee"", ""Cream""]",3,0.01225,98
+"[""Bagels"", ""Coffee"", ""Sugar""]",3,0.01225,98
+"[""Bread"", ""Oatmeal""]",2,0.012125,97
+"[""Carrots"", ""Cheese""]",2,0.012125,97
+"[""Cheese"", ""Dish Soap""]",2,0.012125,97
+"[""Bananas"", ""Chocolate"", ""Milk""]",3,0.012125,97
+"[""Butter"", ""Eggs"", ""Pasta Sauce""]",3,0.012125,97
+"[""Bottled Water"", ""Yogurt""]",2,0.012,96
+"[""Bread"", ""Chocolate""]",2,0.012,96
+"[""Cream Cheese"", ""Oatmeal""]",2,0.012,96
+"[""Dish Soap"", ""Onions""]",2,0.012,96
+"[""Bananas"", ""Cereal"", ""Yogurt""]",3,0.012,96
+"[""Bananas"", ""Orange Juice"", ""Yogurt""]",3,0.012,96
+"[""Butter"", ""Eggs"", ""Laundry Detergent""]",3,0.012,96
+"[""Bread"", ""Flour""]",2,0.011875,95
+"[""Chocolate"", ""Onions""]",2,0.011875,95
+"[""Chocolate"", ""Pasta""]",2,0.011875,95
+"[""Flour"", ""Onions""]",2,0.011875,95
+"[""Laundry Detergent"", ""Pasta""]",2,0.011875,95
+"[""Laundry Detergent"", ""Tomatoes""]",2,0.011875,95
+"[""Butter"", ""Chips"", ""Eggs""]",3,0.011875,95
+"[""Bottled Water"", ""Coffee""]",2,0.01175,94
+"[""Bottled Water"", ""Honey""]",2,0.01175,94
+"[""Lettuce"", ""Rice""]",2,0.01175,94
+"[""Muffins"", ""Orange Juice""]",2,0.01175,94
+"[""Butter"", ""Eggs"", ""Soft Drinks""]",3,0.01175,94
+"[""Chips"", ""Eggs"", ""Soft Drinks""]",3,0.01175,94
+"[""Cookies"", ""Milk"", ""Oatmeal""]",3,0.01175,94
+"[""Canned Tomatoes"", ""Chocolate""]",2,0.011625,93
+"[""Canned Tomatoes"", ""Flour""]",2,0.011625,93
+"[""Carrots"", ""Pasta""]",2,0.011625,93
+"[""Dish Soap"", ""Pasta""]",2,0.011625,93
+"[""Flour"", ""Oatmeal""]",2,0.011625,93
+"[""Honey"", ""Strawberries""]",2,0.011625,93
+"[""Muffins"", ""Yogurt""]",2,0.011625,93
+"[""Bananas"", ""Milk"", ""Strawberries""]",3,0.011625,93
+"[""Bottled Water"", ""Sugar""]",2,0.0115,92
+"[""Cream Cheese"", ""Flour""]",2,0.0115,92
+"[""Flour"", ""Orange Juice""]",2,0.0115,92
+"[""Pasta"", ""Toothpaste""]",2,0.0115,92
+"[""Butter"", ""Cream Cheese"", ""Eggs""]",3,0.0115,92
+"[""Coffee"", ""Cream"", ""Milk""]",3,0.0115,92
+"[""Coffee"", ""Flour"", ""Sugar""]",3,0.0115,92
+"[""Cereal"", ""Toothpaste""]",2,0.011375,91
+"[""Coffee"", ""Oranges""]",2,0.011375,91
+"[""Muffins"", ""Sugar""]",2,0.011375,91
+"[""Onions"", ""Strawberries""]",2,0.011375,91
+"[""Oranges"", ""Sugar""]",2,0.011375,91
+"[""Oranges"", ""Yogurt""]",2,0.011375,91
+"[""Apples"", ""Cookies"", ""Milk""]",3,0.011375,91
+"[""Butter"", ""Dish Soap"", ""Eggs""]",3,0.011375,91
+"[""Bread"", ""Carrots""]",2,0.01125,90
+"[""Carrots"", ""Laundry Detergent""]",2,0.01125,90
+"[""Flour"", ""Shampoo""]",2,0.01125,90
+"[""Bananas"", ""Croissants"", ""Yogurt""]",3,0.01125,90
+"[""Bottled Water"", ""Soft Drinks""]",2,0.011125,89
+"[""Dish Soap"", ""Toothpaste""]",2,0.011125,89
+"[""Flour"", ""Rice""]",2,0.011125,89
+"[""Butter"", ""Cream"", ""Eggs""]",3,0.011125,89
+"[""Chips"", ""Milk"", ""Soft Drinks""]",3,0.011125,89
+"[""Butter"", ""Muffins""]",2,0.011,88
+"[""Flour"", ""Soap""]",2,0.011,88
+"[""Butter"", ""Chips"", ""Soft Drinks""]",3,0.011,88
+"[""Butter"", ""Eggs"", ""Rice""]",3,0.011,88
+"[""Butter"", ""Eggs"", ""Strawberries""]",3,0.011,88
+"[""Cream"", ""Eggs"", ""Sugar""]",3,0.011,88
+"[""Bottled Water"", ""Butter""]",2,0.010875,87
+"[""Bottled Water"", ""Tea""]",2,0.010875,87
+"[""Chocolate"", ""Flour""]",2,0.010875,87
+"[""Bagels"", ""Butter"", ""Eggs""]",3,0.010875,87
+"[""Butter"", ""Cereal"", ""Eggs""]",3,0.010875,87
+"[""Bottled Water"", ""Tomatoes""]",2,0.01075,86
+"[""Flour"", ""Pasta""]",2,0.01075,86
+"[""Butter"", ""Eggs"", ""Soap""]",3,0.01075,86
+"[""Carrots"", ""Coffee"", ""Tomatoes""]",3,0.01075,86
+"[""Coffee"", ""Cream"", ""Cream Cheese""]",3,0.01075,86
+"[""Bottled Water"", ""Cream Cheese""]",2,0.010625,85
+"[""Eggs"", ""Muffins""]",2,0.010625,85
+"[""Butter"", ""Eggs"", ""Pasta""]",3,0.010625,85
+"[""Coffee"", ""Cream Cheese"", ""Sugar""]",3,0.010625,85
+"[""Cream"", ""Milk"", ""Sugar""]",3,0.010625,85
+"[""Cream"", ""Muffins""]",2,0.0105,84
+"[""Flour"", ""Toothpaste""]",2,0.0105,84
+"[""Butter"", ""Croissants"", ""Eggs""]",3,0.0105,84
+"[""Butter"", ""Eggs"", ""Lettuce""]",3,0.0105,84
+"[""Coffee"", ""Milk"", ""Sugar""]",3,0.0105,84
+"[""Milk"", ""Strawberries"", ""Yogurt""]",3,0.0105,84
+"[""Croissants"", ""Flour""]",2,0.010375,83
+"[""Muffins"", ""Soft Drinks""]",2,0.010375,83
+"[""Bread"", ""Eggs"", ""Sugar""]",3,0.010375,83
+"[""Butter"", ""Milk"", ""Sugar""]",3,0.010375,83
+"[""Butter"", ""Strawberries"", ""Yogurt""]",3,0.010375,83
+"[""Cookies"", ""Oranges""]",2,0.01025,82
+"[""Laundry Detergent"", ""Muffins""]",2,0.01025,82
+"[""Canned Tomatoes"", ""Milk"", ""Rice""]",3,0.01025,82
+"[""Cereal"", ""Milk"", ""Oatmeal""]",3,0.01025,82
+"[""Bottled Water"", ""Canned Tomatoes""]",2,0.010125,81
+"[""Oranges"", ""Soft Drinks""]",2,0.010125,81
+"[""Bagels"", ""Coffee"", ""Milk""]",3,0.010125,81
+"[""Bananas"", ""Butter"", ""Strawberries""]",3,0.010125,81
+"[""Bananas"", ""Coffee"", ""Milk""]",3,0.010125,81
+"[""Butter"", ""Cream"", ""Sugar""]",3,0.010125,81
+"[""Butter"", ""Eggs"", ""Tea""]",3,0.010125,81
+"[""Butter"", ""Laundry Detergent"", ""Paper Towels""]",3,0.010125,81
+"[""Chips"", ""Soft Drinks"", ""Sugar""]",3,0.010125,81
+"[""Coffee"", ""Cream"", ""Yogurt""]",3,0.010125,81
+"[""Coffee"", ""Sugar"", ""Yogurt""]",3,0.010125,81
+"[""Cookies"", ""Eggs"", ""Tea""]",3,0.010125,81
+"[""Eggs"", ""Milk"", ""Sugar""]",3,0.010125,81
+"[""Bottled Water"", ""Chips""]",2,0.01,80
+"[""Bottled Water"", ""Croissants""]",2,0.01,80
+"[""Bottled Water"", ""Toothpaste""]",2,0.01,80
+"[""Bread"", ""Oranges""]",2,0.01,80
+"[""Chips"", ""Muffins""]",2,0.01,80
+"[""Muffins"", ""Shampoo""]",2,0.01,80
+"[""Apples"", ""Chocolate"", ""Milk""]",3,0.01,80
+"[""Bananas"", ""Butter"", ""Yogurt""]",3,0.01,80
+"[""Bananas"", ""Milk"", ""Sugar""]",3,0.01,80
+"[""Bananas"", ""Sugar"", ""Yogurt""]",3,0.01,80
+"[""Bread"", ""Butter"", ""Milk""]",3,0.01,80
+"[""Butter"", ""Canned Tomatoes"", ""Eggs""]",3,0.01,80
+"[""Cereal"", ""Cookies"", ""Milk""]",3,0.01,80
+"[""Coffee"", ""Lettuce"", ""Tomatoes""]",3,0.01,80
+"[""Cookies"", ""Eggs"", ""Milk""]",3,0.01,80
+"[""Honey"", ""Milk"", ""Tea""]",3,0.01,80
+"[""Croissants"", ""Muffins""]",2,0.009875,79
+"[""Bagels"", ""Butter"", ""Coffee""]",3,0.009875,79
+"[""Butter"", ""Eggs"", ""Onions""]",3,0.009875,79
+"[""Butter"", ""Eggs"", ""Tomatoes""]",3,0.009875,79
+"[""Butter"", ""Eggs"", ""Toothpaste""]",3,0.009875,79
+"[""Butter"", ""Pasta"", ""Pasta Sauce""]",3,0.009875,79
+"[""Cheese"", ""Milk"", ""Pasta Sauce""]",3,0.009875,79
+"[""Cream"", ""Flour"", ""Sugar""]",3,0.009875,79
+"[""Bottled Water"", ""Laundry Detergent""]",2,0.00975,78
+"[""Cream"", ""Oranges""]",2,0.00975,78
+"[""Lettuce"", ""Oranges""]",2,0.00975,78
+"[""Muffins"", ""Paper Towels""]",2,0.00975,78
+"[""Bagels"", ""Cream Cheese"", ""Milk""]",3,0.00975,78
+"[""Bread"", ""Eggs"", ""Milk""]",3,0.00975,78
+"[""Carrots"", ""Milk"", ""Tomatoes""]",3,0.00975,78
+"[""Cereal"", ""Milk"", ""Sugar""]",3,0.00975,78
+"[""Cheese"", ""Cookies"", ""Pasta Sauce""]",3,0.00975,78
+"[""Chips"", ""Coffee"", ""Soft Drinks""]",3,0.00975,78
+"[""Chocolate"", ""Cookies"", ""Honey""]",3,0.00975,78
+"[""Cookies"", ""Eggs"", ""Honey""]",3,0.00975,78
+"[""Cookies"", ""Milk"", ""Sugar""]",3,0.00975,78
+"[""Croissants"", ""Milk"", ""Yogurt""]",3,0.00975,78
+"[""Dish Soap"", ""Milk"", ""Paper Towels""]",3,0.00975,78
+"[""Milk"", ""Shampoo"", ""Toothpaste""]",3,0.00975,78
+"[""Apples"", ""Flour""]",2,0.009625,77
+"[""Bottled Water"", ""Bread""]",2,0.009625,77
+"[""Bottled Water"", ""Carrots""]",2,0.009625,77
+"[""Bottled Water"", ""Chocolate""]",2,0.009625,77
+"[""Bottled Water"", ""Pasta Sauce""]",2,0.009625,77
+"[""Dish Soap"", ""Muffins""]",2,0.009625,77
+"[""Muffins"", ""Onions""]",2,0.009625,77
+"[""Muffins"", ""Tea""]",2,0.009625,77
+"[""Bread"", ""Butter"", ""Sugar""]",3,0.009625,77
+"[""Butter"", ""Carrots"", ""Eggs""]",3,0.009625,77
+"[""Butter"", ""Eggs"", ""Honey""]",3,0.009625,77
+"[""Flour"", ""Milk"", ""Sugar""]",3,0.009625,77
+"[""Bottled Water"", ""Orange Juice""]",2,0.0095,76
+"[""Cereal"", ""Oranges""]",2,0.0095,76
+"[""Chips"", ""Oranges""]",2,0.0095,76
+"[""Butter"", ""Dish Soap"", ""Paper Towels""]",3,0.0095,76
+"[""Butter"", ""Eggs"", ""Orange Juice""]",3,0.0095,76
+"[""Canned Tomatoes"", ""Eggs"", ""Onions""]",3,0.0095,76
+"[""Canned Tomatoes"", ""Eggs"", ""Rice""]",3,0.0095,76
+"[""Canned Tomatoes"", ""Milk"", ""Onions""]",3,0.0095,76
+"[""Cereal"", ""Chips"", ""Soft Drinks""]",3,0.0095,76
+"[""Chocolate"", ""Eggs"", ""Milk""]",3,0.0095,76
+"[""Cookies"", ""Milk"", ""Yogurt""]",3,0.0095,76
+"[""Cookies"", ""Pasta"", ""Pasta Sauce""]",3,0.0095,76
+"[""Milk"", ""Onions"", ""Rice""]",3,0.0095,76
+"[""Orange Juice"", ""Sugar"", ""Yogurt""]",3,0.0095,76
+"[""Bottled Water"", ""Cheese""]",2,0.009375,75
+"[""Bottled Water"", ""Soap""]",2,0.009375,75
+"[""Bananas"", ""Cereal"", ""Coffee""]",3,0.009375,75
+"[""Bread"", ""Butter"", ""Yogurt""]",3,0.009375,75
+"[""Carrots"", ""Coffee"", ""Lettuce""]",3,0.009375,75
+"[""Carrots"", ""Lettuce"", ""Milk""]",3,0.009375,75
+"[""Cereal"", ""Coffee"", ""Milk""]",3,0.009375,75
+"[""Chips"", ""Dish Soap"", ""Soft Drinks""]",3,0.009375,75
+"[""Chocolate"", ""Milk"", ""Oatmeal""]",3,0.009375,75
+"[""Eggs"", ""Honey"", ""Tea""]",3,0.009375,75
+"[""Eggs"", ""Laundry Detergent"", ""Paper Towels""]",3,0.009375,75
+"[""Eggs"", ""Onions"", ""Rice""]",3,0.009375,75
+"[""Laundry Detergent"", ""Milk"", ""Paper Towels""]",3,0.009375,75
+"[""Lettuce"", ""Milk"", ""Tomatoes""]",3,0.009375,75
+"[""Bagels"", ""Bottled Water""]",2,0.00925,74
+"[""Bottled Water"", ""Lettuce""]",2,0.00925,74
+"[""Bread"", ""Muffins""]",2,0.00925,74
+"[""Cheese"", ""Oranges""]",2,0.00925,74
+"[""Oranges"", ""Paper Towels""]",2,0.00925,74
+"[""Apples"", ""Bananas"", ""Oatmeal""]",3,0.00925,74
+"[""Butter"", ""Chocolate"", ""Eggs""]",3,0.00925,74
+"[""Butter"", ""Chocolate"", ""Milk""]",3,0.00925,74
+"[""Butter"", ""Eggs"", ""Shampoo""]",3,0.00925,74
+"[""Chips"", ""Cookies"", ""Soft Drinks""]",3,0.00925,74
+"[""Chocolate"", ""Cookies"", ""Tea""]",3,0.00925,74
+"[""Chocolate"", ""Milk"", ""Sugar""]",3,0.00925,74
+"[""Coffee"", ""Cookies"", ""Tea""]",3,0.00925,74
+"[""Coffee"", ""Cream Cheese"", ""Milk""]",3,0.00925,74
+"[""Coffee"", ""Dish Soap"", ""Laundry Detergent""]",3,0.00925,74
+"[""Coffee"", ""Honey"", ""Tea""]",3,0.00925,74
+"[""Cream"", ""Sugar"", ""Yogurt""]",3,0.00925,74
+"[""Dish Soap"", ""Paper Towels"", ""Sugar""]",3,0.00925,74
+"[""Eggs"", ""Flour"", ""Milk""]",3,0.00925,74
+"[""Bottled Water"", ""Pasta""]",2,0.009125,73
+"[""Bottled Water"", ""Rice""]",2,0.009125,73
+"[""Cereal"", ""Muffins""]",2,0.009125,73
+"[""Cheese"", ""Muffins""]",2,0.009125,73
+"[""Orange Juice"", ""Oranges""]",2,0.009125,73
+"[""Bagels"", ""Chips"", ""Soft Drinks""]",3,0.009125,73
+"[""Bananas"", ""Butter"", ""Sugar""]",3,0.009125,73
+"[""Bananas"", ""Chocolate"", ""Cookies""]",3,0.009125,73
+"[""Bread"", ""Eggs"", ""Paper Towels""]",3,0.009125,73
+"[""Butter"", ""Coffee"", ""Cream Cheese""]",3,0.009125,73
+"[""Butter"", ""Dish Soap"", ""Laundry Detergent""]",3,0.009125,73
+"[""Carrots"", ""Sugar"", ""Tomatoes""]",3,0.009125,73
+"[""Cheese"", ""Cookies"", ""Pasta""]",3,0.009125,73
+"[""Chocolate"", ""Cookies"", ""Eggs""]",3,0.009125,73
+"[""Coffee"", ""Dish Soap"", ""Paper Towels""]",3,0.009125,73
+"[""Croissants"", ""Milk"", ""Orange Juice""]",3,0.009125,73
+"[""Orange Juice"", ""Strawberries"", ""Yogurt""]",3,0.009125,73
+"[""Bottled Water"", ""Strawberries""]",2,0.009,72
+"[""Honey"", ""Muffins""]",2,0.009,72
+"[""Muffins"", ""Pasta Sauce""]",2,0.009,72
+"[""Oranges"", ""Strawberries""]",2,0.009,72
+"[""Oranges"", ""Tomatoes""]",2,0.009,72
+"[""Oranges"", ""Toothpaste""]",2,0.009,72
+"[""Apples"", ""Butter"", ""Eggs""]",3,0.009,72
+"[""Bagels"", ""Bananas"", ""Coffee""]",3,0.009,72
+"[""Bananas"", ""Bread"", ""Yogurt""]",3,0.009,72
+"[""Butter"", ""Cookies"", ""Milk""]",3,0.009,72
+"[""Butter"", ""Flour"", ""Milk""]",3,0.009,72
+"[""Chips"", ""Soap"", ""Soft Drinks""]",3,0.009,72
+"[""Chocolate"", ""Cookies"", ""Sugar""]",3,0.009,72
+"[""Croissants"", ""Orange Juice"", ""Sugar""]",3,0.009,72
+"[""Croissants"", ""Sugar"", ""Yogurt""]",3,0.009,72
+"[""Dish Soap"", ""Laundry Detergent"", ""Milk""]",3,0.009,72
+"[""Eggs"", ""Pasta"", ""Pasta Sauce""]",3,0.009,72
+"[""Muffins"", ""Soap""]",2,0.008875,71
+"[""Oranges"", ""Shampoo""]",2,0.008875,71
+"[""Apples"", ""Cereal"", ""Milk""]",3,0.008875,71
+"[""Bagels"", ""Bananas"", ""Cream Cheese""]",3,0.008875,71
+"[""Bagels"", ""Coffee"", ""Honey""]",3,0.008875,71
+"[""Bananas"", ""Butter"", ""Flour""]",3,0.008875,71
+"[""Bananas"", ""Chips"", ""Milk""]",3,0.008875,71
+"[""Bananas"", ""Chips"", ""Soft Drinks""]",3,0.008875,71
+"[""Bananas"", ""Dish Soap"", ""Paper Towels""]",3,0.008875,71
+"[""Butter"", ""Eggs"", ""Oranges""]",3,0.008875,71
+"[""Cheese"", ""Chips"", ""Soft Drinks""]",3,0.008875,71
+"[""Coffee"", ""Laundry Detergent"", ""Paper Towels""]",3,0.008875,71
+"[""Coffee"", ""Shampoo"", ""Toothpaste""]",3,0.008875,71
+"[""Cookies"", ""Milk"", ""Tomatoes""]",3,0.008875,71
+"[""Cookies"", ""Sugar"", ""Tea""]",3,0.008875,71
+"[""Eggs"", ""Milk"", ""Oatmeal""]",3,0.008875,71
+"[""Eggs"", ""Shampoo"", ""Toothpaste""]",3,0.008875,71
+"[""Milk"", ""Oatmeal"", ""Yogurt""]",3,0.008875,71
+"[""Milk"", ""Orange Juice"", ""Yogurt""]",3,0.008875,71
+"[""Milk"", ""Pasta"", ""Pasta Sauce""]",3,0.008875,71
+"[""Muffins"", ""Strawberries""]",2,0.00875,70
+"[""Muffins"", ""Toothpaste""]",2,0.00875,70
+"[""Apples"", ""Milk"", ""Sugar""]",3,0.00875,70
+"[""Bananas"", ""Bread"", ""Eggs""]",3,0.00875,70
+"[""Bananas"", ""Cereal"", ""Sugar""]",3,0.00875,70
+"[""Bananas"", ""Coffee"", ""Sugar""]",3,0.00875,70
+"[""Bananas"", ""Eggs"", ""Milk""]",3,0.00875,70
+"[""Bananas"", ""Eggs"", ""Yogurt""]",3,0.00875,70
+"[""Bananas"", ""Strawberries"", ""Sugar""]",3,0.00875,70
+"[""Butter"", ""Chocolate"", ""Cookies""]",3,0.00875,70
+"[""Cereal"", ""Chocolate"", ""Milk""]",3,0.00875,70
+"[""Cheese"", ""Eggs"", ""Pasta Sauce""]",3,0.00875,70
+"[""Cheese"", ""Milk"", ""Pasta""]",3,0.00875,70
+"[""Chips"", ""Soft Drinks"", ""Tomatoes""]",3,0.00875,70
+"[""Chocolate"", ""Milk"", ""Tomatoes""]",3,0.00875,70
+"[""Dish Soap"", ""Laundry Detergent"", ""Sugar""]",3,0.00875,70
+"[""Eggs"", ""Strawberries"", ""Yogurt""]",3,0.00875,70
+"[""Shampoo"", ""Sugar"", ""Toothpaste""]",3,0.00875,70
+"[""Carrots"", ""Muffins""]",2,0.008625,69
+"[""Carrots"", ""Oranges""]",2,0.008625,69
+"[""Dish Soap"", ""Oranges""]",2,0.008625,69
+"[""Flour"", ""Oranges""]",2,0.008625,69
+"[""Lettuce"", ""Muffins""]",2,0.008625,69
+"[""Muffins"", ""Pasta""]",2,0.008625,69
+"[""Oranges"", ""Soap""]",2,0.008625,69
+"[""Apples"", ""Strawberries"", ""Yogurt""]",3,0.008625,69
+"[""Bagels"", ""Coffee"", ""Eggs""]",3,0.008625,69
+"[""Bagels"", ""Coffee"", ""Soft Drinks""]",3,0.008625,69
+"[""Bananas"", ""Dish Soap"", ""Laundry Detergent""]",3,0.008625,69
+"[""Bananas"", ""Eggs"", ""Strawberries""]",3,0.008625,69
+"[""Bananas"", ""Lettuce"", ""Tomatoes""]",3,0.008625,69
+"[""Bread"", ""Butter"", ""Flour""]",3,0.008625,69
+"[""Butter"", ""Coffee"", ""Cream""]",3,0.008625,69
+"[""Cereal"", ""Milk"", ""Yogurt""]",3,0.008625,69
+"[""Chips"", ""Cream Cheese"", ""Soft Drinks""]",3,0.008625,69
+"[""Chips"", ""Orange Juice"", ""Soft Drinks""]",3,0.008625,69
+"[""Chips"", ""Soft Drinks"", ""Toothpaste""]",3,0.008625,69
+"[""Cookies"", ""Dish Soap"", ""Paper Towels""]",3,0.008625,69
+"[""Croissants"", ""Strawberries"", ""Yogurt""]",3,0.008625,69
+"[""Apples"", ""Bottled Water""]",2,0.0085,68
+"[""Bottled Water"", ""Flour""]",2,0.0085,68
+"[""Bottled Water"", ""Onions""]",2,0.0085,68
+"[""Bottled Water"", ""Paper Towels""]",2,0.0085,68
+"[""Chocolate"", ""Muffins""]",2,0.0085,68
+"[""Muffins"", ""Rice""]",2,0.0085,68
+"[""Oranges"", ""Pasta Sauce""]",2,0.0085,68
+"[""Bananas"", ""Bread"", ""Butter""]",3,0.0085,68
+"[""Bananas"", ""Cereal"", ""Strawberries""]",3,0.0085,68
+"[""Bananas"", ""Coffee"", ""Cream""]",3,0.0085,68
+"[""Bananas"", ""Coffee"", ""Yogurt""]",3,0.0085,68
+"[""Bananas"", ""Cookies"", ""Tea""]",3,0.0085,68
+"[""Bananas"", ""Laundry Detergent"", ""Paper Towels""]",3,0.0085,68
+"[""Bread"", ""Butter"", ""Paper Towels""]",3,0.0085,68
+"[""Butter"", ""Canned Tomatoes"", ""Onions""]",3,0.0085,68
+"[""Butter"", ""Cheese"", ""Pasta Sauce""]",3,0.0085,68
+"[""Canned Tomatoes"", ""Chips"", ""Soft Drinks""]",3,0.0085,68
+"[""Canned Tomatoes"", ""Onions"", ""Sugar""]",3,0.0085,68
+"[""Coffee"", ""Cookies"", ""Milk""]",3,0.0085,68
+"[""Coffee"", ""Cream"", ""Croissants""]",3,0.0085,68
+"[""Honey"", ""Tea"", ""Yogurt""]",3,0.0085,68
+"[""Milk"", ""Oatmeal"", ""Sugar""]",3,0.0085,68
+"[""Milk"", ""Shampoo"", ""Soap""]",3,0.0085,68
+"[""Pasta"", ""Pasta Sauce"", ""Sugar""]",3,0.0085,68
+"[""Shampoo"", ""Soap"", ""Sugar""]",3,0.0085,68
+"[""Strawberries"", ""Sugar"", ""Yogurt""]",3,0.0085,68
+"[""Bagels"", ""Muffins""]",2,0.008375,67
+"[""Cream Cheese"", ""Muffins""]",2,0.008375,67
+"[""Onions"", ""Oranges""]",2,0.008375,67
+"[""Apples"", ""Eggs"", ""Milk""]",3,0.008375,67
+"[""Apples"", ""Milk"", ""Yogurt""]",3,0.008375,67
+"[""Bananas"", ""Butter"", ""Milk""]",3,0.008375,67
+"[""Bananas"", ""Carrots"", ""Tomatoes""]",3,0.008375,67
+"[""Bananas"", ""Coffee"", ""Cream Cheese""]",3,0.008375,67
+"[""Bananas"", ""Cookies"", ""Yogurt""]",3,0.008375,67
+"[""Bananas"", ""Cream Cheese"", ""Milk""]",3,0.008375,67
+"[""Bananas"", ""Eggs"", ""Flour""]",3,0.008375,67
+"[""Bread"", ""Cookies"", ""Eggs""]",3,0.008375,67
+"[""Bread"", ""Eggs"", ""Flour""]",3,0.008375,67
+"[""Butter"", ""Cheese"", ""Pasta""]",3,0.008375,67
+"[""Cheese"", ""Cookies"", ""Milk""]",3,0.008375,67
+"[""Coffee"", ""Cream Cheese"", ""Honey""]",3,0.008375,67
+"[""Cookies"", ""Dish Soap"", ""Laundry Detergent""]",3,0.008375,67
+"[""Cookies"", ""Honey"", ""Sugar""]",3,0.008375,67
+"[""Cookies"", ""Laundry Detergent"", ""Paper Towels""]",3,0.008375,67
+"[""Cookies"", ""Lettuce"", ""Tomatoes""]",3,0.008375,67
+"[""Dish Soap"", ""Eggs"", ""Paper Towels""]",3,0.008375,67
+"[""Eggs"", ""Shampoo"", ""Soap""]",3,0.008375,67
+"[""Milk"", ""Soap"", ""Toothpaste""]",3,0.008375,67
+"[""Bottled Water"", ""Oatmeal""]",2,0.00825,66
+"[""Apples"", ""Bananas"", ""Strawberries""]",3,0.00825,66
+"[""Apples"", ""Bananas"", ""Yogurt""]",3,0.00825,66
+"[""Apples"", ""Coffee"", ""Milk""]",3,0.00825,66
+"[""Bagels"", ""Lettuce"", ""Tomatoes""]",3,0.00825,66
+"[""Bananas"", ""Cream"", ""Sugar""]",3,0.00825,66
+"[""Bananas"", ""Eggs"", ""Sugar""]",3,0.00825,66
+"[""Bananas"", ""Lettuce"", ""Yogurt""]",3,0.00825,66
+"[""Bread"", ""Eggs"", ""Yogurt""]",3,0.00825,66
+"[""Butter"", ""Canned Tomatoes"", ""Rice""]",3,0.00825,66
+"[""Butter"", ""Shampoo"", ""Toothpaste""]",3,0.00825,66
+"[""Carrots"", ""Cookies"", ""Tomatoes""]",3,0.00825,66
+"[""Cereal"", ""Coffee"", ""Sugar""]",3,0.00825,66
+"[""Cheese"", ""Pasta Sauce"", ""Yogurt""]",3,0.00825,66
+"[""Chips"", ""Oatmeal"", ""Soft Drinks""]",3,0.00825,66
+"[""Coffee"", ""Cream"", ""Eggs""]",3,0.00825,66
+"[""Coffee"", ""Cream Cheese"", ""Paper Towels""]",3,0.00825,66
+"[""Coffee"", ""Eggs"", ""Flour""]",3,0.00825,66
+"[""Coffee"", ""Soap"", ""Toothpaste""]",3,0.00825,66
+"[""Cookies"", ""Croissants"", ""Yogurt""]",3,0.00825,66
+"[""Cookies"", ""Honey"", ""Yogurt""]",3,0.00825,66
+"[""Cookies"", ""Tea"", ""Yogurt""]",3,0.00825,66
+"[""Laundry Detergent"", ""Paper Towels"", ""Sugar""]",3,0.00825,66
+"[""Pasta"", ""Pasta Sauce"", ""Yogurt""]",3,0.00825,66
+"[""Soap"", ""Sugar"", ""Toothpaste""]",3,0.00825,66
+"[""Apples"", ""Milk"", ""Tomatoes""]",3,0.008125,65
+"[""Bagels"", ""Carrots"", ""Tomatoes""]",3,0.008125,65
+"[""Bagels"", ""Coffee"", ""Tomatoes""]",3,0.008125,65
+"[""Bagels"", ""Coffee"", ""Yogurt""]",3,0.008125,65
+"[""Bananas"", ""Croissants"", ""Orange Juice""]",3,0.008125,65
+"[""Bananas"", ""Laundry Detergent"", ""Milk""]",3,0.008125,65
+"[""Bananas"", ""Milk"", ""Orange Juice""]",3,0.008125,65
+"[""Bread"", ""Butter"", ""Coffee""]",3,0.008125,65
+"[""Bread"", ""Eggs"", ""Rice""]",3,0.008125,65
+"[""Butter"", ""Eggs"", ""Oatmeal""]",3,0.008125,65
+"[""Butter"", ""Onions"", ""Rice""]",3,0.008125,65
+"[""Butter"", ""Orange Juice"", ""Yogurt""]",3,0.008125,65
+"[""Butter"", ""Shampoo"", ""Soap""]",3,0.008125,65
+"[""Carrots"", ""Lettuce"", ""Sugar""]",3,0.008125,65
+"[""Cheese"", ""Eggs"", ""Pasta""]",3,0.008125,65
+"[""Coffee"", ""Cookies"", ""Honey""]",3,0.008125,65
+"[""Coffee"", ""Cream Cheese"", ""Laundry Detergent""]",3,0.008125,65
+"[""Coffee"", ""Paper Towels"", ""Sugar""]",3,0.008125,65
+"[""Coffee"", ""Shampoo"", ""Soap""]",3,0.008125,65
+"[""Cookies"", ""Eggs"", ""Sugar""]",3,0.008125,65
+"[""Cookies"", ""Orange Juice"", ""Yogurt""]",3,0.008125,65
+"[""Dish Soap"", ""Eggs"", ""Laundry Detergent""]",3,0.008125,65
+"[""Bottled Water"", ""Shampoo""]",2,0.008,64
+"[""Canned Tomatoes"", ""Muffins""]",2,0.008,64
+"[""Honey"", ""Oranges""]",2,0.008,64
+"[""Oatmeal"", ""Oranges""]",2,0.008,64
+"[""Oranges"", ""Pasta""]",2,0.008,64
+"[""Bagels"", ""Butter"", ""Cream Cheese""]",3,0.008,64
+"[""Bagels"", ""Cookies"", ""Tea""]",3,0.008,64
+"[""Bagels"", ""Cream Cheese"", ""Honey""]",3,0.008,64
+"[""Bananas"", ""Cream Cheese"", ""Yogurt""]",3,0.008,64
+"[""Bananas"", ""Flour"", ""Sugar""]",3,0.008,64
+"[""Butter"", ""Croissants"", ""Yogurt""]",3,0.008,64
+"[""Canned Tomatoes"", ""Onions"", ""Yogurt""]",3,0.008,64
+"[""Canned Tomatoes"", ""Rice"", ""Sugar""]",3,0.008,64
+"[""Carrots"", ""Eggs"", ""Lettuce""]",3,0.008,64
+"[""Carrots"", ""Onions"", ""Tomatoes""]",3,0.008,64
+"[""Cheese"", ""Pasta Sauce"", ""Sugar""]",3,0.008,64
+"[""Chips"", ""Cookies"", ""Milk""]",3,0.008,64
+"[""Chips"", ""Pasta"", ""Soft Drinks""]",3,0.008,64
+"[""Chips"", ""Pasta Sauce"", ""Soft Drinks""]",3,0.008,64
+"[""Chips"", ""Rice"", ""Soft Drinks""]",3,0.008,64
+"[""Chocolate"", ""Milk"", ""Yogurt""]",3,0.008,64
+"[""Coffee"", ""Cookies"", ""Cream Cheese""]",3,0.008,64
+"[""Coffee"", ""Milk"", ""Oatmeal""]",3,0.008,64
+"[""Cookies"", ""Croissants"", ""Milk""]",3,0.008,64
+"[""Cookies"", ""Croissants"", ""Orange Juice""]",3,0.008,64
+"[""Cookies"", ""Milk"", ""Orange Juice""]",3,0.008,64
+"[""Cookies"", ""Pasta"", ""Tea""]",3,0.008,64
+"[""Dish Soap"", ""Paper Towels"", ""Yogurt""]",3,0.008,64
+"[""Flour"", ""Sugar"", ""Yogurt""]",3,0.008,64
+"[""Laundry Detergent"", ""Paper Towels"", ""Yogurt""]",3,0.008,64
+"[""Lettuce"", ""Sugar"", ""Tomatoes""]",3,0.008,64
+"[""Orange Juice"", ""Paper Towels"", ""Yogurt""]",3,0.008,64
+"[""Paper Towels"", ""Shampoo"", ""Soap""]",3,0.008,64
+"[""Bagels"", ""Oranges""]",2,0.007875,63
+"[""Bottled Water"", ""Dish Soap""]",2,0.007875,63
+"[""Apples"", ""Honey"", ""Milk""]",3,0.007875,63
+"[""Apples"", ""Oatmeal"", ""Yogurt""]",3,0.007875,63
+"[""Bananas"", ""Honey"", ""Tea""]",3,0.007875,63
+"[""Bananas"", ""Lettuce"", ""Strawberries""]",3,0.007875,63
+"[""Bread"", ""Chips"", ""Soft Drinks""]",3,0.007875,63
+"[""Bread"", ""Eggs"", ""Pasta""]",3,0.007875,63
+"[""Butter"", ""Coffee"", ""Flour""]",3,0.007875,63
+"[""Butter"", ""Croissants"", ""Orange Juice""]",3,0.007875,63
+"[""Canned Tomatoes"", ""Rice"", ""Yogurt""]",3,0.007875,63
+"[""Carrots"", ""Eggs"", ""Tomatoes""]",3,0.007875,63
+"[""Cheese"", ""Eggs"", ""Sugar""]",3,0.007875,63
+"[""Chips"", ""Chocolate"", ""Soft Drinks""]",3,0.007875,63
+"[""Chips"", ""Flour"", ""Soft Drinks""]",3,0.007875,63
+"[""Chips"", ""Laundry Detergent"", ""Soft Drinks""]",3,0.007875,63
+"[""Chips"", ""Soft Drinks"", ""Strawberries""]",3,0.007875,63
+"[""Chocolate"", ""Cookies"", ""Yogurt""]",3,0.007875,63
+"[""Chocolate"", ""Honey"", ""Milk""]",3,0.007875,63
+"[""Coffee"", ""Cream Cheese"", ""Yogurt""]",3,0.007875,63
+"[""Coffee"", ""Pasta Sauce"", ""Sugar""]",3,0.007875,63
+"[""Onions"", ""Rice"", ""Sugar""]",3,0.007875,63
+"[""Bottled Water"", ""Cream""]",2,0.00775,62
+"[""Bagels"", ""Bananas"", ""Milk""]",3,0.00775,62
+"[""Bagels"", ""Coffee"", ""Cookies""]",3,0.00775,62
+"[""Bagels"", ""Coffee"", ""Strawberries""]",3,0.00775,62
+"[""Bagels"", ""Cream Cheese"", ""Eggs""]",3,0.00775,62
+"[""Bananas"", ""Carrots"", ""Lettuce""]",3,0.00775,62
+"[""Bananas"", ""Cheese"", ""Pasta Sauce""]",3,0.00775,62
+"[""Bananas"", ""Cheese"", ""Yogurt""]",3,0.00775,62
+"[""Bananas"", ""Coffee"", ""Strawberries""]",3,0.00775,62
+"[""Bread"", ""Eggs"", ""Tea""]",3,0.00775,62
+"[""Butter"", ""Soap"", ""Toothpaste""]",3,0.00775,62
+"[""Butter"", ""Sugar"", ""Yogurt""]",3,0.00775,62
+"[""Carrots"", ""Lettuce"", ""Toothpaste""]",3,0.00775,62
+"[""Carrots"", ""Lettuce"", ""Yogurt""]",3,0.00775,62
+"[""Carrots"", ""Tomatoes"", ""Yogurt""]",3,0.00775,62
+"[""Cheese"", ""Pasta"", ""Yogurt""]",3,0.00775,62
+"[""Chips"", ""Chocolate"", ""Milk""]",3,0.00775,62
+"[""Chips"", ""Honey"", ""Soft Drinks""]",3,0.00775,62
+"[""Chips"", ""Onions"", ""Soft Drinks""]",3,0.00775,62
+"[""Chips"", ""Paper Towels"", ""Soft Drinks""]",3,0.00775,62
+"[""Chips"", ""Soft Drinks"", ""Yogurt""]",3,0.00775,62
+"[""Coffee"", ""Cream"", ""Oatmeal""]",3,0.00775,62
+"[""Coffee"", ""Cream"", ""Paper Towels""]",3,0.00775,62
+"[""Coffee"", ""Cream Cheese"", ""Eggs""]",3,0.00775,62
+"[""Coffee"", ""Croissants"", ""Sugar""]",3,0.00775,62
+"[""Coffee"", ""Pasta"", ""Pasta Sauce""]",3,0.00775,62
+"[""Coffee"", ""Rice"", ""Sugar""]",3,0.00775,62
+"[""Cookies"", ""Milk"", ""Soft Drinks""]",3,0.00775,62
+"[""Cookies"", ""Shampoo"", ""Toothpaste""]",3,0.00775,62
+"[""Cream Cheese"", ""Honey"", ""Tea""]",3,0.00775,62
+"[""Cream Cheese"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00775,62
+"[""Dish Soap"", ""Eggs"", ""Sugar""]",3,0.00775,62
+"[""Eggs"", ""Soap"", ""Toothpaste""]",3,0.00775,62
+"[""Apples"", ""Muffins""]",2,0.007625,61
+"[""Oranges"", ""Rice""]",2,0.007625,61
+"[""Bagels"", ""Coffee"", ""Rice""]",3,0.007625,61
+"[""Bagels"", ""Cream Cheese"", ""Paper Towels""]",3,0.007625,61
+"[""Bagels"", ""Cream Cheese"", ""Shampoo""]",3,0.007625,61
+"[""Bagels"", ""Honey"", ""Tea""]",3,0.007625,61
+"[""Bananas"", ""Cereal"", ""Cookies""]",3,0.007625,61
+"[""Bananas"", ""Milk"", ""Paper Towels""]",3,0.007625,61
+"[""Bananas"", ""Milk"", ""Soft Drinks""]",3,0.007625,61
+"[""Bananas"", ""Milk"", ""Toothpaste""]",3,0.007625,61
+"[""Bananas"", ""Pasta"", ""Pasta Sauce""]",3,0.007625,61
+"[""Bread"", ""Butter"", ""Cookies""]",3,0.007625,61
+"[""Bread"", ""Cereal"", ""Milk""]",3,0.007625,61
+"[""Bread"", ""Coffee"", ""Eggs""]",3,0.007625,61
+"[""Butter"", ""Cereal"", ""Milk""]",3,0.007625,61
+"[""Butter"", ""Cheese"", ""Sugar""]",3,0.007625,61
+"[""Butter"", ""Dish Soap"", ""Sugar""]",3,0.007625,61
+"[""Butter"", ""Flour"", ""Yogurt""]",3,0.007625,61
+"[""Canned Tomatoes"", ""Coffee"", ""Sugar""]",3,0.007625,61
+"[""Canned Tomatoes"", ""Cookies"", ""Onions""]",3,0.007625,61
+"[""Carrots"", ""Cookies"", ""Lettuce""]",3,0.007625,61
+"[""Carrots"", ""Lettuce"", ""Oatmeal""]",3,0.007625,61
+"[""Carrots"", ""Tea"", ""Tomatoes""]",3,0.007625,61
+"[""Cereal"", ""Milk"", ""Orange Juice""]",3,0.007625,61
+"[""Chips"", ""Shampoo"", ""Soft Drinks""]",3,0.007625,61
+"[""Chips"", ""Soft Drinks"", ""Tea""]",3,0.007625,61
+"[""Chocolate"", ""Coffee"", ""Cookies""]",3,0.007625,61
+"[""Chocolate"", ""Milk"", ""Tea""]",3,0.007625,61
+"[""Coffee"", ""Cream Cheese"", ""Soft Drinks""]",3,0.007625,61
+"[""Coffee"", ""Cream Cheese"", ""Strawberries""]",3,0.007625,61
+"[""Coffee"", ""Sugar"", ""Tomatoes""]",3,0.007625,61
+"[""Cookies"", ""Cream Cheese"", ""Honey""]",3,0.007625,61
+"[""Cookies"", ""Cream Cheese"", ""Tea""]",3,0.007625,61
+"[""Cookies"", ""Honey"", ""Paper Towels""]",3,0.007625,61
+"[""Cookies"", ""Milk"", ""Pasta Sauce""]",3,0.007625,61
+"[""Cookies"", ""Strawberries"", ""Yogurt""]",3,0.007625,61
+"[""Cream"", ""Croissants"", ""Orange Juice""]",3,0.007625,61
+"[""Cream"", ""Shampoo"", ""Toothpaste""]",3,0.007625,61
+"[""Eggs"", ""Orange Juice"", ""Yogurt""]",3,0.007625,61
+"[""Honey"", ""Pasta"", ""Tea""]",3,0.007625,61
+"[""Onions"", ""Rice"", ""Yogurt""]",3,0.007625,61
+"[""Shampoo"", ""Toothpaste"", ""Yogurt""]",3,0.007625,61
+"[""Muffins"", ""Tomatoes""]",2,0.0075,60
+"[""Apples"", ""Cookies"", ""Honey""]",3,0.0075,60
+"[""Apples"", ""Cookies"", ""Oatmeal""]",3,0.0075,60
+"[""Apples"", ""Cookies"", ""Tea""]",3,0.0075,60
+"[""Bagels"", ""Coffee"", ""Lettuce""]",3,0.0075,60
+"[""Bagels"", ""Coffee"", ""Paper Towels""]",3,0.0075,60
+"[""Bagels"", ""Coffee"", ""Tea""]",3,0.0075,60
+"[""Bagels"", ""Cookies"", ""Milk""]",3,0.0075,60
+"[""Bagels"", ""Cream Cheese"", ""Laundry Detergent""]",3,0.0075,60
+"[""Bananas"", ""Cereal"", ""Orange Juice""]",3,0.0075,60
+"[""Bananas"", ""Cheese"", ""Milk""]",3,0.0075,60
+"[""Bananas"", ""Cheese"", ""Pasta""]",3,0.0075,60
+"[""Bananas"", ""Cream"", ""Milk""]",3,0.0075,60
+"[""Bananas"", ""Pasta Sauce"", ""Yogurt""]",3,0.0075,60
+"[""Bananas"", ""Shampoo"", ""Toothpaste""]",3,0.0075,60
+"[""Bread"", ""Butter"", ""Rice""]",3,0.0075,60
+"[""Bread"", ""Chips"", ""Eggs""]",3,0.0075,60
+"[""Canned Tomatoes"", ""Cream"", ""Sugar""]",3,0.0075,60
+"[""Cheese"", ""Pasta"", ""Sugar""]",3,0.0075,60
+"[""Chips"", ""Cream"", ""Soft Drinks""]",3,0.0075,60
+"[""Coffee"", ""Cream"", ""Orange Juice""]",3,0.0075,60
+"[""Coffee"", ""Cream"", ""Rice""]",3,0.0075,60
+"[""Coffee"", ""Cream"", ""Tomatoes""]",3,0.0075,60
+"[""Coffee"", ""Cream Cheese"", ""Tea""]",3,0.0075,60
+"[""Coffee"", ""Cream Cheese"", ""Tomatoes""]",3,0.0075,60
+"[""Cookies"", ""Honey"", ""Soap""]",3,0.0075,60
+"[""Cookies"", ""Soap"", ""Toothpaste""]",3,0.0075,60
+"[""Cream Cheese"", ""Dish Soap"", ""Laundry Detergent""]",3,0.0075,60
+"[""Laundry Detergent"", ""Paper Towels"", ""Soap""]",3,0.0075,60
+"[""Lettuce"", ""Strawberries"", ""Yogurt""]",3,0.0075,60
+"[""Lettuce"", ""Tomatoes"", ""Yogurt""]",3,0.0075,60
+"[""Paper Towels"", ""Shampoo"", ""Toothpaste""]",3,0.0075,60
+"[""Apples"", ""Oranges""]",2,0.007375,59
+"[""Apples"", ""Eggs"", ""Oatmeal""]",3,0.007375,59
+"[""Apples"", ""Milk"", ""Pasta Sauce""]",3,0.007375,59
+"[""Bagels"", ""Cookies"", ""Honey""]",3,0.007375,59
+"[""Bagels"", ""Soap"", ""Toothpaste""]",3,0.007375,59
+"[""Bananas"", ""Bread"", ""Cereal""]",3,0.007375,59
+"[""Bananas"", ""Bread"", ""Milk""]",3,0.007375,59
+"[""Bananas"", ""Cereal"", ""Croissants""]",3,0.007375,59
+"[""Bananas"", ""Cheese"", ""Strawberries""]",3,0.007375,59
+"[""Bananas"", ""Cookies"", ""Strawberries""]",3,0.007375,59
+"[""Bananas"", ""Milk"", ""Onions""]",3,0.007375,59
+"[""Bananas"", ""Strawberries"", ""Tomatoes""]",3,0.007375,59
+"[""Bread"", ""Butter"", ""Chips""]",3,0.007375,59
+"[""Bread"", ""Butter"", ""Pasta""]",3,0.007375,59
+"[""Bread"", ""Cookies"", ""Honey""]",3,0.007375,59
+"[""Bread"", ""Strawberries"", ""Yogurt""]",3,0.007375,59
+"[""Butter"", ""Carrots"", ""Tomatoes""]",3,0.007375,59
+"[""Canned Tomatoes"", ""Coffee"", ""Cream""]",3,0.007375,59
+"[""Cereal"", ""Eggs"", ""Milk""]",3,0.007375,59
+"[""Cheese"", ""Flour"", ""Sugar""]",3,0.007375,59
+"[""Cheese"", ""Strawberries"", ""Yogurt""]",3,0.007375,59
+"[""Chocolate"", ""Cookies"", ""Tomatoes""]",3,0.007375,59
+"[""Coffee"", ""Cookies"", ""Cream""]",3,0.007375,59
+"[""Coffee"", ""Cream Cheese"", ""Lettuce""]",3,0.007375,59
+"[""Coffee"", ""Laundry Detergent"", ""Sugar""]",3,0.007375,59
+"[""Coffee"", ""Oatmeal"", ""Sugar""]",3,0.007375,59
+"[""Coffee"", ""Orange Juice"", ""Yogurt""]",3,0.007375,59
+"[""Cookies"", ""Laundry Detergent"", ""Milk""]",3,0.007375,59
+"[""Cookies"", ""Milk"", ""Paper Towels""]",3,0.007375,59
+"[""Cream"", ""Croissants"", ""Sugar""]",3,0.007375,59
+"[""Cream"", ""Oatmeal"", ""Sugar""]",3,0.007375,59
+"[""Cream Cheese"", ""Dish Soap"", ""Paper Towels""]",3,0.007375,59
+"[""Cream Cheese"", ""Soap"", ""Toothpaste""]",3,0.007375,59
+"[""Croissants"", ""Tea"", ""Yogurt""]",3,0.007375,59
+"[""Eggs"", ""Sugar"", ""Yogurt""]",3,0.007375,59
+"[""Honey"", ""Milk"", ""Oatmeal""]",3,0.007375,59
+"[""Honey"", ""Sugar"", ""Tea""]",3,0.007375,59
+"[""Milk"", ""Oatmeal"", ""Pasta Sauce""]",3,0.007375,59
+"[""Milk"", ""Oatmeal"", ""Strawberries""]",3,0.007375,59
+"[""Orange Juice"", ""Shampoo"", ""Soap""]",3,0.007375,59
+"[""Bottled Water"", ""Cereal""]",2,0.00725,58
+"[""Oranges"", ""Tea""]",2,0.00725,58
+"[""Bagels"", ""Coffee"", ""Orange Juice""]",3,0.00725,58
+"[""Bagels"", ""Coffee"", ""Shampoo""]",3,0.00725,58
+"[""Bagels"", ""Cream"", ""Sugar""]",3,0.00725,58
+"[""Bagels"", ""Shampoo"", ""Toothpaste""]",3,0.00725,58
+"[""Bananas"", ""Bread"", ""Strawberries""]",3,0.00725,58
+"[""Bananas"", ""Butter"", ""Cereal""]",3,0.00725,58
+"[""Bananas"", ""Canned Tomatoes"", ""Rice""]",3,0.00725,58
+"[""Bananas"", ""Cookies"", ""Honey""]",3,0.00725,58
+"[""Bananas"", ""Croissants"", ""Milk""]",3,0.00725,58
+"[""Bananas"", ""Paper Towels"", ""Yogurt""]",3,0.00725,58
+"[""Butter"", ""Cheese"", ""Flour""]",3,0.00725,58
+"[""Butter"", ""Pasta Sauce"", ""Sugar""]",3,0.00725,58
+"[""Canned Tomatoes"", ""Coffee"", ""Rice""]",3,0.00725,58
+"[""Canned Tomatoes"", ""Cookies"", ""Tea""]",3,0.00725,58
+"[""Carrots"", ""Oatmeal"", ""Tomatoes""]",3,0.00725,58
+"[""Carrots"", ""Shampoo"", ""Soap""]",3,0.00725,58
+"[""Cereal"", ""Cream Cheese"", ""Milk""]",3,0.00725,58
+"[""Cereal"", ""Honey"", ""Milk""]",3,0.00725,58
+"[""Cheese"", ""Eggs"", ""Flour""]",3,0.00725,58
+"[""Cheese"", ""Pasta Sauce"", ""Tea""]",3,0.00725,58
+"[""Chips"", ""Chocolate"", ""Cookies""]",3,0.00725,58
+"[""Chips"", ""Croissants"", ""Yogurt""]",3,0.00725,58
+"[""Chocolate"", ""Coffee"", ""Milk""]",3,0.00725,58
+"[""Chocolate"", ""Cookies"", ""Orange Juice""]",3,0.00725,58
+"[""Chocolate"", ""Cookies"", ""Soft Drinks""]",3,0.00725,58
+"[""Coffee"", ""Croissants"", ""Orange Juice""]",3,0.00725,58
+"[""Cookies"", ""Cream Cheese"", ""Milk""]",3,0.00725,58
+"[""Cookies"", ""Dish Soap"", ""Milk""]",3,0.00725,58
+"[""Cookies"", ""Honey"", ""Oatmeal""]",3,0.00725,58
+"[""Cookies"", ""Shampoo"", ""Soap""]",3,0.00725,58
+"[""Cream"", ""Shampoo"", ""Soap""]",3,0.00725,58
+"[""Cream"", ""Sugar"", ""Tomatoes""]",3,0.00725,58
+"[""Cream Cheese"", ""Strawberries"", ""Yogurt""]",3,0.00725,58
+"[""Croissants"", ""Eggs"", ""Yogurt""]",3,0.00725,58
+"[""Dish Soap"", ""Laundry Detergent"", ""Yogurt""]",3,0.00725,58
+"[""Dish Soap"", ""Paper Towels"", ""Soap""]",3,0.00725,58
+"[""Dish Soap"", ""Paper Towels"", ""Soft Drinks""]",3,0.00725,58
+"[""Eggs"", ""Flour"", ""Yogurt""]",3,0.00725,58
+"[""Eggs"", ""Pasta Sauce"", ""Sugar""]",3,0.00725,58
+"[""Eggs"", ""Soft Drinks"", ""Sugar""]",3,0.00725,58
+"[""Honey"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00725,58
+"[""Honey"", ""Orange Juice"", ""Yogurt""]",3,0.00725,58
+"[""Lettuce"", ""Onions"", ""Tomatoes""]",3,0.00725,58
+"[""Lettuce"", ""Tea"", ""Tomatoes""]",3,0.00725,58
+"[""Paper Towels"", ""Soap"", ""Toothpaste""]",3,0.00725,58
+"[""Shampoo"", ""Soap"", ""Yogurt""]",3,0.00725,58
+"[""Canned Tomatoes"", ""Oranges""]",2,0.007125,57
+"[""Apples"", ""Cheese"", ""Pasta Sauce""]",3,0.007125,57
+"[""Bagels"", ""Carrots"", ""Coffee""]",3,0.007125,57
+"[""Bagels"", ""Coffee"", ""Laundry Detergent""]",3,0.007125,57
+"[""Bagels"", ""Cream Cheese"", ""Tomatoes""]",3,0.007125,57
+"[""Bagels"", ""Cream Cheese"", ""Yogurt""]",3,0.007125,57
+"[""Bagels"", ""Milk"", ""Oatmeal""]",3,0.007125,57
+"[""Bagels"", ""Shampoo"", ""Soap""]",3,0.007125,57
+"[""Bananas"", ""Cream"", ""Yogurt""]",3,0.007125,57
+"[""Bananas"", ""Cream Cheese"", ""Strawberries""]",3,0.007125,57
+"[""Bananas"", ""Milk"", ""Shampoo""]",3,0.007125,57
+"[""Bananas"", ""Pasta Sauce"", ""Strawberries""]",3,0.007125,57
+"[""Bananas"", ""Tomatoes"", ""Yogurt""]",3,0.007125,57
+"[""Bread"", ""Butter"", ""Soft Drinks""]",3,0.007125,57
+"[""Bread"", ""Butter"", ""Tea""]",3,0.007125,57
+"[""Bread"", ""Cookies"", ""Tea""]",3,0.007125,57
+"[""Butter"", ""Cookies"", ""Sugar""]",3,0.007125,57
+"[""Butter"", ""Milk"", ""Oatmeal""]",3,0.007125,57
+"[""Butter"", ""Soft Drinks"", ""Sugar""]",3,0.007125,57
+"[""Canned Tomatoes"", ""Chips"", ""Rice""]",3,0.007125,57
+"[""Canned Tomatoes"", ""Cookies"", ""Milk""]",3,0.007125,57
+"[""Carrots"", ""Coffee"", ""Cream""]",3,0.007125,57
+"[""Carrots"", ""Coffee"", ""Cream Cheese""]",3,0.007125,57
+"[""Carrots"", ""Cream"", ""Tomatoes""]",3,0.007125,57
+"[""Carrots"", ""Lettuce"", ""Onions""]",3,0.007125,57
+"[""Chips"", ""Coffee"", ""Sugar""]",3,0.007125,57
+"[""Chocolate"", ""Lettuce"", ""Tomatoes""]",3,0.007125,57
+"[""Chocolate"", ""Milk"", ""Orange Juice""]",3,0.007125,57
+"[""Chocolate"", ""Milk"", ""Soft Drinks""]",3,0.007125,57
+"[""Coffee"", ""Cookies"", ""Sugar""]",3,0.007125,57
+"[""Coffee"", ""Cream"", ""Flour""]",3,0.007125,57
+"[""Coffee"", ""Cream"", ""Pasta Sauce""]",3,0.007125,57
+"[""Coffee"", ""Cream"", ""Shampoo""]",3,0.007125,57
+"[""Coffee"", ""Cream Cheese"", ""Orange Juice""]",3,0.007125,57
+"[""Coffee"", ""Croissants"", ""Yogurt""]",3,0.007125,57
+"[""Coffee"", ""Soap"", ""Sugar""]",3,0.007125,57
+"[""Coffee"", ""Strawberries"", ""Yogurt""]",3,0.007125,57
+"[""Coffee"", ""Sugar"", ""Toothpaste""]",3,0.007125,57
+"[""Cookies"", ""Oatmeal"", ""Tea""]",3,0.007125,57
+"[""Cream"", ""Pasta Sauce"", ""Sugar""]",3,0.007125,57
+"[""Croissants"", ""Honey"", ""Yogurt""]",3,0.007125,57
+"[""Dish Soap"", ""Honey"", ""Paper Towels""]",3,0.007125,57
+"[""Lettuce"", ""Soft Drinks"", ""Tomatoes""]",3,0.007125,57
+"[""Lettuce"", ""Tomatoes"", ""Toothpaste""]",3,0.007125,57
+"[""Milk"", ""Oatmeal"", ""Onions""]",3,0.007125,57
+"[""Milk"", ""Oatmeal"", ""Tomatoes""]",3,0.007125,57
+"[""Oatmeal"", ""Shampoo"", ""Toothpaste""]",3,0.007125,57
+"[""Onions"", ""Rice"", ""Toothpaste""]",3,0.007125,57
+"[""Orange Juice"", ""Shampoo"", ""Toothpaste""]",3,0.007125,57
+"[""Orange Juice"", ""Tea"", ""Yogurt""]",3,0.007125,57
+"[""Pasta Sauce"", ""Strawberries"", ""Yogurt""]",3,0.007125,57
+"[""Shampoo"", ""Soft Drinks"", ""Toothpaste""]",3,0.007125,57
+"[""Chocolate"", ""Oranges""]",2,0.007,56
+"[""Laundry Detergent"", ""Oranges""]",2,0.007,56
+"[""Apples"", ""Canned Tomatoes"", ""Rice""]",3,0.007,56
+"[""Apples"", ""Chips"", ""Soft Drinks""]",3,0.007,56
+"[""Apples"", ""Coffee"", ""Oatmeal""]",3,0.007,56
+"[""Apples"", ""Honey"", ""Tea""]",3,0.007,56
+"[""Apples"", ""Milk"", ""Toothpaste""]",3,0.007,56
+"[""Apples"", ""Oatmeal"", ""Sugar""]",3,0.007,56
+"[""Apples"", ""Pasta"", ""Pasta Sauce""]",3,0.007,56
+"[""Bagels"", ""Carrots"", ""Lettuce""]",3,0.007,56
+"[""Bagels"", ""Chocolate"", ""Milk""]",3,0.007,56
+"[""Bagels"", ""Cream Cheese"", ""Lettuce""]",3,0.007,56
+"[""Bagels"", ""Cream Cheese"", ""Soft Drinks""]",3,0.007,56
+"[""Bananas"", ""Canned Tomatoes"", ""Milk""]",3,0.007,56
+"[""Bananas"", ""Canned Tomatoes"", ""Onions""]",3,0.007,56
+"[""Bananas"", ""Flour"", ""Strawberries""]",3,0.007,56
+"[""Bananas"", ""Honey"", ""Milk""]",3,0.007,56
+"[""Bananas"", ""Milk"", ""Rice""]",3,0.007,56
+"[""Bananas"", ""Milk"", ""Tomatoes""]",3,0.007,56
+"[""Bread"", ""Eggs"", ""Honey""]",3,0.007,56
+"[""Bread"", ""Laundry Detergent"", ""Paper Towels""]",3,0.007,56
+"[""Butter"", ""Eggs"", ""Muffins""]",3,0.007,56
+"[""Butter"", ""Strawberries"", ""Sugar""]",3,0.007,56
+"[""Canned Tomatoes"", ""Chips"", ""Onions""]",3,0.007,56
+"[""Canned Tomatoes"", ""Cookies"", ""Rice""]",3,0.007,56
+"[""Carrots"", ""Chips"", ""Soft Drinks""]",3,0.007,56
+"[""Carrots"", ""Chocolate"", ""Lettuce""]",3,0.007,56
+"[""Carrots"", ""Milk"", ""Oatmeal""]",3,0.007,56
+"[""Carrots"", ""Shampoo"", ""Toothpaste""]",3,0.007,56
+"[""Cereal"", ""Cheese"", ""Milk""]",3,0.007,56
+"[""Cereal"", ""Croissants"", ""Yogurt""]",3,0.007,56
+"[""Cheese"", ""Chocolate"", ""Milk""]",3,0.007,56
+"[""Cheese"", ""Coffee"", ""Pasta""]",3,0.007,56
+"[""Chips"", ""Croissants"", ""Soft Drinks""]",3,0.007,56
+"[""Chocolate"", ""Cookies"", ""Paper Towels""]",3,0.007,56
+"[""Cookies"", ""Cream"", ""Tea""]",3,0.007,56
+"[""Cookies"", ""Honey"", ""Pasta""]",3,0.007,56
+"[""Cookies"", ""Milk"", ""Rice""]",3,0.007,56
+"[""Cream"", ""Orange Juice"", ""Yogurt""]",3,0.007,56
+"[""Cream"", ""Paper Towels"", ""Sugar""]",3,0.007,56
+"[""Cream"", ""Rice"", ""Sugar""]",3,0.007,56
+"[""Cream Cheese"", ""Shampoo"", ""Toothpaste""]",3,0.007,56
+"[""Croissants"", ""Eggs"", ""Orange Juice""]",3,0.007,56
+"[""Dish Soap"", ""Laundry Detergent"", ""Soap""]",3,0.007,56
+"[""Dish Soap"", ""Orange Juice"", ""Yogurt""]",3,0.007,56
+"[""Dish Soap"", ""Paper Towels"", ""Shampoo""]",3,0.007,56
+"[""Honey"", ""Paper Towels"", ""Tea""]",3,0.007,56
+"[""Lettuce"", ""Oatmeal"", ""Tomatoes""]",3,0.007,56
+"[""Milk"", ""Oatmeal"", ""Soft Drinks""]",3,0.007,56
+"[""Onions"", ""Orange Juice"", ""Yogurt""]",3,0.007,56
+"[""Orange Juice"", ""Soap"", ""Toothpaste""]",3,0.007,56
+"[""Soap"", ""Soft Drinks"", ""Toothpaste""]",3,0.007,56
+"[""Soap"", ""Toothpaste"", ""Yogurt""]",3,0.007,56
+"[""Croissants"", ""Oranges""]",2,0.006875,55
+"[""Apples"", ""Dish Soap"", ""Laundry Detergent""]",3,0.006875,55
+"[""Apples"", ""Oatmeal"", ""Tomatoes""]",3,0.006875,55
+"[""Bagels"", ""Coffee"", ""Pasta""]",3,0.006875,55
+"[""Bananas"", ""Cereal"", ""Cream""]",3,0.006875,55
+"[""Bananas"", ""Cereal"", ""Oatmeal""]",3,0.006875,55
+"[""Bananas"", ""Milk"", ""Tea""]",3,0.006875,55
+"[""Bread"", ""Butter"", ""Toothpaste""]",3,0.006875,55
+"[""Butter"", ""Flour"", ""Paper Towels""]",3,0.006875,55
+"[""Butter"", ""Paper Towels"", ""Sugar""]",3,0.006875,55
+"[""Canned Tomatoes"", ""Chocolate"", ""Milk""]",3,0.006875,55
+"[""Canned Tomatoes"", ""Cookies"", ""Honey""]",3,0.006875,55
+"[""Canned Tomatoes"", ""Onions"", ""Toothpaste""]",3,0.006875,55
+"[""Carrots"", ""Chocolate"", ""Tomatoes""]",3,0.006875,55
+"[""Carrots"", ""Cookies"", ""Milk""]",3,0.006875,55
+"[""Carrots"", ""Lettuce"", ""Shampoo""]",3,0.006875,55
+"[""Carrots"", ""Lettuce"", ""Soap""]",3,0.006875,55
+"[""Carrots"", ""Tomatoes"", ""Toothpaste""]",3,0.006875,55
+"[""Cereal"", ""Cream"", ""Sugar""]",3,0.006875,55
+"[""Cereal"", ""Dish Soap"", ""Paper Towels""]",3,0.006875,55
+"[""Cereal"", ""Orange Juice"", ""Yogurt""]",3,0.006875,55
+"[""Chips"", ""Cream"", ""Sugar""]",3,0.006875,55
+"[""Chips"", ""Lettuce"", ""Soft Drinks""]",3,0.006875,55
+"[""Chocolate"", ""Cookies"", ""Dish Soap""]",3,0.006875,55
+"[""Chocolate"", ""Milk"", ""Paper Towels""]",3,0.006875,55
+"[""Chocolate"", ""Milk"", ""Pasta Sauce""]",3,0.006875,55
+"[""Coffee"", ""Cream"", ""Onions""]",3,0.006875,55
+"[""Coffee"", ""Dish Soap"", ""Sugar""]",3,0.006875,55
+"[""Cookies"", ""Cream"", ""Sugar""]",3,0.006875,55
+"[""Cookies"", ""Milk"", ""Soap""]",3,0.006875,55
+"[""Cookies"", ""Onions"", ""Rice""]",3,0.006875,55
+"[""Cookies"", ""Orange Juice"", ""Tea""]",3,0.006875,55
+"[""Cookies"", ""Soap"", ""Tea""]",3,0.006875,55
+"[""Cookies"", ""Tea"", ""Tomatoes""]",3,0.006875,55
+"[""Cream"", ""Eggs"", ""Flour""]",3,0.006875,55
+"[""Cream Cheese"", ""Shampoo"", ""Soap""]",3,0.006875,55
+"[""Eggs"", ""Lettuce"", ""Tomatoes""]",3,0.006875,55
+"[""Laundry Detergent"", ""Paper Towels"", ""Soft Drinks""]",3,0.006875,55
+"[""Lettuce"", ""Strawberries"", ""Tomatoes""]",3,0.006875,55
+"[""Paper Towels"", ""Strawberries"", ""Yogurt""]",3,0.006875,55
+"[""Shampoo"", ""Soap"", ""Soft Drinks""]",3,0.006875,55
+"[""Cream Cheese"", ""Oranges""]",2,0.00675,54
+"[""Apples"", ""Carrots"", ""Lettuce""]",3,0.00675,54
+"[""Apples"", ""Cheese"", ""Pasta""]",3,0.00675,54
+"[""Apples"", ""Coffee"", ""Cream""]",3,0.00675,54
+"[""Apples"", ""Croissants"", ""Milk""]",3,0.00675,54
+"[""Apples"", ""Milk"", ""Pasta""]",3,0.00675,54
+"[""Apples"", ""Milk"", ""Strawberries""]",3,0.00675,54
+"[""Apples"", ""Oatmeal"", ""Pasta Sauce""]",3,0.00675,54
+"[""Apples"", ""Shampoo"", ""Toothpaste""]",3,0.00675,54
+"[""Bagels"", ""Bread"", ""Coffee""]",3,0.00675,54
+"[""Bagels"", ""Coffee"", ""Soap""]",3,0.00675,54
+"[""Bagels"", ""Cookies"", ""Cream Cheese""]",3,0.00675,54
+"[""Bagels"", ""Cream"", ""Cream Cheese""]",3,0.00675,54
+"[""Bagels"", ""Cream Cheese"", ""Strawberries""]",3,0.00675,54
+"[""Bagels"", ""Cream Cheese"", ""Toothpaste""]",3,0.00675,54
+"[""Bagels"", ""Eggs"", ""Sugar""]",3,0.00675,54
+"[""Bananas"", ""Carrots"", ""Yogurt""]",3,0.00675,54
+"[""Bananas"", ""Cereal"", ""Honey""]",3,0.00675,54
+"[""Bananas"", ""Paper Towels"", ""Strawberries""]",3,0.00675,54
+"[""Bananas"", ""Tea"", ""Yogurt""]",3,0.00675,54
+"[""Bottled Water"", ""Butter"", ""Eggs""]",3,0.00675,54
+"[""Bread"", ""Butter"", ""Soap""]",3,0.00675,54
+"[""Bread"", ""Croissants"", ""Eggs""]",3,0.00675,54
+"[""Bread"", ""Eggs"", ""Soft Drinks""]",3,0.00675,54
+"[""Butter"", ""Carrots"", ""Lettuce""]",3,0.00675,54
+"[""Butter"", ""Cream"", ""Flour""]",3,0.00675,54
+"[""Canned Tomatoes"", ""Rice"", ""Toothpaste""]",3,0.00675,54
+"[""Carrots"", ""Cream Cheese"", ""Tomatoes""]",3,0.00675,54
+"[""Carrots"", ""Strawberries"", ""Tomatoes""]",3,0.00675,54
+"[""Cereal"", ""Coffee"", ""Cream""]",3,0.00675,54
+"[""Cheese"", ""Oatmeal"", ""Pasta Sauce""]",3,0.00675,54
+"[""Cheese"", ""Pasta Sauce"", ""Strawberries""]",3,0.00675,54
+"[""Chips"", ""Onions"", ""Rice""]",3,0.00675,54
+"[""Chocolate"", ""Cookies"", ""Cream Cheese""]",3,0.00675,54
+"[""Chocolate"", ""Cookies"", ""Lettuce""]",3,0.00675,54
+"[""Chocolate"", ""Cookies"", ""Shampoo""]",3,0.00675,54
+"[""Chocolate"", ""Cream Cheese"", ""Milk""]",3,0.00675,54
+"[""Chocolate"", ""Dish Soap"", ""Milk""]",3,0.00675,54
+"[""Chocolate"", ""Lettuce"", ""Milk""]",3,0.00675,54
+"[""Coffee"", ""Cream Cheese"", ""Dish Soap""]",3,0.00675,54
+"[""Coffee"", ""Cream Cheese"", ""Shampoo""]",3,0.00675,54
+"[""Coffee"", ""Onions"", ""Sugar""]",3,0.00675,54
+"[""Coffee"", ""Shampoo"", ""Sugar""]",3,0.00675,54
+"[""Cookies"", ""Honey"", ""Tomatoes""]",3,0.00675,54
+"[""Cookies"", ""Milk"", ""Shampoo""]",3,0.00675,54
+"[""Cookies"", ""Milk"", ""Toothpaste""]",3,0.00675,54
+"[""Cream"", ""Croissants"", ""Yogurt""]",3,0.00675,54
+"[""Cream"", ""Soap"", ""Toothpaste""]",3,0.00675,54
+"[""Croissants"", ""Honey"", ""Orange Juice""]",3,0.00675,54
+"[""Croissants"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00675,54
+"[""Croissants"", ""Orange Juice"", ""Tea""]",3,0.00675,54
+"[""Dish Soap"", ""Laundry Detergent"", ""Soft Drinks""]",3,0.00675,54
+"[""Eggs"", ""Flour"", ""Paper Towels""]",3,0.00675,54
+"[""Eggs"", ""Paper Towels"", ""Sugar""]",3,0.00675,54
+"[""Laundry Detergent"", ""Paper Towels"", ""Shampoo""]",3,0.00675,54
+"[""Oatmeal"", ""Shampoo"", ""Soap""]",3,0.00675,54
+"[""Orange Juice"", ""Soft Drinks"", ""Yogurt""]",3,0.00675,54
+"[""Rice"", ""Shampoo"", ""Toothpaste""]",3,0.00675,54
+"[""Apples"", ""Milk"", ""Onions""]",3,0.006625,53
+"[""Apples"", ""Milk"", ""Tea""]",3,0.006625,53
+"[""Bagels"", ""Cereal"", ""Milk""]",3,0.006625,53
+"[""Bagels"", ""Coffee"", ""Toothpaste""]",3,0.006625,53
+"[""Bagels"", ""Dish Soap"", ""Paper Towels""]",3,0.006625,53
+"[""Bananas"", ""Cereal"", ""Eggs""]",3,0.006625,53
+"[""Bananas"", ""Chocolate"", ""Yogurt""]",3,0.006625,53
+"[""Bananas"", ""Shampoo"", ""Soap""]",3,0.006625,53
+"[""Bananas"", ""Shampoo"", ""Yogurt""]",3,0.006625,53
+"[""Bananas"", ""Soap"", ""Yogurt""]",3,0.006625,53
+"[""Bread"", ""Honey"", ""Tea""]",3,0.006625,53
+"[""Bread"", ""Shampoo"", ""Toothpaste""]",3,0.006625,53
+"[""Butter"", ""Lettuce"", ""Tomatoes""]",3,0.006625,53
+"[""Canned Tomatoes"", ""Onions"", ""Tomatoes""]",3,0.006625,53
+"[""Canned Tomatoes"", ""Pasta"", ""Pasta Sauce""]",3,0.006625,53
+"[""Carrots"", ""Cream"", ""Lettuce""]",3,0.006625,53
+"[""Carrots"", ""Cream"", ""Sugar""]",3,0.006625,53
+"[""Carrots"", ""Flour"", ""Lettuce""]",3,0.006625,53
+"[""Carrots"", ""Lettuce"", ""Strawberries""]",3,0.006625,53
+"[""Carrots"", ""Lettuce"", ""Tea""]",3,0.006625,53
+"[""Cereal"", ""Cheese"", ""Pasta""]",3,0.006625,53
+"[""Cereal"", ""Dish Soap"", ""Laundry Detergent""]",3,0.006625,53
+"[""Cheese"", ""Coffee"", ""Pasta Sauce""]",3,0.006625,53
+"[""Cheese"", ""Cookies"", ""Tea""]",3,0.006625,53
+"[""Chips"", ""Eggs"", ""Sugar""]",3,0.006625,53
+"[""Chocolate"", ""Cookies"", ""Rice""]",3,0.006625,53
+"[""Chocolate"", ""Croissants"", ""Milk""]",3,0.006625,53
+"[""Cookies"", ""Cream"", ""Milk""]",3,0.006625,53
+"[""Cookies"", ""Croissants"", ""Honey""]",3,0.006625,53
+"[""Cookies"", ""Honey"", ""Orange Juice""]",3,0.006625,53
+"[""Cookies"", ""Milk"", ""Onions""]",3,0.006625,53
+"[""Cookies"", ""Rice"", ""Tea""]",3,0.006625,53
+"[""Croissants"", ""Dish Soap"", ""Paper Towels""]",3,0.006625,53
+"[""Croissants"", ""Honey"", ""Tea""]",3,0.006625,53
+"[""Croissants"", ""Paper Towels"", ""Yogurt""]",3,0.006625,53
+"[""Dish Soap"", ""Honey"", ""Laundry Detergent""]",3,0.006625,53
+"[""Dish Soap"", ""Paper Towels"", ""Rice""]",3,0.006625,53
+"[""Dish Soap"", ""Paper Towels"", ""Tea""]",3,0.006625,53
+"[""Eggs"", ""Onions"", ""Sugar""]",3,0.006625,53
+"[""Honey"", ""Orange Juice"", ""Tea""]",3,0.006625,53
+"[""Honey"", ""Tea"", ""Tomatoes""]",3,0.006625,53
+"[""Laundry Detergent"", ""Paper Towels"", ""Tea""]",3,0.006625,53
+"[""Laundry Detergent"", ""Shampoo"", ""Soap""]",3,0.006625,53
+"[""Oatmeal"", ""Soap"", ""Toothpaste""]",3,0.006625,53
+"[""Orange Juice"", ""Pasta"", ""Yogurt""]",3,0.006625,53
+"[""Pasta"", ""Pasta Sauce"", ""Strawberries""]",3,0.006625,53
+"[""Shampoo"", ""Soap"", ""Strawberries""]",3,0.006625,53
+"[""Shampoo"", ""Strawberries"", ""Toothpaste""]",3,0.006625,53
+"[""Shampoo"", ""Tea"", ""Toothpaste""]",3,0.006625,53
+"[""Apples"", ""Bananas"", ""Cereal""]",3,0.0065,52
+"[""Apples"", ""Carrots"", ""Milk""]",3,0.0065,52
+"[""Apples"", ""Carrots"", ""Tomatoes""]",3,0.0065,52
+"[""Apples"", ""Croissants"", ""Yogurt""]",3,0.0065,52
+"[""Apples"", ""Dish Soap"", ""Paper Towels""]",3,0.0065,52
+"[""Apples"", ""Honey"", ""Oatmeal""]",3,0.0065,52
+"[""Apples"", ""Lettuce"", ""Milk""]",3,0.0065,52
+"[""Apples"", ""Lettuce"", ""Tomatoes""]",3,0.0065,52
+"[""Apples"", ""Milk"", ""Soft Drinks""]",3,0.0065,52
+"[""Bagels"", ""Bananas"", ""Strawberries""]",3,0.0065,52
+"[""Bagels"", ""Bananas"", ""Yogurt""]",3,0.0065,52
+"[""Bagels"", ""Carrots"", ""Cream Cheese""]",3,0.0065,52
+"[""Bagels"", ""Cheese"", ""Pasta""]",3,0.0065,52
+"[""Bagels"", ""Coffee"", ""Oatmeal""]",3,0.0065,52
+"[""Bagels"", ""Cream Cheese"", ""Soap""]",3,0.0065,52
+"[""Bagels"", ""Cream Cheese"", ""Sugar""]",3,0.0065,52
+"[""Bananas"", ""Cereal"", ""Cream Cheese""]",3,0.0065,52
+"[""Bananas"", ""Dish Soap"", ""Yogurt""]",3,0.0065,52
+"[""Bananas"", ""Milk"", ""Pasta Sauce""]",3,0.0065,52
+"[""Bananas"", ""Rice"", ""Yogurt""]",3,0.0065,52
+"[""Bottled Water"", ""Chips"", ""Soft Drinks""]",3,0.0065,52
+"[""Bread"", ""Butter"", ""Cereal""]",3,0.0065,52
+"[""Bread"", ""Butter"", ""Croissants""]",3,0.0065,52
+"[""Bread"", ""Cheese"", ""Pasta""]",3,0.0065,52
+"[""Bread"", ""Cheese"", ""Pasta Sauce""]",3,0.0065,52
+"[""Bread"", ""Cream Cheese"", ""Eggs""]",3,0.0065,52
+"[""Bread"", ""Eggs"", ""Pasta Sauce""]",3,0.0065,52
+"[""Bread"", ""Eggs"", ""Soap""]",3,0.0065,52
+"[""Bread"", ""Pasta"", ""Pasta Sauce""]",3,0.0065,52
+"[""Butter"", ""Cereal"", ""Sugar""]",3,0.0065,52
+"[""Butter"", ""Chips"", ""Sugar""]",3,0.0065,52
+"[""Butter"", ""Flour"", ""Strawberries""]",3,0.0065,52
+"[""Canned Tomatoes"", ""Carrots"", ""Tomatoes""]",3,0.0065,52
+"[""Canned Tomatoes"", ""Coffee"", ""Onions""]",3,0.0065,52
+"[""Canned Tomatoes"", ""Honey"", ""Tea""]",3,0.0065,52
+"[""Canned Tomatoes"", ""Onions"", ""Pasta Sauce""]",3,0.0065,52
+"[""Carrots"", ""Coffee"", ""Sugar""]",3,0.0065,52
+"[""Carrots"", ""Lettuce"", ""Pasta Sauce""]",3,0.0065,52
+"[""Carrots"", ""Paper Towels"", ""Tomatoes""]",3,0.0065,52
+"[""Carrots"", ""Soap"", ""Toothpaste""]",3,0.0065,52
+"[""Cereal"", ""Laundry Detergent"", ""Paper Towels""]",3,0.0065,52
+"[""Cheese"", ""Pasta"", ""Strawberries""]",3,0.0065,52
+"[""Cheese"", ""Pasta"", ""Tea""]",3,0.0065,52
+"[""Chocolate"", ""Cookies"", ""Laundry Detergent""]",3,0.0065,52
+"[""Chocolate"", ""Honey"", ""Tea""]",3,0.0065,52
+"[""Chocolate"", ""Milk"", ""Onions""]",3,0.0065,52
+"[""Chocolate"", ""Milk"", ""Rice""]",3,0.0065,52
+"[""Cookies"", ""Dish Soap"", ""Tea""]",3,0.0065,52
+"[""Cookies"", ""Honey"", ""Rice""]",3,0.0065,52
+"[""Cookies"", ""Onions"", ""Tea""]",3,0.0065,52
+"[""Cream"", ""Onions"", ""Sugar""]",3,0.0065,52
+"[""Cream"", ""Orange Juice"", ""Sugar""]",3,0.0065,52
+"[""Cream"", ""Strawberries"", ""Yogurt""]",3,0.0065,52
+"[""Cream Cheese"", ""Lettuce"", ""Tomatoes""]",3,0.0065,52
+"[""Cream Cheese"", ""Pasta"", ""Pasta Sauce""]",3,0.0065,52
+"[""Croissants"", ""Onions"", ""Orange Juice""]",3,0.0065,52
+"[""Croissants"", ""Orange Juice"", ""Paper Towels""]",3,0.0065,52
+"[""Croissants"", ""Orange Juice"", ""Soap""]",3,0.0065,52
+"[""Croissants"", ""Soap"", ""Yogurt""]",3,0.0065,52
+"[""Croissants"", ""Soft Drinks"", ""Yogurt""]",3,0.0065,52
+"[""Dish Soap"", ""Laundry Detergent"", ""Shampoo""]",3,0.0065,52
+"[""Dish Soap"", ""Laundry Detergent"", ""Tea""]",3,0.0065,52
+"[""Dish Soap"", ""Oatmeal"", ""Paper Towels""]",3,0.0065,52
+"[""Eggs"", ""Flour"", ""Soft Drinks""]",3,0.0065,52
+"[""Eggs"", ""Flour"", ""Strawberries""]",3,0.0065,52
+"[""Flour"", ""Lettuce"", ""Tomatoes""]",3,0.0065,52
+"[""Flour"", ""Pasta Sauce"", ""Sugar""]",3,0.0065,52
+"[""Laundry Detergent"", ""Orange Juice"", ""Yogurt""]",3,0.0065,52
+"[""Laundry Detergent"", ""Shampoo"", ""Toothpaste""]",3,0.0065,52
+"[""Lettuce"", ""Shampoo"", ""Soap""]",3,0.0065,52
+"[""Milk"", ""Oatmeal"", ""Rice""]",3,0.0065,52
+"[""Milk"", ""Oatmeal"", ""Tea""]",3,0.0065,52
+"[""Milk"", ""Oatmeal"", ""Toothpaste""]",3,0.0065,52
+"[""Oatmeal"", ""Pasta"", ""Pasta Sauce""]",3,0.0065,52
+"[""Onions"", ""Rice"", ""Soap""]",3,0.0065,52
+"[""Orange Juice"", ""Soap"", ""Yogurt""]",3,0.0065,52
+"[""Pasta"", ""Strawberries"", ""Yogurt""]",3,0.0065,52
+"[""Rice"", ""Shampoo"", ""Soap""]",3,0.0065,52
+"[""Soap"", ""Strawberries"", ""Yogurt""]",3,0.0065,52
+"[""Strawberries"", ""Tomatoes"", ""Yogurt""]",3,0.0065,52
+"[""Muffins"", ""Oatmeal""]",2,0.006375,51
+"[""Apples"", ""Bagels"", ""Milk""]",3,0.006375,51
+"[""Apples"", ""Butter"", ""Milk""]",3,0.006375,51
+"[""Apples"", ""Chocolate"", ""Cookies""]",3,0.006375,51
+"[""Apples"", ""Croissants"", ""Oatmeal""]",3,0.006375,51
+"[""Apples"", ""Oatmeal"", ""Strawberries""]",3,0.006375,51
+"[""Apples"", ""Oatmeal"", ""Tea""]",3,0.006375,51
+"[""Bagels"", ""Bread"", ""Eggs""]",3,0.006375,51
+"[""Bagels"", ""Cream Cheese"", ""Dish Soap""]",3,0.006375,51
+"[""Bananas"", ""Cereal"", ""Chips""]",3,0.006375,51
+"[""Bananas"", ""Cereal"", ""Paper Towels""]",3,0.006375,51
+"[""Bananas"", ""Cereal"", ""Rice""]",3,0.006375,51
+"[""Bananas"", ""Cereal"", ""Soft Drinks""]",3,0.006375,51
+"[""Bananas"", ""Chips"", ""Yogurt""]",3,0.006375,51
+"[""Bananas"", ""Cream"", ""Strawberries""]",3,0.006375,51
+"[""Bananas"", ""Flour"", ""Yogurt""]",3,0.006375,51
+"[""Bananas"", ""Lettuce"", ""Milk""]",3,0.006375,51
+"[""Bananas"", ""Oatmeal"", ""Strawberries""]",3,0.006375,51
+"[""Bananas"", ""Pasta"", ""Yogurt""]",3,0.006375,51
+"[""Bananas"", ""Soap"", ""Toothpaste""]",3,0.006375,51
+"[""Bread"", ""Butter"", ""Cheese""]",3,0.006375,51
+"[""Bread"", ""Butter"", ""Laundry Detergent""]",3,0.006375,51
+"[""Bread"", ""Canned Tomatoes"", ""Eggs""]",3,0.006375,51
+"[""Bread"", ""Eggs"", ""Laundry Detergent""]",3,0.006375,51
+"[""Bread"", ""Eggs"", ""Tomatoes""]",3,0.006375,51
+"[""Bread"", ""Eggs"", ""Toothpaste""]",3,0.006375,51
+"[""Butter"", ""Cookies"", ""Flour""]",3,0.006375,51
+"[""Butter"", ""Cookies"", ""Honey""]",3,0.006375,51
+"[""Canned Tomatoes"", ""Cereal"", ""Milk""]",3,0.006375,51
+"[""Canned Tomatoes"", ""Onions"", ""Tea""]",3,0.006375,51
+"[""Carrots"", ""Chocolate"", ""Cookies""]",3,0.006375,51
+"[""Carrots"", ""Chocolate"", ""Milk""]",3,0.006375,51
+"[""Carrots"", ""Dish Soap"", ""Tomatoes""]",3,0.006375,51
+"[""Carrots"", ""Flour"", ""Tomatoes""]",3,0.006375,51
+"[""Cereal"", ""Cream"", ""Milk""]",3,0.006375,51
+"[""Cereal"", ""Croissants"", ""Milk""]",3,0.006375,51
+"[""Cereal"", ""Croissants"", ""Orange Juice""]",3,0.006375,51
+"[""Cereal"", ""Milk"", ""Shampoo""]",3,0.006375,51
+"[""Cereal"", ""Strawberries"", ""Yogurt""]",3,0.006375,51
+"[""Cheese"", ""Coffee"", ""Cream Cheese""]",3,0.006375,51
+"[""Cheese"", ""Croissants"", ""Yogurt""]",3,0.006375,51
+"[""Cheese"", ""Honey"", ""Pasta Sauce""]",3,0.006375,51
+"[""Cheese"", ""Oatmeal"", ""Pasta""]",3,0.006375,51
+"[""Cheese"", ""Orange Juice"", ""Yogurt""]",3,0.006375,51
+"[""Chips"", ""Lettuce"", ""Tomatoes""]",3,0.006375,51
+"[""Chips"", ""Orange Juice"", ""Yogurt""]",3,0.006375,51
+"[""Chips"", ""Shampoo"", ""Toothpaste""]",3,0.006375,51
+"[""Chocolate"", ""Dish Soap"", ""Paper Towels""]",3,0.006375,51
+"[""Chocolate"", ""Milk"", ""Toothpaste""]",3,0.006375,51
+"[""Coffee"", ""Cream"", ""Dish Soap""]",3,0.006375,51
+"[""Coffee"", ""Cream Cheese"", ""Pasta""]",3,0.006375,51
+"[""Coffee"", ""Cream Cheese"", ""Rice""]",3,0.006375,51
+"[""Coffee"", ""Orange Juice"", ""Sugar""]",3,0.006375,51
+"[""Coffee"", ""Strawberries"", ""Sugar""]",3,0.006375,51
+"[""Cookies"", ""Croissants"", ""Tea""]",3,0.006375,51
+"[""Cookies"", ""Flour"", ""Milk""]",3,0.006375,51
+"[""Cookies"", ""Honey"", ""Laundry Detergent""]",3,0.006375,51
+"[""Cookies"", ""Paper Towels"", ""Tea""]",3,0.006375,51
+"[""Cream"", ""Laundry Detergent"", ""Sugar""]",3,0.006375,51
+"[""Cream"", ""Lettuce"", ""Tomatoes""]",3,0.006375,51
+"[""Cream Cheese"", ""Croissants"", ""Yogurt""]",3,0.006375,51
+"[""Cream Cheese"", ""Eggs"", ""Sugar""]",3,0.006375,51
+"[""Croissants"", ""Orange Juice"", ""Pasta""]",3,0.006375,51
+"[""Croissants"", ""Pasta"", ""Yogurt""]",3,0.006375,51
+"[""Croissants"", ""Pasta Sauce"", ""Yogurt""]",3,0.006375,51
+"[""Dish Soap"", ""Lettuce"", ""Tomatoes""]",3,0.006375,51
+"[""Eggs"", ""Honey"", ""Sugar""]",3,0.006375,51
+"[""Eggs"", ""Soap"", ""Sugar""]",3,0.006375,51
+"[""Flour"", ""Rice"", ""Sugar""]",3,0.006375,51
+"[""Flour"", ""Soft Drinks"", ""Sugar""]",3,0.006375,51
+"[""Honey"", ""Laundry Detergent"", ""Tea""]",3,0.006375,51
+"[""Honey"", ""Oatmeal"", ""Tea""]",3,0.006375,51
+"[""Honey"", ""Shampoo"", ""Toothpaste""]",3,0.006375,51
+"[""Honey"", ""Soap"", ""Tea""]",3,0.006375,51
+"[""Lettuce"", ""Paper Towels"", ""Tomatoes""]",3,0.006375,51
+"[""Milk"", ""Oatmeal"", ""Paper Towels""]",3,0.006375,51
+"[""Onions"", ""Rice"", ""Shampoo""]",3,0.006375,51
+"[""Orange Juice"", ""Pasta"", ""Pasta Sauce""]",3,0.006375,51
+"[""Soap"", ""Strawberries"", ""Toothpaste""]",3,0.006375,51
+"[""Apples"", ""Canned Tomatoes"", ""Onions""]",3,0.00625,50
+"[""Apples"", ""Cream"", ""Sugar""]",3,0.00625,50
+"[""Apples"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00625,50
+"[""Bagels"", ""Butter"", ""Sugar""]",3,0.00625,50
+"[""Bagels"", ""Cereal"", ""Coffee""]",3,0.00625,50
+"[""Bagels"", ""Cheese"", ""Coffee""]",3,0.00625,50
+"[""Bagels"", ""Cheese"", ""Pasta Sauce""]",3,0.00625,50
+"[""Bagels"", ""Coffee"", ""Croissants""]",3,0.00625,50
+"[""Bagels"", ""Cream Cheese"", ""Tea""]",3,0.00625,50
+"[""Bagels"", ""Strawberries"", ""Yogurt""]",3,0.00625,50
+"[""Bananas"", ""Canned Tomatoes"", ""Cereal""]",3,0.00625,50
+"[""Bananas"", ""Cereal"", ""Laundry Detergent""]",3,0.00625,50
+"[""Bananas"", ""Laundry Detergent"", ""Yogurt""]",3,0.00625,50
+"[""Bananas"", ""Oatmeal"", ""Yogurt""]",3,0.00625,50
+"[""Bananas"", ""Toothpaste"", ""Yogurt""]",3,0.00625,50
+"[""Bread"", ""Butter"", ""Cream Cheese""]",3,0.00625,50
+"[""Bread"", ""Canned Tomatoes"", ""Rice""]",3,0.00625,50
+"[""Bread"", ""Eggs"", ""Onions""]",3,0.00625,50
+"[""Bread"", ""Milk"", ""Oatmeal""]",3,0.00625,50
+"[""Butter"", ""Cookies"", ""Tea""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Carrots"", ""Onions""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Cheese"", ""Pasta Sauce""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Eggs"", ""Sugar""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Honey"", ""Onions""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Lettuce"", ""Tomatoes""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Onions"", ""Shampoo""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Onions"", ""Soap""]",3,0.00625,50
+"[""Canned Tomatoes"", ""Paper Towels"", ""Rice""]",3,0.00625,50
+"[""Carrots"", ""Croissants"", ""Tomatoes""]",3,0.00625,50
+"[""Cereal"", ""Cheese"", ""Pasta Sauce""]",3,0.00625,50
+"[""Cereal"", ""Milk"", ""Soft Drinks""]",3,0.00625,50
+"[""Cheese"", ""Chips"", ""Pasta Sauce""]",3,0.00625,50
+"[""Cheese"", ""Chocolate"", ""Pasta Sauce""]",3,0.00625,50
+"[""Cheese"", ""Cream Cheese"", ""Pasta Sauce""]",3,0.00625,50
+"[""Cheese"", ""Honey"", ""Pasta""]",3,0.00625,50
+"[""Cheese"", ""Lettuce"", ""Pasta Sauce""]",3,0.00625,50
+"[""Cheese"", ""Milk"", ""Oatmeal""]",3,0.00625,50
+"[""Chips"", ""Coffee"", ""Cream""]",3,0.00625,50
+"[""Chips"", ""Dish Soap"", ""Paper Towels""]",3,0.00625,50
+"[""Chips"", ""Shampoo"", ""Soap""]",3,0.00625,50
+"[""Chips"", ""Soap"", ""Toothpaste""]",3,0.00625,50
+"[""Chocolate"", ""Laundry Detergent"", ""Milk""]",3,0.00625,50
+"[""Chocolate"", ""Milk"", ""Soap""]",3,0.00625,50
+"[""Coffee"", ""Cream"", ""Laundry Detergent""]",3,0.00625,50
+"[""Coffee"", ""Cream"", ""Strawberries""]",3,0.00625,50
+"[""Coffee"", ""Onions"", ""Rice""]",3,0.00625,50
+"[""Cookies"", ""Cream"", ""Honey""]",3,0.00625,50
+"[""Cookies"", ""Eggs"", ""Flour""]",3,0.00625,50
+"[""Cookies"", ""Flour"", ""Sugar""]",3,0.00625,50
+"[""Cookies"", ""Honey"", ""Soft Drinks""]",3,0.00625,50
+"[""Cookies"", ""Lettuce"", ""Milk""]",3,0.00625,50
+"[""Cookies"", ""Shampoo"", ""Tea""]",3,0.00625,50
+"[""Cookies"", ""Soft Drinks"", ""Tea""]",3,0.00625,50
+"[""Cream"", ""Milk"", ""Oatmeal""]",3,0.00625,50
+"[""Cream"", ""Shampoo"", ""Sugar""]",3,0.00625,50
+"[""Cream"", ""Sugar"", ""Toothpaste""]",3,0.00625,50
+"[""Cream Cheese"", ""Orange Juice"", ""Yogurt""]",3,0.00625,50
+"[""Croissants"", ""Dish Soap"", ""Laundry Detergent""]",3,0.00625,50
+"[""Croissants"", ""Milk"", ""Oatmeal""]",3,0.00625,50
+"[""Croissants"", ""Orange Juice"", ""Soft Drinks""]",3,0.00625,50
+"[""Croissants"", ""Pasta"", ""Pasta Sauce""]",3,0.00625,50
+"[""Eggs"", ""Strawberries"", ""Sugar""]",3,0.00625,50
+"[""Flour"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00625,50
+"[""Flour"", ""Strawberries"", ""Yogurt""]",3,0.00625,50
+"[""Honey"", ""Pasta"", ""Pasta Sauce""]",3,0.00625,50
+"[""Honey"", ""Shampoo"", ""Soap""]",3,0.00625,50
+"[""Laundry Detergent"", ""Orange Juice"", ""Paper Towels""]",3,0.00625,50
+"[""Laundry Detergent"", ""Paper Towels"", ""Strawberries""]",3,0.00625,50
+"[""Laundry Detergent"", ""Paper Towels"", ""Toothpaste""]",3,0.00625,50
+"[""Lettuce"", ""Pasta"", ""Pasta Sauce""]",3,0.00625,50
+"[""Lettuce"", ""Shampoo"", ""Tomatoes""]",3,0.00625,50
+"[""Lettuce"", ""Shampoo"", ""Toothpaste""]",3,0.00625,50
+"[""Lettuce"", ""Soap"", ""Toothpaste""]",3,0.00625,50
+"[""Oatmeal"", ""Strawberries"", ""Yogurt""]",3,0.00625,50
+"[""Onions"", ""Pasta"", ""Pasta Sauce""]",3,0.00625,50
+"[""Pasta"", ""Pasta Sauce"", ""Tea""]",3,0.00625,50
+"[""Rice"", ""Soap"", ""Toothpaste""]",3,0.00625,50
+"[""Shampoo"", ""Strawberries"", ""Yogurt""]",3,0.00625,50
+"[""Apples"", ""Coffee"", ""Sugar""]",3,0.006125,49
+"[""Apples"", ""Milk"", ""Rice""]",3,0.006125,49
+"[""Bagels"", ""Chips"", ""Coffee""]",3,0.006125,49
+"[""Bagels"", ""Chocolate"", ""Cookies""]",3,0.006125,49
+"[""Bagels"", ""Coffee"", ""Dish Soap""]",3,0.006125,49
+"[""Bagels"", ""Coffee"", ""Flour""]",3,0.006125,49
+"[""Bagels"", ""Cream Cheese"", ""Pasta""]",3,0.006125,49
+"[""Bagels"", ""Cream Cheese"", ""Rice""]",3,0.006125,49
+"[""Bagels"", ""Pasta"", ""Pasta Sauce""]",3,0.006125,49
+"[""Bananas"", ""Carrots"", ""Milk""]",3,0.006125,49
+"[""Bananas"", ""Cereal"", ""Cheese""]",3,0.006125,49
+"[""Bananas"", ""Honey"", ""Yogurt""]",3,0.006125,49
+"[""Bananas"", ""Orange Juice"", ""Strawberries""]",3,0.006125,49
+"[""Bananas"", ""Shampoo"", ""Strawberries""]",3,0.006125,49
+"[""Bananas"", ""Soap"", ""Strawberries""]",3,0.006125,49
+"[""Bottled Water"", ""Cookies"", ""Milk""]",3,0.006125,49
+"[""Bread"", ""Butter"", ""Dish Soap""]",3,0.006125,49
+"[""Bread"", ""Butter"", ""Pasta Sauce""]",3,0.006125,49
+"[""Bread"", ""Cheese"", ""Eggs""]",3,0.006125,49
+"[""Bread"", ""Cookies"", ""Milk""]",3,0.006125,49
+"[""Bread"", ""Dish Soap"", ""Paper Towels""]",3,0.006125,49
+"[""Bread"", ""Eggs"", ""Shampoo""]",3,0.006125,49
+"[""Bread"", ""Onions"", ""Rice""]",3,0.006125,49
+"[""Bread"", ""Shampoo"", ""Soap""]",3,0.006125,49
+"[""Butter"", ""Cream Cheese"", ""Sugar""]",3,0.006125,49
+"[""Butter"", ""Soap"", ""Sugar""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Chocolate"", ""Cookies""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Croissants"", ""Yogurt""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Dish Soap"", ""Laundry Detergent""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Milk"", ""Oatmeal""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Oatmeal"", ""Rice""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Orange Juice"", ""Yogurt""]",3,0.006125,49
+"[""Canned Tomatoes"", ""Pasta Sauce"", ""Rice""]",3,0.006125,49
+"[""Carrots"", ""Chips"", ""Tomatoes""]",3,0.006125,49
+"[""Carrots"", ""Cream Cheese"", ""Lettuce""]",3,0.006125,49
+"[""Carrots"", ""Honey"", ""Tomatoes""]",3,0.006125,49
+"[""Carrots"", ""Onions"", ""Rice""]",3,0.006125,49
+"[""Carrots"", ""Pasta Sauce"", ""Tomatoes""]",3,0.006125,49
+"[""Carrots"", ""Shampoo"", ""Tomatoes""]",3,0.006125,49
+"[""Carrots"", ""Soap"", ""Tomatoes""]",3,0.006125,49
+"[""Carrots"", ""Soft Drinks"", ""Tomatoes""]",3,0.006125,49
+"[""Cereal"", ""Chips"", ""Milk""]",3,0.006125,49
+"[""Cereal"", ""Eggs"", ""Flour""]",3,0.006125,49
+"[""Cheese"", ""Cream Cheese"", ""Pasta""]",3,0.006125,49
+"[""Cheese"", ""Pasta"", ""Rice""]",3,0.006125,49
+"[""Cheese"", ""Pasta Sauce"", ""Soft Drinks""]",3,0.006125,49
+"[""Chips"", ""Milk"", ""Oatmeal""]",3,0.006125,49
+"[""Chips"", ""Oranges"", ""Soft Drinks""]",3,0.006125,49
+"[""Chocolate"", ""Cookies"", ""Pasta Sauce""]",3,0.006125,49
+"[""Chocolate"", ""Milk"", ""Shampoo""]",3,0.006125,49
+"[""Chocolate"", ""Strawberries"", ""Yogurt""]",3,0.006125,49
+"[""Coffee"", ""Cream"", ""Lettuce""]",3,0.006125,49
+"[""Coffee"", ""Muffins"", ""Sugar""]",3,0.006125,49
+"[""Cookies"", ""Dish Soap"", ""Honey""]",3,0.006125,49
+"[""Cookies"", ""Honey"", ""Onions""]",3,0.006125,49
+"[""Cookies"", ""Honey"", ""Shampoo""]",3,0.006125,49
+"[""Cookies"", ""Laundry Detergent"", ""Tea""]",3,0.006125,49
+"[""Cream"", ""Soap"", ""Sugar""]",3,0.006125,49
+"[""Cream"", ""Soft Drinks"", ""Sugar""]",3,0.006125,49
+"[""Croissants"", ""Dish Soap"", ""Yogurt""]",3,0.006125,49
+"[""Dish Soap"", ""Eggs"", ""Flour""]",3,0.006125,49
+"[""Dish Soap"", ""Honey"", ""Tea""]",3,0.006125,49
+"[""Dish Soap"", ""Laundry Detergent"", ""Pasta Sauce""]",3,0.006125,49
+"[""Dish Soap"", ""Laundry Detergent"", ""Rice""]",3,0.006125,49
+"[""Dish Soap"", ""Orange Juice"", ""Paper Towels""]",3,0.006125,49
+"[""Eggs"", ""Flour"", ""Laundry Detergent""]",3,0.006125,49
+"[""Flour"", ""Strawberries"", ""Sugar""]",3,0.006125,49
+"[""Laundry Detergent"", ""Onions"", ""Paper Towels""]",3,0.006125,49
+"[""Laundry Detergent"", ""Paper Towels"", ""Rice""]",3,0.006125,49
+"[""Onions"", ""Pasta Sauce"", ""Rice""]",3,0.006125,49
+"[""Onions"", ""Rice"", ""Soft Drinks""]",3,0.006125,49
+"[""Orange Juice"", ""Rice"", ""Yogurt""]",3,0.006125,49
+"[""Paper Towels"", ""Pasta"", ""Pasta Sauce""]",3,0.006125,49
+"[""Pasta Sauce"", ""Shampoo"", ""Soap""]",3,0.006125,49
+"[""Rice"", ""Strawberries"", ""Yogurt""]",3,0.006125,49
+"[""Soap"", ""Tea"", ""Toothpaste""]",3,0.006125,49
+"[""Bottled Water"", ""Muffins""]",2,0.006,48
+"[""Apples"", ""Canned Tomatoes"", ""Oatmeal""]",3,0.006,48
+"[""Apples"", ""Carrots"", ""Oatmeal""]",3,0.006,48
+"[""Apples"", ""Cheese"", ""Milk""]",3,0.006,48
+"[""Apples"", ""Chips"", ""Milk""]",3,0.006,48
+"[""Apples"", ""Cream"", ""Milk""]",3,0.006,48
+"[""Apples"", ""Oatmeal"", ""Soft Drinks""]",3,0.006,48
+"[""Apples"", ""Onions"", ""Rice""]",3,0.006,48
+"[""Bagels"", ""Bananas"", ""Cereal""]",3,0.006,48
+"[""Bagels"", ""Bread"", ""Butter""]",3,0.006,48
+"[""Bagels"", ""Cereal"", ""Cream Cheese""]",3,0.006,48
+"[""Bagels"", ""Laundry Detergent"", ""Paper Towels""]",3,0.006,48
+"[""Bananas"", ""Cereal"", ""Chocolate""]",3,0.006,48
+"[""Bananas"", ""Cereal"", ""Onions""]",3,0.006,48
+"[""Bananas"", ""Cereal"", ""Shampoo""]",3,0.006,48
+"[""Bananas"", ""Cereal"", ""Soap""]",3,0.006,48
+"[""Bananas"", ""Cereal"", ""Toothpaste""]",3,0.006,48
+"[""Bananas"", ""Dish Soap"", ""Milk""]",3,0.006,48
+"[""Bananas"", ""Onions"", ""Rice""]",3,0.006,48
+"[""Bread"", ""Butter"", ""Canned Tomatoes""]",3,0.006,48
+"[""Bread"", ""Butter"", ""Oranges""]",3,0.006,48
+"[""Bread"", ""Butter"", ""Shampoo""]",3,0.006,48
+"[""Bread"", ""Dish Soap"", ""Laundry Detergent""]",3,0.006,48
+"[""Bread"", ""Eggs"", ""Lettuce""]",3,0.006,48
+"[""Butter"", ""Flour"", ""Pasta Sauce""]",3,0.006,48
+"[""Butter"", ""Honey"", ""Tea""]",3,0.006,48
+"[""Butter"", ""Laundry Detergent"", ""Sugar""]",3,0.006,48
+"[""Canned Tomatoes"", ""Cereal"", ""Rice""]",3,0.006,48
+"[""Canned Tomatoes"", ""Cheese"", ""Pasta""]",3,0.006,48
+"[""Canned Tomatoes"", ""Croissants"", ""Onions""]",3,0.006,48
+"[""Canned Tomatoes"", ""Onions"", ""Soft Drinks""]",3,0.006,48
+"[""Carrots"", ""Chips"", ""Lettuce""]",3,0.006,48
+"[""Carrots"", ""Cookies"", ""Tea""]",3,0.006,48
+"[""Carrots"", ""Dish Soap"", ""Lettuce""]",3,0.006,48
+"[""Carrots"", ""Lettuce"", ""Paper Towels""]",3,0.006,48
+"[""Carrots"", ""Lettuce"", ""Pasta""]",3,0.006,48
+"[""Carrots"", ""Rice"", ""Tomatoes""]",3,0.006,48
+"[""Cereal"", ""Pasta"", ""Pasta Sauce""]",3,0.006,48
+"[""Cheese"", ""Chocolate"", ""Cookies""]",3,0.006,48
+"[""Cheese"", ""Croissants"", ""Orange Juice""]",3,0.006,48
+"[""Cheese"", ""Croissants"", ""Pasta Sauce""]",3,0.006,48
+"[""Cheese"", ""Orange Juice"", ""Pasta""]",3,0.006,48
+"[""Chips"", ""Croissants"", ""Orange Juice""]",3,0.006,48
+"[""Chocolate"", ""Cookies"", ""Croissants""]",3,0.006,48
+"[""Chocolate"", ""Laundry Detergent"", ""Paper Towels""]",3,0.006,48
+"[""Coffee"", ""Cream"", ""Tea""]",3,0.006,48
+"[""Coffee"", ""Cream"", ""Toothpaste""]",3,0.006,48
+"[""Coffee"", ""Honey"", ""Sugar""]",3,0.006,48
+"[""Coffee"", ""Lettuce"", ""Sugar""]",3,0.006,48
+"[""Cookies"", ""Honey"", ""Lettuce""]",3,0.006,48
+"[""Cookies"", ""Pasta Sauce"", ""Tea""]",3,0.006,48
+"[""Cream"", ""Cream Cheese"", ""Sugar""]",3,0.006,48
+"[""Cream"", ""Dish Soap"", ""Laundry Detergent""]",3,0.006,48
+"[""Cream"", ""Honey"", ""Tea""]",3,0.006,48
+"[""Cream"", ""Laundry Detergent"", ""Paper Towels""]",3,0.006,48
+"[""Cream"", ""Lettuce"", ""Sugar""]",3,0.006,48
+"[""Cream"", ""Strawberries"", ""Sugar""]",3,0.006,48
+"[""Croissants"", ""Dish Soap"", ""Orange Juice""]",3,0.006,48
+"[""Croissants"", ""Laundry Detergent"", ""Yogurt""]",3,0.006,48
+"[""Croissants"", ""Onions"", ""Rice""]",3,0.006,48
+"[""Dish Soap"", ""Flour"", ""Laundry Detergent""]",3,0.006,48
+"[""Dish Soap"", ""Lettuce"", ""Paper Towels""]",3,0.006,48
+"[""Dish Soap"", ""Paper Towels"", ""Toothpaste""]",3,0.006,48
+"[""Eggs"", ""Flour"", ""Pasta Sauce""]",3,0.006,48
+"[""Eggs"", ""Rice"", ""Sugar""]",3,0.006,48
+"[""Honey"", ""Lettuce"", ""Tea""]",3,0.006,48
+"[""Honey"", ""Onions"", ""Tea""]",3,0.006,48
+"[""Honey"", ""Soap"", ""Toothpaste""]",3,0.006,48
+"[""Laundry Detergent"", ""Oatmeal"", ""Paper Towels""]",3,0.006,48
+"[""Lettuce"", ""Pasta Sauce"", ""Tomatoes""]",3,0.006,48
+"[""Lettuce"", ""Soap"", ""Tomatoes""]",3,0.006,48
+"[""Milk"", ""Oatmeal"", ""Pasta""]",3,0.006,48
+"[""Onions"", ""Orange Juice"", ""Rice""]",3,0.006,48
+"[""Onions"", ""Shampoo"", ""Toothpaste""]",3,0.006,48
+"[""Shampoo"", ""Soap"", ""Tea""]",3,0.006,48
+"[""Flour"", ""Muffins""]",2,0.005875,47
+"[""Apples"", ""Bagels"", ""Coffee""]",3,0.005875,47
+"[""Apples"", ""Bread"", ""Butter""]",3,0.005875,47
+"[""Apples"", ""Cereal"", ""Oatmeal""]",3,0.005875,47
+"[""Apples"", ""Chips"", ""Oatmeal""]",3,0.005875,47
+"[""Apples"", ""Cream Cheese"", ""Milk""]",3,0.005875,47
+"[""Apples"", ""Milk"", ""Shampoo""]",3,0.005875,47
+"[""Apples"", ""Milk"", ""Soap""]",3,0.005875,47
+"[""Apples"", ""Oatmeal"", ""Shampoo""]",3,0.005875,47
+"[""Apples"", ""Orange Juice"", ""Yogurt""]",3,0.005875,47
+"[""Apples"", ""Shampoo"", ""Soap""]",3,0.005875,47
+"[""Bagels"", ""Canned Tomatoes"", ""Rice""]",3,0.005875,47
+"[""Bagels"", ""Coffee"", ""Onions""]",3,0.005875,47
+"[""Bagels"", ""Cream Cheese"", ""Orange Juice""]",3,0.005875,47
+"[""Bagels"", ""Dish Soap"", ""Laundry Detergent""]",3,0.005875,47
+"[""Bagels"", ""Eggs"", ""Flour""]",3,0.005875,47
+"[""Bagels"", ""Flour"", ""Sugar""]",3,0.005875,47
+"[""Bananas"", ""Cereal"", ""Tomatoes""]",3,0.005875,47
+"[""Bananas"", ""Croissants"", ""Strawberries""]",3,0.005875,47
+"[""Bananas"", ""Milk"", ""Soap""]",3,0.005875,47
+"[""Bananas"", ""Pasta"", ""Strawberries""]",3,0.005875,47
+"[""Bread"", ""Cereal"", ""Eggs""]",3,0.005875,47
+"[""Bread"", ""Cream"", ""Sugar""]",3,0.005875,47
+"[""Bread"", ""Eggs"", ""Oranges""]",3,0.005875,47
+"[""Bread"", ""Soap"", ""Toothpaste""]",3,0.005875,47
+"[""Butter"", ""Dish Soap"", ""Flour""]",3,0.005875,47
+"[""Butter"", ""Flour"", ""Soft Drinks""]",3,0.005875,47
+"[""Butter"", ""Lettuce"", ""Sugar""]",3,0.005875,47
+"[""Canned Tomatoes"", ""Onions"", ""Orange Juice""]",3,0.005875,47
+"[""Canned Tomatoes"", ""Onions"", ""Paper Towels""]",3,0.005875,47
+"[""Canned Tomatoes"", ""Onions"", ""Pasta""]",3,0.005875,47
+"[""Carrots"", ""Lettuce"", ""Soft Drinks""]",3,0.005875,47
+"[""Carrots"", ""Strawberries"", ""Yogurt""]",3,0.005875,47
+"[""Cereal"", ""Eggs"", ""Sugar""]",3,0.005875,47
+"[""Cereal"", ""Milk"", ""Rice""]",3,0.005875,47
+"[""Cereal"", ""Milk"", ""Toothpaste""]",3,0.005875,47
+"[""Cheese"", ""Chips"", ""Pasta""]",3,0.005875,47
+"[""Cheese"", ""Shampoo"", ""Soap""]",3,0.005875,47
+"[""Chocolate"", ""Cookies"", ""Cream""]",3,0.005875,47
+"[""Chocolate"", ""Cookies"", ""Oatmeal""]",3,0.005875,47
+"[""Chocolate"", ""Cookies"", ""Soap""]",3,0.005875,47
+"[""Chocolate"", ""Cookies"", ""Strawberries""]",3,0.005875,47
+"[""Chocolate"", ""Cream"", ""Milk""]",3,0.005875,47
+"[""Chocolate"", ""Cream"", ""Sugar""]",3,0.005875,47
+"[""Coffee"", ""Cream"", ""Muffins""]",3,0.005875,47
+"[""Coffee"", ""Cream"", ""Soap""]",3,0.005875,47
+"[""Coffee"", ""Cream"", ""Soft Drinks""]",3,0.005875,47
+"[""Coffee"", ""Cream Cheese"", ""Pasta Sauce""]",3,0.005875,47
+"[""Coffee"", ""Cream Cheese"", ""Toothpaste""]",3,0.005875,47
+"[""Cookies"", ""Strawberries"", ""Tea""]",3,0.005875,47
+"[""Cream"", ""Dish Soap"", ""Sugar""]",3,0.005875,47
+"[""Cream"", ""Onions"", ""Rice""]",3,0.005875,47
+"[""Cream"", ""Pasta"", ""Pasta Sauce""]",3,0.005875,47
+"[""Cream"", ""Sugar"", ""Tea""]",3,0.005875,47
+"[""Cream Cheese"", ""Croissants"", ""Orange Juice""]",3,0.005875,47
+"[""Croissants"", ""Onions"", ""Yogurt""]",3,0.005875,47
+"[""Croissants"", ""Orange Juice"", ""Pasta Sauce""]",3,0.005875,47
+"[""Croissants"", ""Orange Juice"", ""Shampoo""]",3,0.005875,47
+"[""Dish Soap"", ""Laundry Detergent"", ""Lettuce""]",3,0.005875,47
+"[""Dish Soap"", ""Laundry Detergent"", ""Tomatoes""]",3,0.005875,47
+"[""Eggs"", ""Flour"", ""Honey""]",3,0.005875,47
+"[""Flour"", ""Milk"", ""Oatmeal""]",3,0.005875,47
+"[""Flour"", ""Orange Juice"", ""Sugar""]",3,0.005875,47
+"[""Flour"", ""Soap"", ""Sugar""]",3,0.005875,47
+"[""Honey"", ""Lettuce"", ""Tomatoes""]",3,0.005875,47
+"[""Laundry Detergent"", ""Soap"", ""Toothpaste""]",3,0.005875,47
+"[""Lettuce"", ""Pasta"", ""Tomatoes""]",3,0.005875,47
+"[""Pasta"", ""Pasta Sauce"", ""Rice""]",3,0.005875,47
+"[""Pasta"", ""Pasta Sauce"", ""Soft Drinks""]",3,0.005875,47
+"[""Apples"", ""Canned Tomatoes"", ""Milk""]",3,0.00575,46
+"[""Apples"", ""Oatmeal"", ""Pasta""]",3,0.00575,46
+"[""Apples"", ""Oatmeal"", ""Soap""]",3,0.00575,46
+"[""Apples"", ""Oatmeal"", ""Toothpaste""]",3,0.00575,46
+"[""Bananas"", ""Chips"", ""Strawberries""]",3,0.00575,46
+"[""Bananas"", ""Chocolate"", ""Strawberries""]",3,0.00575,46
+"[""Bottled Water"", ""Chocolate"", ""Milk""]",3,0.00575,46
+"[""Bread"", ""Butter"", ""Onions""]",3,0.00575,46
+"[""Bread"", ""Butter"", ""Strawberries""]",3,0.00575,46
+"[""Bread"", ""Dish Soap"", ""Eggs""]",3,0.00575,46
+"[""Bread"", ""Eggs"", ""Strawberries""]",3,0.00575,46
+"[""Butter"", ""Canned Tomatoes"", ""Sugar""]",3,0.00575,46
+"[""Butter"", ""Flour"", ""Laundry Detergent""]",3,0.00575,46
+"[""Butter"", ""Rice"", ""Sugar""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Cream"", ""Onions""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Cream"", ""Rice""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Dish Soap"", ""Rice""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Laundry Detergent"", ""Rice""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Oatmeal"", ""Onions""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Rice"", ""Soap""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Rice"", ""Soft Drinks""]",3,0.00575,46
+"[""Canned Tomatoes"", ""Shampoo"", ""Soap""]",3,0.00575,46
+"[""Carrots"", ""Croissants"", ""Orange Juice""]",3,0.00575,46
+"[""Carrots"", ""Croissants"", ""Yogurt""]",3,0.00575,46
+"[""Cereal"", ""Chocolate"", ""Cookies""]",3,0.00575,46
+"[""Cereal"", ""Coffee"", ""Cream Cheese""]",3,0.00575,46
+"[""Cereal"", ""Milk"", ""Pasta Sauce""]",3,0.00575,46
+"[""Cheese"", ""Cookies"", ""Honey""]",3,0.00575,46
+"[""Cheese"", ""Croissants"", ""Pasta""]",3,0.00575,46
+"[""Cheese"", ""Lettuce"", ""Pasta""]",3,0.00575,46
+"[""Cheese"", ""Onions"", ""Pasta""]",3,0.00575,46
+"[""Cheese"", ""Shampoo"", ""Toothpaste""]",3,0.00575,46
+"[""Chips"", ""Coffee"", ""Cream Cheese""]",3,0.00575,46
+"[""Chips"", ""Flour"", ""Sugar""]",3,0.00575,46
+"[""Chips"", ""Pasta"", ""Pasta Sauce""]",3,0.00575,46
+"[""Chocolate"", ""Cookies"", ""Onions""]",3,0.00575,46
+"[""Chocolate"", ""Cookies"", ""Toothpaste""]",3,0.00575,46
+"[""Chocolate"", ""Dish Soap"", ""Laundry Detergent""]",3,0.00575,46
+"[""Cookies"", ""Lettuce"", ""Tea""]",3,0.00575,46
+"[""Cookies"", ""Milk"", ""Pasta""]",3,0.00575,46
+"[""Cream"", ""Dish Soap"", ""Paper Towels""]",3,0.00575,46
+"[""Cream Cheese"", ""Eggs"", ""Flour""]",3,0.00575,46
+"[""Croissants"", ""Laundry Detergent"", ""Orange Juice""]",3,0.00575,46
+"[""Croissants"", ""Orange Juice"", ""Toothpaste""]",3,0.00575,46
+"[""Croissants"", ""Rice"", ""Yogurt""]",3,0.00575,46
+"[""Croissants"", ""Shampoo"", ""Soap""]",3,0.00575,46
+"[""Dish Soap"", ""Flour"", ""Sugar""]",3,0.00575,46
+"[""Dish Soap"", ""Laundry Detergent"", ""Strawberries""]",3,0.00575,46
+"[""Dish Soap"", ""Milk"", ""Oatmeal""]",3,0.00575,46
+"[""Dish Soap"", ""Paper Towels"", ""Strawberries""]",3,0.00575,46
+"[""Eggs"", ""Flour"", ""Soap""]",3,0.00575,46
+"[""Eggs"", ""Laundry Detergent"", ""Sugar""]",3,0.00575,46
+"[""Eggs"", ""Orange Juice"", ""Sugar""]",3,0.00575,46
+"[""Flour"", ""Paper Towels"", ""Sugar""]",3,0.00575,46
+"[""Flour"", ""Pasta"", ""Pasta Sauce""]",3,0.00575,46
+"[""Milk"", ""Oatmeal"", ""Shampoo""]",3,0.00575,46
+"[""Milk"", ""Oatmeal"", ""Soap""]",3,0.00575,46
+"[""Onions"", ""Shampoo"", ""Soap""]",3,0.00575,46
+"[""Onions"", ""Soap"", ""Toothpaste""]",3,0.00575,46
+"[""Pasta Sauce"", ""Shampoo"", ""Toothpaste""]",3,0.00575,46
+"[""Shampoo"", ""Tomatoes"", ""Toothpaste""]",3,0.00575,46
+"[""Apples"", ""Bagels"", ""Oatmeal""]",3,0.005625,45
+"[""Apples"", ""Bottled Water"", ""Milk""]",3,0.005625,45
+"[""Apples"", ""Bread"", ""Eggs""]",3,0.005625,45
+"[""Apples"", ""Milk"", ""Orange Juice""]",3,0.005625,45
+"[""Apples"", ""Oatmeal"", ""Onions""]",3,0.005625,45
+"[""Bagels"", ""Cheese"", ""Cream Cheese""]",3,0.005625,45
+"[""Bagels"", ""Coffee"", ""Pasta Sauce""]",3,0.005625,45
+"[""Bagels"", ""Cream Cheese"", ""Croissants""]",3,0.005625,45
+"[""Bananas"", ""Bottled Water"", ""Milk""]",3,0.005625,45
+"[""Bananas"", ""Carrots"", ""Strawberries""]",3,0.005625,45
+"[""Bananas"", ""Cereal"", ""Pasta Sauce""]",3,0.005625,45
+"[""Bananas"", ""Flour"", ""Milk""]",3,0.005625,45
+"[""Bananas"", ""Laundry Detergent"", ""Strawberries""]",3,0.005625,45
+"[""Bananas"", ""Milk"", ""Muffins""]",3,0.005625,45
+"[""Bananas"", ""Soft Drinks"", ""Strawberries""]",3,0.005625,45
+"[""Bread"", ""Butter"", ""Lettuce""]",3,0.005625,45
+"[""Bread"", ""Butter"", ""Tomatoes""]",3,0.005625,45
+"[""Bread"", ""Canned Tomatoes"", ""Onions""]",3,0.005625,45
+"[""Bread"", ""Coffee"", ""Cream""]",3,0.005625,45
+"[""Bread"", ""Coffee"", ""Sugar""]",3,0.005625,45
+"[""Butter"", ""Cereal"", ""Flour""]",3,0.005625,45
+"[""Butter"", ""Cream Cheese"", ""Flour""]",3,0.005625,45
+"[""Butter"", ""Oatmeal"", ""Sugar""]",3,0.005625,45
+"[""Canned Tomatoes"", ""Croissants"", ""Rice""]",3,0.005625,45
+"[""Canned Tomatoes"", ""Dish Soap"", ""Paper Towels""]",3,0.005625,45
+"[""Canned Tomatoes"", ""Laundry Detergent"", ""Onions""]",3,0.005625,45
+"[""Canned Tomatoes"", ""Rice"", ""Shampoo""]",3,0.005625,45
+"[""Carrots"", ""Cheese"", ""Lettuce""]",3,0.005625,45
+"[""Carrots"", ""Croissants"", ""Lettuce""]",3,0.005625,45
+"[""Carrots"", ""Honey"", ""Lettuce""]",3,0.005625,45
+"[""Carrots"", ""Lettuce"", ""Rice""]",3,0.005625,45
+"[""Cereal"", ""Flour"", ""Milk""]",3,0.005625,45
+"[""Cereal"", ""Milk"", ""Onions""]",3,0.005625,45
+"[""Cereal"", ""Milk"", ""Paper Towels""]",3,0.005625,45
+"[""Cheese"", ""Coffee"", ""Cream""]",3,0.005625,45
+"[""Cheese"", ""Cream"", ""Pasta""]",3,0.005625,45
+"[""Cheese"", ""Onions"", ""Pasta Sauce""]",3,0.005625,45
+"[""Cheese"", ""Pasta"", ""Soap""]",3,0.005625,45
+"[""Cheese"", ""Pasta"", ""Tomatoes""]",3,0.005625,45
+"[""Cheese"", ""Pasta Sauce"", ""Soap""]",3,0.005625,45
+"[""Chips"", ""Eggs"", ""Flour""]",3,0.005625,45
+"[""Chips"", ""Strawberries"", ""Yogurt""]",3,0.005625,45
+"[""Chocolate"", ""Cookies"", ""Flour""]",3,0.005625,45
+"[""Chocolate"", ""Croissants"", ""Orange Juice""]",3,0.005625,45
+"[""Chocolate"", ""Shampoo"", ""Toothpaste""]",3,0.005625,45
+"[""Coffee"", ""Cream"", ""Honey""]",3,0.005625,45
+"[""Coffee"", ""Pasta"", ""Sugar""]",3,0.005625,45
+"[""Coffee"", ""Soft Drinks"", ""Sugar""]",3,0.005625,45
+"[""Cream"", ""Honey"", ""Sugar""]",3,0.005625,45
+"[""Cream Cheese"", ""Flour"", ""Sugar""]",3,0.005625,45
+"[""Croissants"", ""Orange Juice"", ""Tomatoes""]",3,0.005625,45
+"[""Croissants"", ""Shampoo"", ""Toothpaste""]",3,0.005625,45
+"[""Dish Soap"", ""Flour"", ""Paper Towels""]",3,0.005625,45
+"[""Dish Soap"", ""Laundry Detergent"", ""Oatmeal""]",3,0.005625,45
+"[""Dish Soap"", ""Shampoo"", ""Soap""]",3,0.005625,45
+"[""Flour"", ""Laundry Detergent"", ""Sugar""]",3,0.005625,45
+"[""Honey"", ""Rice"", ""Tea""]",3,0.005625,45
+"[""Honey"", ""Shampoo"", ""Tea""]",3,0.005625,45
+"[""Honey"", ""Soft Drinks"", ""Tea""]",3,0.005625,45
+"[""Laundry Detergent"", ""Milk"", ""Oatmeal""]",3,0.005625,45
+"[""Laundry Detergent"", ""Paper Towels"", ""Pasta Sauce""]",3,0.005625,45
+"[""Pasta Sauce"", ""Soap"", ""Toothpaste""]",3,0.005625,45
+"[""Strawberries"", ""Tea"", ""Yogurt""]",3,0.005625,45
+"[""Apples"", ""Bread"", ""Milk""]",3,0.0055,44
+"[""Apples"", ""Cream"", ""Oatmeal""]",3,0.0055,44
+"[""Apples"", ""Milk"", ""Paper Towels""]",3,0.0055,44
+"[""Apples"", ""Soap"", ""Toothpaste""]",3,0.0055,44
+"[""Bagels"", ""Canned Tomatoes"", ""Coffee""]",3,0.0055,44
+"[""Bagels"", ""Onions"", ""Rice""]",3,0.0055,44
+"[""Bananas"", ""Canned Tomatoes"", ""Strawberries""]",3,0.0055,44
+"[""Bananas"", ""Dish Soap"", ""Strawberries""]",3,0.0055,44
+"[""Bottled Water"", ""Milk"", ""Oatmeal""]",3,0.0055,44
+"[""Bread"", ""Butter"", ""Chocolate""]",3,0.0055,44
+"[""Bread"", ""Butter"", ""Cream""]",3,0.0055,44
+"[""Bread"", ""Carrots"", ""Eggs""]",3,0.0055,44
+"[""Bread"", ""Chocolate"", ""Milk""]",3,0.0055,44
+"[""Bread"", ""Coffee"", ""Cream Cheese""]",3,0.0055,44
+"[""Bread"", ""Cream"", ""Eggs""]",3,0.0055,44
+"[""Butter"", ""Chips"", ""Flour""]",3,0.0055,44
+"[""Butter"", ""Flour"", ""Lettuce""]",3,0.0055,44
+"[""Butter"", ""Honey"", ""Sugar""]",3,0.0055,44
+"[""Butter"", ""Sugar"", ""Toothpaste""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Carrots"", ""Lettuce""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Cheese"", ""Onions""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Croissants"", ""Orange Juice""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Flour"", ""Onions""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Onions"", ""Strawberries""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Rice"", ""Tea""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Rice"", ""Tomatoes""]",3,0.0055,44
+"[""Canned Tomatoes"", ""Soap"", ""Toothpaste""]",3,0.0055,44
+"[""Carrots"", ""Cereal"", ""Tomatoes""]",3,0.0055,44
+"[""Carrots"", ""Cookies"", ""Honey""]",3,0.0055,44
+"[""Carrots"", ""Honey"", ""Tea""]",3,0.0055,44
+"[""Carrots"", ""Lettuce"", ""Orange Juice""]",3,0.0055,44
+"[""Carrots"", ""Orange Juice"", ""Yogurt""]",3,0.0055,44
+"[""Carrots"", ""Pasta"", ""Tomatoes""]",3,0.0055,44
+"[""Cereal"", ""Flour"", ""Sugar""]",3,0.0055,44
+"[""Cereal"", ""Milk"", ""Tea""]",3,0.0055,44
+"[""Cheese"", ""Laundry Detergent"", ""Pasta Sauce""]",3,0.0055,44
+"[""Cheese"", ""Paper Towels"", ""Pasta Sauce""]",3,0.0055,44
+"[""Cheese"", ""Soap"", ""Toothpaste""]",3,0.0055,44
+"[""Chips"", ""Cookies"", ""Tea""]",3,0.0055,44
+"[""Chocolate"", ""Milk"", ""Strawberries""]",3,0.0055,44
+"[""Coffee"", ""Cream"", ""Pasta""]",3,0.0055,44
+"[""Coffee"", ""Cream Cheese"", ""Croissants""]",3,0.0055,44
+"[""Coffee"", ""Cream Cheese"", ""Soap""]",3,0.0055,44
+"[""Cookies"", ""Honey"", ""Strawberries""]",3,0.0055,44
+"[""Cookies"", ""Milk"", ""Muffins""]",3,0.0055,44
+"[""Croissants"", ""Lettuce"", ""Tomatoes""]",3,0.0055,44
+"[""Dish Soap"", ""Laundry Detergent"", ""Onions""]",3,0.0055,44
+"[""Dish Soap"", ""Laundry Detergent"", ""Toothpaste""]",3,0.0055,44
+"[""Dish Soap"", ""Muffins"", ""Paper Towels""]",3,0.0055,44
+"[""Dish Soap"", ""Onions"", ""Paper Towels""]",3,0.0055,44
+"[""Dish Soap"", ""Paper Towels"", ""Tomatoes""]",3,0.0055,44
+"[""Eggs"", ""Sugar"", ""Tea""]",3,0.0055,44
+"[""Eggs"", ""Sugar"", ""Tomatoes""]",3,0.0055,44
+"[""Flour"", ""Onions"", ""Sugar""]",3,0.0055,44
+"[""Flour"", ""Orange Juice"", ""Yogurt""]",3,0.0055,44
+"[""Flour"", ""Shampoo"", ""Sugar""]",3,0.0055,44
+"[""Flour"", ""Sugar"", ""Toothpaste""]",3,0.0055,44
+"[""Laundry Detergent"", ""Paper Towels"", ""Tomatoes""]",3,0.0055,44
+"[""Milk"", ""Oatmeal"", ""Orange Juice""]",3,0.0055,44
+"[""Muffins"", ""Shampoo"", ""Toothpaste""]",3,0.0055,44
+"[""Oatmeal"", ""Onions"", ""Rice""]",3,0.0055,44
+"[""Onions"", ""Rice"", ""Tomatoes""]",3,0.0055,44
+"[""Pasta"", ""Pasta Sauce"", ""Soap""]",3,0.0055,44
+"[""Soft Drinks"", ""Strawberries"", ""Yogurt""]",3,0.0055,44
+"[""Strawberries"", ""Toothpaste"", ""Yogurt""]",3,0.0055,44
+"[""Apples"", ""Butter"", ""Oatmeal""]",3,0.005375,43
+"[""Apples"", ""Chocolate"", ""Oatmeal""]",3,0.005375,43
+"[""Apples"", ""Coffee"", ""Cream Cheese""]",3,0.005375,43
+"[""Apples"", ""Croissants"", ""Orange Juice""]",3,0.005375,43
+"[""Apples"", ""Oatmeal"", ""Paper Towels""]",3,0.005375,43
+"[""Bagels"", ""Chips"", ""Cream Cheese""]",3,0.005375,43
+"[""Bagels"", ""Cream Cheese"", ""Pasta Sauce""]",3,0.005375,43
+"[""Bagels"", ""Croissants"", ""Yogurt""]",3,0.005375,43
+"[""Bananas"", ""Canned Tomatoes"", ""Yogurt""]",3,0.005375,43
+"[""Bananas"", ""Oranges"", ""Yogurt""]",3,0.005375,43
+"[""Bananas"", ""Rice"", ""Strawberries""]",3,0.005375,43
+"[""Bananas"", ""Strawberries"", ""Tea""]",3,0.005375,43
+"[""Bottled Water"", ""Croissants"", ""Orange Juice""]",3,0.005375,43
+"[""Bottled Water"", ""Honey"", ""Tea""]",3,0.005375,43
+"[""Bottled Water"", ""Lettuce"", ""Tomatoes""]",3,0.005375,43
+"[""Bread"", ""Butter"", ""Honey""]",3,0.005375,43
+"[""Bread"", ""Butter"", ""Oatmeal""]",3,0.005375,43
+"[""Bread"", ""Eggs"", ""Muffins""]",3,0.005375,43
+"[""Bread"", ""Eggs"", ""Oatmeal""]",3,0.005375,43
+"[""Bread"", ""Flour"", ""Sugar""]",3,0.005375,43
+"[""Butter"", ""Canned Tomatoes"", ""Flour""]",3,0.005375,43
+"[""Butter"", ""Flour"", ""Soap""]",3,0.005375,43
+"[""Butter"", ""Onions"", ""Sugar""]",3,0.005375,43
+"[""Canned Tomatoes"", ""Carrots"", ""Rice""]",3,0.005375,43
+"[""Canned Tomatoes"", ""Dish Soap"", ""Onions""]",3,0.005375,43
+"[""Canned Tomatoes"", ""Orange Juice"", ""Rice""]",3,0.005375,43
+"[""Canned Tomatoes"", ""Shampoo"", ""Toothpaste""]",3,0.005375,43
+"[""Cereal"", ""Lettuce"", ""Tomatoes""]",3,0.005375,43
+"[""Cereal"", ""Milk"", ""Soap""]",3,0.005375,43
+"[""Cereal"", ""Milk"", ""Tomatoes""]",3,0.005375,43
+"[""Cheese"", ""Dish Soap"", ""Pasta""]",3,0.005375,43
+"[""Cheese"", ""Flour"", ""Pasta Sauce""]",3,0.005375,43
+"[""Cheese"", ""Honey"", ""Tea""]",3,0.005375,43
+"[""Cheese"", ""Orange Juice"", ""Pasta Sauce""]",3,0.005375,43
+"[""Cheese"", ""Pasta"", ""Shampoo""]",3,0.005375,43
+"[""Cheese"", ""Pasta"", ""Soft Drinks""]",3,0.005375,43
+"[""Cheese"", ""Pasta Sauce"", ""Rice""]",3,0.005375,43
+"[""Chips"", ""Cookies"", ""Honey""]",3,0.005375,43
+"[""Chocolate"", ""Coffee"", ""Cream""]",3,0.005375,43
+"[""Chocolate"", ""Coffee"", ""Cream Cheese""]",3,0.005375,43
+"[""Chocolate"", ""Eggs"", ""Sugar""]",3,0.005375,43
+"[""Chocolate"", ""Flour"", ""Milk""]",3,0.005375,43
+"[""Chocolate"", ""Pasta"", ""Pasta Sauce""]",3,0.005375,43
+"[""Coffee"", ""Sugar"", ""Tea""]",3,0.005375,43
+"[""Cookies"", ""Flour"", ""Honey""]",3,0.005375,43
+"[""Cookies"", ""Milk"", ""Strawberries""]",3,0.005375,43
+"[""Cream Cheese"", ""Milk"", ""Oatmeal""]",3,0.005375,43
+"[""Croissants"", ""Flour"", ""Yogurt""]",3,0.005375,43
+"[""Croissants"", ""Oatmeal"", ""Yogurt""]",3,0.005375,43
+"[""Dish Soap"", ""Laundry Detergent"", ""Orange Juice""]",3,0.005375,43
+"[""Dish Soap"", ""Strawberries"", ""Yogurt""]",3,0.005375,43
+"[""Eggs"", ""Lettuce"", ""Sugar""]",3,0.005375,43
+"[""Flour"", ""Honey"", ""Sugar""]",3,0.005375,43
+"[""Flour"", ""Onions"", ""Rice""]",3,0.005375,43
+"[""Lettuce"", ""Rice"", ""Tomatoes""]",3,0.005375,43
+"[""Onions"", ""Paper Towels"", ""Rice""]",3,0.005375,43
+"[""Orange Juice"", ""Pasta Sauce"", ""Yogurt""]",3,0.005375,43
+"[""Apples"", ""Dish Soap"", ""Milk""]",3,0.00525,42
+"[""Bagels"", ""Bread"", ""Cream Cheese""]",3,0.00525,42
+"[""Bagels"", ""Butter"", ""Flour""]",3,0.00525,42
+"[""Bagels"", ""Croissants"", ""Orange Juice""]",3,0.00525,42
+"[""Bagels"", ""Orange Juice"", ""Yogurt""]",3,0.00525,42
+"[""Bananas"", ""Cereal"", ""Muffins""]",3,0.00525,42
+"[""Bananas"", ""Milk"", ""Pasta""]",3,0.00525,42
+"[""Bananas"", ""Strawberries"", ""Toothpaste""]",3,0.00525,42
+"[""Bottled Water"", ""Carrots"", ""Tomatoes""]",3,0.00525,42
+"[""Bottled Water"", ""Chocolate"", ""Cookies""]",3,0.00525,42
+"[""Bread"", ""Butter"", ""Carrots""]",3,0.00525,42
+"[""Bread"", ""Chocolate"", ""Eggs""]",3,0.00525,42
+"[""Butter"", ""Carrots"", ""Flour""]",3,0.00525,42
+"[""Butter"", ""Orange Juice"", ""Sugar""]",3,0.00525,42
+"[""Canned Tomatoes"", ""Cereal"", ""Onions""]",3,0.00525,42
+"[""Canned Tomatoes"", ""Cream Cheese"", ""Onions""]",3,0.00525,42
+"[""Canned Tomatoes"", ""Flour"", ""Sugar""]",3,0.00525,42
+"[""Carrots"", ""Cheese"", ""Tomatoes""]",3,0.00525,42
+"[""Carrots"", ""Orange Juice"", ""Tomatoes""]",3,0.00525,42
+"[""Cereal"", ""Honey"", ""Tea""]",3,0.00525,42
+"[""Cereal"", ""Laundry Detergent"", ""Milk""]",3,0.00525,42
+"[""Cereal"", ""Onions"", ""Rice""]",3,0.00525,42
+"[""Cheese"", ""Chocolate"", ""Pasta""]",3,0.00525,42
+"[""Cheese"", ""Laundry Detergent"", ""Pasta""]",3,0.00525,42
+"[""Cheese"", ""Lettuce"", ""Tomatoes""]",3,0.00525,42
+"[""Cheese"", ""Paper Towels"", ""Pasta""]",3,0.00525,42
+"[""Cheese"", ""Pasta"", ""Toothpaste""]",3,0.00525,42
+"[""Chips"", ""Honey"", ""Tea""]",3,0.00525,42
+"[""Chips"", ""Laundry Detergent"", ""Paper Towels""]",3,0.00525,42
+"[""Chips"", ""Muffins"", ""Soft Drinks""]",3,0.00525,42
+"[""Chocolate"", ""Coffee"", ""Sugar""]",3,0.00525,42
+"[""Chocolate"", ""Orange Juice"", ""Yogurt""]",3,0.00525,42
+"[""Chocolate"", ""Shampoo"", ""Soap""]",3,0.00525,42
+"[""Coffee"", ""Cream Cheese"", ""Oatmeal""]",3,0.00525,42
+"[""Cookies"", ""Honey"", ""Pasta Sauce""]",3,0.00525,42
+"[""Croissants"", ""Flour"", ""Orange Juice""]",3,0.00525,42
+"[""Croissants"", ""Flour"", ""Sugar""]",3,0.00525,42
+"[""Croissants"", ""Orange Juice"", ""Rice""]",3,0.00525,42
+"[""Croissants"", ""Orange Juice"", ""Strawberries""]",3,0.00525,42
+"[""Croissants"", ""Tomatoes"", ""Yogurt""]",3,0.00525,42
+"[""Dish Soap"", ""Laundry Detergent"", ""Muffins""]",3,0.00525,42
+"[""Dish Soap"", ""Paper Towels"", ""Pasta Sauce""]",3,0.00525,42
+"[""Flour"", ""Lettuce"", ""Sugar""]",3,0.00525,42
+"[""Flour"", ""Shampoo"", ""Toothpaste""]",3,0.00525,42
+"[""Flour"", ""Sugar"", ""Tomatoes""]",3,0.00525,42
+"[""Honey"", ""Strawberries"", ""Yogurt""]",3,0.00525,42
+"[""Laundry Detergent"", ""Lettuce"", ""Paper Towels""]",3,0.00525,42
+"[""Laundry Detergent"", ""Strawberries"", ""Yogurt""]",3,0.00525,42
+"[""Lettuce"", ""Milk"", ""Oatmeal""]",3,0.00525,42
+"[""Lettuce"", ""Orange Juice"", ""Tomatoes""]",3,0.00525,42
+"[""Shampoo"", ""Soap"", ""Tomatoes""]",3,0.00525,42
+"[""Apples"", ""Flour"", ""Milk""]",3,0.005125,41
+"[""Apples"", ""Laundry Detergent"", ""Milk""]",3,0.005125,41
+"[""Apples"", ""Laundry Detergent"", ""Oatmeal""]",3,0.005125,41
+"[""Bagels"", ""Canned Tomatoes"", ""Onions""]",3,0.005125,41
+"[""Bagels"", ""Chocolate"", ""Coffee""]",3,0.005125,41
+"[""Bagels"", ""Cream Cheese"", ""Oatmeal""]",3,0.005125,41
+"[""Bananas"", ""Cereal"", ""Flour""]",3,0.005125,41
+"[""Bananas"", ""Cereal"", ""Lettuce""]",3,0.005125,41
+"[""Bananas"", ""Cereal"", ""Pasta""]",3,0.005125,41
+"[""Bananas"", ""Honey"", ""Strawberries""]",3,0.005125,41
+"[""Bananas"", ""Onions"", ""Yogurt""]",3,0.005125,41
+"[""Bananas"", ""Soft Drinks"", ""Yogurt""]",3,0.005125,41
+"[""Bottled Water"", ""Cookies"", ""Honey""]",3,0.005125,41
+"[""Bottled Water"", ""Cookies"", ""Tea""]",3,0.005125,41
+"[""Bread"", ""Butter"", ""Orange Juice""]",3,0.005125,41
+"[""Bread"", ""Chocolate"", ""Cookies""]",3,0.005125,41
+"[""Bread"", ""Croissants"", ""Yogurt""]",3,0.005125,41
+"[""Bread"", ""Eggs"", ""Orange Juice""]",3,0.005125,41
+"[""Bread"", ""Orange Juice"", ""Yogurt""]",3,0.005125,41
+"[""Butter"", ""Pasta"", ""Sugar""]",3,0.005125,41
+"[""Canned Tomatoes"", ""Lettuce"", ""Rice""]",3,0.005125,41
+"[""Carrots"", ""Cereal"", ""Milk""]",3,0.005125,41
+"[""Cereal"", ""Lettuce"", ""Milk""]",3,0.005125,41
+"[""Cheese"", ""Cream"", ""Sugar""]",3,0.005125,41
+"[""Cheese"", ""Flour"", ""Pasta""]",3,0.005125,41
+"[""Cheese"", ""Pasta Sauce"", ""Toothpaste""]",3,0.005125,41
+"[""Chocolate"", ""Soap"", ""Toothpaste""]",3,0.005125,41
+"[""Coffee"", ""Cream Cheese"", ""Flour""]",3,0.005125,41
+"[""Cookies"", ""Honey"", ""Muffins""]",3,0.005125,41
+"[""Croissants"", ""Eggs"", ""Sugar""]",3,0.005125,41
+"[""Croissants"", ""Soap"", ""Toothpaste""]",3,0.005125,41
+"[""Dish Soap"", ""Onions"", ""Rice""]",3,0.005125,41
+"[""Eggs"", ""Flour"", ""Rice""]",3,0.005125,41
+"[""Eggs"", ""Flour"", ""Shampoo""]",3,0.005125,41
+"[""Eggs"", ""Sugar"", ""Toothpaste""]",3,0.005125,41
+"[""Honey"", ""Pasta Sauce"", ""Tea""]",3,0.005125,41
+"[""Laundry Detergent"", ""Muffins"", ""Paper Towels""]",3,0.005125,41
+"[""Laundry Detergent"", ""Onions"", ""Rice""]",3,0.005125,41
+"[""Onions"", ""Pasta"", ""Rice""]",3,0.005125,41
+"[""Onions"", ""Rice"", ""Tea""]",3,0.005125,41
+"[""Onions"", ""Strawberries"", ""Yogurt""]",3,0.005125,41
+"[""Oranges"", ""Shampoo"", ""Soap""]",3,0.005125,41
+"[""Oranges"", ""Strawberries"", ""Yogurt""]",3,0.005125,41
+"[""Pasta"", ""Pasta Sauce"", ""Shampoo""]",3,0.005125,41
+"[""Pasta"", ""Pasta Sauce"", ""Tomatoes""]",3,0.005125,41
+"[""Apples"", ""Bagels"", ""Cream Cheese""]",3,0.005,40
+"[""Apples"", ""Butter"", ""Sugar""]",3,0.005,40
+"[""Apples"", ""Cheese"", ""Oatmeal""]",3,0.005,40
+"[""Apples"", ""Dish Soap"", ""Oatmeal""]",3,0.005,40
+"[""Apples"", ""Oatmeal"", ""Orange Juice""]",3,0.005,40
+"[""Apples"", ""Oatmeal"", ""Rice""]",3,0.005,40
+"[""Bagels"", ""Cream Cheese"", ""Onions""]",3,0.005,40
+"[""Butter"", ""Flour"", ""Rice""]",3,0.005,40
+"[""Canned Tomatoes"", ""Eggs"", ""Flour""]",3,0.005,40
+"[""Canned Tomatoes"", ""Flour"", ""Rice""]",3,0.005,40
+"[""Canned Tomatoes"", ""Honey"", ""Rice""]",3,0.005,40
+"[""Canned Tomatoes"", ""Rice"", ""Strawberries""]",3,0.005,40
+"[""Canned Tomatoes"", ""Strawberries"", ""Yogurt""]",3,0.005,40
+"[""Carrots"", ""Cereal"", ""Lettuce""]",3,0.005,40
+"[""Carrots"", ""Laundry Detergent"", ""Tomatoes""]",3,0.005,40
+"[""Cereal"", ""Cookies"", ""Tea""]",3,0.005,40
+"[""Cheese"", ""Coffee"", ""Sugar""]",3,0.005,40
+"[""Cheese"", ""Dish Soap"", ""Pasta Sauce""]",3,0.005,40
+"[""Cheese"", ""Pasta Sauce"", ""Shampoo""]",3,0.005,40
+"[""Chips"", ""Dish Soap"", ""Laundry Detergent""]",3,0.005,40
+"[""Cream"", ""Muffins"", ""Sugar""]",3,0.005,40
+"[""Cream Cheese"", ""Onions"", ""Rice""]",3,0.005,40
+"[""Croissants"", ""Shampoo"", ""Yogurt""]",3,0.005,40
+"[""Croissants"", ""Toothpaste"", ""Yogurt""]",3,0.005,40
+"[""Dish Soap"", ""Pasta"", ""Pasta Sauce""]",3,0.005,40
+"[""Eggs"", ""Flour"", ""Lettuce""]",3,0.005,40
+"[""Eggs"", ""Flour"", ""Onions""]",3,0.005,40
+"[""Flour"", ""Shampoo"", ""Soap""]",3,0.005,40
+"[""Laundry Detergent"", ""Pasta"", ""Pasta Sauce""]",3,0.005,40
+"[""Muffins"", ""Shampoo"", ""Soap""]",3,0.005,40
+"[""Orange Juice"", ""Tomatoes"", ""Yogurt""]",3,0.005,40
+"[""Orange Juice"", ""Toothpaste"", ""Yogurt""]",3,0.005,40
+"[""Soap"", ""Tomatoes"", ""Toothpaste""]",3,0.005,40

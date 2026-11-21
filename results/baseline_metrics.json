@@ -1,0 +1,58 @@
+{
+  "model": "unquantized_baseline",
+  "checkpoint_path": "models\\baseline_model.pth",
+  "checkpoint_sha256": "7fc0dd68f734f7b41dcc82206250e1c06e1939b0038a8fee286abd21b31fb742",
+  "dataset_path": "data\\retail_transactions.csv",
+  "dataset_sha256": "9ecfb34999e76f74b746b3501df8fa1d44606fafb6bfae82da02bcc32fcfbb2e",
+  "vocabulary_path": "data\\product_vocabulary.json",
+  "vocabulary_size": 46,
+  "parameter_count": 61678,
+  "checkpoint_size_bytes": 267685,
+  "checkpoint_size_mb": 0.267685,
+  "checkpoint_size_mib": 0.25528430938720703,
+  "in_memory_parameter_and_buffer_size_bytes": 246712,
+  "in_memory_parameter_and_buffer_size_mb": 0.246712,
+  "in_memory_parameter_and_buffer_size_mib": 0.23528289794921875,
+  "transaction_split_sizes": {
+    "train": 8000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "test_examples": 5854,
+  "test_examples_sha256": "8fa81a7bde266d78ee6284f7561c8f9d510c34e8301b73f05bce9402d7702ad0",
+  "test_loss": 3.444106748090248,
+  "top1_accuracy": 0.1498120942944995,
+  "top3_accuracy": 0.28817902289033137,
+  "cpu_inference": {
+    "device": "cpu",
+    "warmup_iterations": 20,
+    "repetitions": 5,
+    "samples_per_repetition": 100,
+    "average_latency_ms": 0.5907807999992656,
+    "median_latency_ms": 0.505349999457394,
+    "p95_latency_ms": 1.0731299997587482,
+    "repetition_average_latency_ms": [
+      0.5992539999988367,
+      0.6053350000001956,
+      0.5768979999993462,
+      0.6229249999978492,
+      0.5494920000001002
+    ],
+    "input_sha256": "4eced252e99f38c7cb7c6c9c77e43448a17f02dec9fba8752db08d87130842d2",
+    "benchmark_method": "single-example CPU forward pass; same ordered test prefixes for each repetition"
+  },
+  "benchmark_conditions": {
+    "device": "cpu",
+    "torch_version": "2.10.0+cpu",
+    "python_version": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 12,
+    "torch_cpu_threads": 8,
+    "warmup_iterations": 20,
+    "repetitions": 5,
+    "fixed_test_prefixes_per_repetition": 100,
+    "input_batch_size": 1
+  },
+  "methodology": "Whole transactions are deterministically split 80/10/10 with seed 42 before prefix examples are constructed. Top-k accuracy and cross-entropy are computed over the held-out test examples. CPU latency uses fixed, ordered test prefixes, single-example forward calls, warm-up iterations, and repeated full passes."
+}

@@ -1,0 +1,657 @@
+{
+  "baseline_checkpoint_sha256_before": "7fc0dd68f734f7b41dcc82206250e1c06e1939b0038a8fee286abd21b31fb742",
+  "baseline_checkpoint_sha256_after": "7fc0dd68f734f7b41dcc82206250e1c06e1939b0038a8fee286abd21b31fb742",
+  "baseline_checkpoint_unchanged": true,
+  "vocabulary_path": "data\\product_vocabulary.json",
+  "vocabulary_size": 46,
+  "dataset_path": "data\\retail_transactions.csv",
+  "dataset_sha256": "9ecfb34999e76f74b746b3501df8fa1d44606fafb6bfae82da02bcc32fcfbb2e",
+  "transaction_split_sizes": {
+    "train": 8000,
+    "test": 1000
+  },
+  "test_examples_count": 5854,
+  "test_examples_sha256": "8fa81a7bde266d78ee6284f7561c8f9d510c34e8301b73f05bce9402d7702ad0",
+  "calibration": {
+    "source": "training transaction prefixes only",
+    "training_transactions": 8000,
+    "available_training_examples": 46856,
+    "calibration_examples_used": 2048,
+    "calibration_batch_size": 64,
+    "calibration_batches": 32,
+    "calibration_examples_sha256": "29bdd81b119b40b0657964006871a85cc02fc21eee474c92abe36fddfe813657",
+    "seed": 42,
+    "sequence_max_length": 12,
+    "transaction_split_seed": 42,
+    "basket_order_shuffled": true,
+    "calibration_order": "first calibration_examples_used generated training prefixes",
+    "activation_observer": "default PyTorch eager qconfig observer"
+  },
+  "runtime": {
+    "torch_version": "2.10.0+cpu",
+    "python_version": "3.12.10",
+    "cpu_quantized_engines": [
+      "onednn"
+    ],
+    "selected_quantized_engine": "onednn",
+    "inference_device": "cpu"
+  },
+  "models": {
+    "baseline": {
+      "checkpoint_path": "models\\baseline_model.pth",
+      "checkpoint_size_bytes": 267685,
+      "checkpoint_size_mb": 0.267685,
+      "parameter_count": 61678,
+      "method": "Unquantized FP32 baseline checkpoint",
+      "inference_verification": {
+        "device": "cpu",
+        "sample_basket_count": 3,
+        "checks": [
+          {
+            "basket": [
+              "Milk",
+              "Bread",
+              "Butter"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Eggs",
+                "product_id": 19,
+                "score": 0.10791052132844925,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Cookies",
+                "product_id": 14,
+                "score": 0.07202452421188354,
+                "category": "Snacks",
+                "source": "transformer"
+              },
+              {
+                "product": "Bananas",
+                "product_id": 3,
+                "score": 0.05935566872358322,
+                "category": "Fruits",
+                "source": "transformer"
+              }
+            ]
+          },
+          {
+            "basket": [
+              "Pasta",
+              "Pasta Sauce"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Cheese",
+                "product_id": 10,
+                "score": 0.19189853966236115,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Apples",
+                "product_id": 1,
+                "score": 0.06400543451309204,
+                "category": "Fruits",
+                "source": "transformer"
+              },
+              {
+                "product": "Tea",
+                "product_id": 39,
+                "score": 0.05040328577160835,
+                "category": "Beverages",
+                "source": "transformer"
+              }
+            ]
+          },
+          {
+            "basket": [
+              "Coffee",
+              "Sugar"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Cream",
+                "product_id": 15,
+                "score": 0.3987089693546295,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Cream Cheese",
+                "product_id": 16,
+                "score": 0.05478433147072792,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Eggs",
+                "product_id": 19,
+                "score": 0.05422557517886162,
+                "category": "Dairy",
+                "source": "transformer"
+              }
+            ]
+          }
+        ]
+      },
+      "quantized_linear_count": 0,
+      "configuration_path": "models\\baseline_quantization_config.json"
+    },
+    "dynamic_int8": {
+      "checkpoint_path": "models\\dynamic_int8\\model.pth",
+      "checkpoint_size_bytes": 97561,
+      "checkpoint_size_mb": 0.097561,
+      "parameter_count": 61678,
+      "method": "PyTorch eager dynamic qint8 quantization of Linear modules; activations are dynamically quantized at runtime.",
+      "inference_verification": {
+        "device": "cpu",
+        "sample_basket_count": 3,
+        "checks": [
+          {
+            "basket": [
+              "Milk",
+              "Bread",
+              "Butter"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Eggs",
+                "product_id": 19,
+                "score": 0.1085788905620575,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Cookies",
+                "product_id": 14,
+                "score": 0.07053206115961075,
+                "category": "Snacks",
+                "source": "transformer"
+              },
+              {
+                "product": "Bananas",
+                "product_id": 3,
+                "score": 0.059525053948163986,
+                "category": "Fruits",
+                "source": "transformer"
+              }
+            ]
+          },
+          {
+            "basket": [
+              "Pasta",
+              "Pasta Sauce"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Cheese",
+                "product_id": 10,
+                "score": 0.19085851311683655,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Apples",
+                "product_id": 1,
+                "score": 0.0631289854645729,
+                "category": "Fruits",
+                "source": "transformer"
+              },
+              {
+                "product": "Tea",
+                "product_id": 39,
+                "score": 0.05004279315471649,
+                "category": "Beverages",
+                "source": "transformer"
+              }
+            ]
+          },
+          {
+            "basket": [
+              "Coffee",
+              "Sugar"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Cream",
+                "product_id": 15,
+                "score": 0.4013860821723938,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Cream Cheese",
+                "product_id": 16,
+                "score": 0.05355893820524216,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Eggs",
+                "product_id": 19,
+                "score": 0.05254881829023361,
+                "category": "Dairy",
+                "source": "transformer"
+              }
+            ]
+          }
+        ]
+      },
+      "quantized_linear_count": 13,
+      "layers": [
+        {
+          "name": "layers.0.attention.query",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.attention.key",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.attention.value",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.attention.output",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.feed_forward.0",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            192,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.feed_forward.2",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            192
+          ]
+        },
+        {
+          "name": "layers.1.attention.query",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.attention.key",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.attention.value",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.attention.output",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.feed_forward.0",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            192,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.feed_forward.2",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            48,
+            192
+          ]
+        },
+        {
+          "name": "output_projection",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_tensor_affine",
+          "weight_shape": [
+            46,
+            48
+          ]
+        }
+      ],
+      "configuration_path": "models\\dynamic_int8\\quantization_config.json"
+    },
+    "static_int8": {
+      "checkpoint_path": "models\\static_int8\\model.pth",
+      "checkpoint_size_bytes": 132309,
+      "checkpoint_size_mb": 0.132309,
+      "parameter_count": 61678,
+      "method": "PyTorch eager static post-training quantization of supported Linear modules using observed activation ranges from representative training prefixes.",
+      "inference_verification": {
+        "device": "cpu",
+        "sample_basket_count": 3,
+        "checks": [
+          {
+            "basket": [
+              "Milk",
+              "Bread",
+              "Butter"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Eggs",
+                "product_id": 19,
+                "score": 0.10536088794469833,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Cookies",
+                "product_id": 14,
+                "score": 0.0713656097650528,
+                "category": "Snacks",
+                "source": "transformer"
+              },
+              {
+                "product": "Bananas",
+                "product_id": 3,
+                "score": 0.05873456969857216,
+                "category": "Fruits",
+                "source": "transformer"
+              }
+            ]
+          },
+          {
+            "basket": [
+              "Pasta",
+              "Pasta Sauce"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Cheese",
+                "product_id": 10,
+                "score": 0.19497326016426086,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Apples",
+                "product_id": 1,
+                "score": 0.06258972734212875,
+                "category": "Fruits",
+                "source": "transformer"
+              },
+              {
+                "product": "Tea",
+                "product_id": 39,
+                "score": 0.049866463989019394,
+                "category": "Beverages",
+                "source": "transformer"
+              }
+            ]
+          },
+          {
+            "basket": [
+              "Coffee",
+              "Sugar"
+            ],
+            "output_shape": [
+              1,
+              46
+            ],
+            "recommendations": [
+              {
+                "product": "Cream",
+                "product_id": 15,
+                "score": 0.3449084162712097,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Cream Cheese",
+                "product_id": 16,
+                "score": 0.0597512423992157,
+                "category": "Dairy",
+                "source": "transformer"
+              },
+              {
+                "product": "Eggs",
+                "product_id": 19,
+                "score": 0.05784258991479874,
+                "category": "Dairy",
+                "source": "transformer"
+              }
+            ]
+          }
+        ]
+      },
+      "quantized_linear_count": 13,
+      "layers": [
+        {
+          "name": "layers.0.attention.query.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.attention.key.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.attention.value.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.attention.output.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.feed_forward.0.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            192,
+            48
+          ]
+        },
+        {
+          "name": "layers.0.feed_forward.2.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            192
+          ]
+        },
+        {
+          "name": "layers.1.attention.query.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.attention.key.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.attention.value.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.attention.output.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.feed_forward.0.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            192,
+            48
+          ]
+        },
+        {
+          "name": "layers.1.feed_forward.2.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            48,
+            192
+          ]
+        },
+        {
+          "name": "output_projection.linear",
+          "operator": "Linear",
+          "weight_dtype": "torch.qint8",
+          "weight_qscheme": "torch.per_channel_affine",
+          "weight_shape": [
+            46,
+            48
+          ]
+        }
+      ],
+      "unsupported_operations_kept_float": [
+        "Embedding tables",
+        "LayerNorm",
+        "GELU and Dropout",
+        "Attention score and value matrix multiplications",
+        "Softmax, causal/padding masks, residual additions, and tensor reshaping"
+      ],
+      "configuration_path": "models\\static_int8\\quantization_config.json"
+    }
+  }
+}

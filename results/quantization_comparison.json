@@ -1,0 +1,502 @@
+{
+  "methodology": {
+    "dataset_path": "data\\retail_transactions.csv",
+    "dataset_sha256": "9ecfb34999e76f74b746b3501df8fa1d44606fafb6bfae82da02bcc32fcfbb2e",
+    "vocabulary_path": "data\\product_vocabulary.json",
+    "test_transaction_count": 1000,
+    "test_example_count": 5854,
+    "test_examples_sha256": "8fa81a7bde266d78ee6284f7561c8f9d510c34e8301b73f05bce9402d7702ad0",
+    "same_test_examples_for_all_models": true,
+    "transaction_split": "80/10/10 by transaction, seed 42, before prefix creation",
+    "evaluation": "held-out next-item cross-entropy, Top-1 and Top-3 accuracy",
+    "latency": "CPU single-example forward pass on the same first N ordered held-out prefixes, with shared warm-up, repetition count, and CPU thread count",
+    "device": "cpu",
+    "torch_version": "2.10.0+cpu",
+    "python_version": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "logical_cpu_count": 12,
+    "torch_cpu_threads": 8,
+    "warmup_iterations": 20,
+    "repetitions": 5,
+    "benchmark_samples_per_repetition": 100,
+    "input_batch_size": 1
+  },
+  "models": {
+    "baseline": {
+      "test_loss": 3.444106748090248,
+      "top1_accuracy": 0.1498120942944995,
+      "top3_accuracy": 0.28817902289033137,
+      "model_size_mb": 0.267685,
+      "parameter_count": 61678,
+      "average_inference_time_ms": 0.8845301999972435,
+      "inference_benchmark": {
+        "device": "cpu",
+        "warmup_iterations": 20,
+        "repetitions": 5,
+        "samples_per_repetition": 100,
+        "average_latency_ms": 0.8845301999972435,
+        "median_latency_ms": 0.8030499993765261,
+        "p95_latency_ms": 1.4683149998745642,
+        "repetition_average_latency_ms": [
+          0.832213999965461,
+          0.8652580000489252,
+          0.9320429999934277,
+          0.9001970000099391,
+          0.8929389999684645
+        ],
+        "input_sha256": "4eced252e99f38c7cb7c6c9c77e43448a17f02dec9fba8752db08d87130842d2",
+        "benchmark_method": "single-example CPU forward pass; same ordered test prefixes for each repetition"
+      },
+      "test_examples": 5854,
+      "checkpoint_path": "models\\baseline_model.pth",
+      "checkpoint_size_bytes": 267685,
+      "quantized_linear_count": 0,
+      "sample_recommendation_verification": [
+        {
+          "basket": [
+            "Milk",
+            "Bread",
+            "Butter"
+          ],
+          "top_3": [
+            {
+              "product": "Eggs",
+              "product_id": 19,
+              "score": 0.10791052132844925,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Cookies",
+              "product_id": 14,
+              "score": 0.07202452421188354,
+              "category": "Snacks",
+              "source": "transformer"
+            },
+            {
+              "product": "Bananas",
+              "product_id": 3,
+              "score": 0.05935566872358322,
+              "category": "Fruits",
+              "source": "transformer"
+            }
+          ]
+        },
+        {
+          "basket": [
+            "Pasta",
+            "Pasta Sauce"
+          ],
+          "top_3": [
+            {
+              "product": "Cheese",
+              "product_id": 10,
+              "score": 0.19189853966236115,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Apples",
+              "product_id": 1,
+              "score": 0.06400543451309204,
+              "category": "Fruits",
+              "source": "transformer"
+            },
+            {
+              "product": "Tea",
+              "product_id": 39,
+              "score": 0.05040328577160835,
+              "category": "Beverages",
+              "source": "transformer"
+            }
+          ]
+        },
+        {
+          "basket": [
+            "Coffee",
+            "Sugar"
+          ],
+          "top_3": [
+            {
+              "product": "Cream",
+              "product_id": 15,
+              "score": 0.3987089693546295,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Cream Cheese",
+              "product_id": 16,
+              "score": 0.05478433147072792,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Eggs",
+              "product_id": 19,
+              "score": 0.05422557517886162,
+              "category": "Dairy",
+              "source": "transformer"
+            }
+          ]
+        }
+      ]
+    },
+    "dynamic_int8": {
+      "test_loss": 3.444338856844679,
+      "top1_accuracy": 0.14912880081995217,
+      "top3_accuracy": 0.2878373761530577,
+      "model_size_mb": 0.097561,
+      "parameter_count": 61678,
+      "average_inference_time_ms": 2.8200363999785623,
+      "inference_benchmark": {
+        "device": "cpu",
+        "warmup_iterations": 20,
+        "repetitions": 5,
+        "samples_per_repetition": 100,
+        "average_latency_ms": 2.8200363999785623,
+        "median_latency_ms": 2.709500000491971,
+        "p95_latency_ms": 3.708174997518654,
+        "repetition_average_latency_ms": [
+          2.8033249999862164,
+          2.8091200000199024,
+          2.827975999971386,
+          2.714893999946071,
+          2.9448669999692356
+        ],
+        "input_sha256": "4eced252e99f38c7cb7c6c9c77e43448a17f02dec9fba8752db08d87130842d2",
+        "benchmark_method": "single-example CPU forward pass; same ordered test prefixes for each repetition"
+      },
+      "test_examples": 5854,
+      "checkpoint_path": "models\\dynamic_int8\\model.pth",
+      "checkpoint_size_bytes": 97561,
+      "quantized_linear_count": 13,
+      "sample_recommendation_verification": [
+        {
+          "basket": [
+            "Milk",
+            "Bread",
+            "Butter"
+          ],
+          "top_3": [
+            {
+              "product": "Eggs",
+              "product_id": 19,
+              "score": 0.1085788905620575,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Cookies",
+              "product_id": 14,
+              "score": 0.07053206115961075,
+              "category": "Snacks",
+              "source": "transformer"
+            },
+            {
+              "product": "Bananas",
+              "product_id": 3,
+              "score": 0.059525053948163986,
+              "category": "Fruits",
+              "source": "transformer"
+            }
+          ]
+        },
+        {
+          "basket": [
+            "Pasta",
+            "Pasta Sauce"
+          ],
+          "top_3": [
+            {
+              "product": "Cheese",
+              "product_id": 10,
+              "score": 0.19085851311683655,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Apples",
+              "product_id": 1,
+              "score": 0.0631289854645729,
+              "category": "Fruits",
+              "source": "transformer"
+            },
+            {
+              "product": "Tea",
+              "product_id": 39,
+              "score": 0.05004279315471649,
+              "category": "Beverages",
+              "source": "transformer"
+            }
+          ]
+        },
+        {
+          "basket": [
+            "Coffee",
+            "Sugar"
+          ],
+          "top_3": [
+            {
+              "product": "Cream",
+              "product_id": 15,
+              "score": 0.4013860821723938,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Cream Cheese",
+              "product_id": 16,
+              "score": 0.05355893820524216,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Eggs",
+              "product_id": 19,
+              "score": 0.05254881829023361,
+              "category": "Dairy",
+              "source": "transformer"
+            }
+          ]
+        }
+      ]
+    },
+    "static_int8": {
+      "test_loss": 3.4445456924151756,
+      "top1_accuracy": 0.14793303723949436,
+      "top3_accuracy": 0.2878373761530577,
+      "model_size_mb": 0.132309,
+      "parameter_count": 61678,
+      "average_inference_time_ms": 3.374526399973547,
+      "inference_benchmark": {
+        "device": "cpu",
+        "warmup_iterations": 20,
+        "repetitions": 5,
+        "samples_per_repetition": 100,
+        "average_latency_ms": 3.374526399973547,
+        "median_latency_ms": 3.1978499973774888,
+        "p95_latency_ms": 4.654369999116168,
+        "repetition_average_latency_ms": [
+          3.5857719999330584,
+          3.416605000020354,
+          3.24353499992867,
+          3.235144999998738,
+          3.391574999986915
+        ],
+        "input_sha256": "4eced252e99f38c7cb7c6c9c77e43448a17f02dec9fba8752db08d87130842d2",
+        "benchmark_method": "single-example CPU forward pass; same ordered test prefixes for each repetition"
+      },
+      "test_examples": 5854,
+      "checkpoint_path": "models\\static_int8\\model.pth",
+      "checkpoint_size_bytes": 132309,
+      "quantized_linear_count": 13,
+      "sample_recommendation_verification": [
+        {
+          "basket": [
+            "Milk",
+            "Bread",
+            "Butter"
+          ],
+          "top_3": [
+            {
+              "product": "Eggs",
+              "product_id": 19,
+              "score": 0.10536088794469833,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Cookies",
+              "product_id": 14,
+              "score": 0.0713656097650528,
+              "category": "Snacks",
+              "source": "transformer"
+            },
+            {
+              "product": "Bananas",
+              "product_id": 3,
+              "score": 0.05873456969857216,
+              "category": "Fruits",
+              "source": "transformer"
+            }
+          ]
+        },
+        {
+          "basket": [
+            "Pasta",
+            "Pasta Sauce"
+          ],
+          "top_3": [
+            {
+              "product": "Cheese",
+              "product_id": 10,
+              "score": 0.19497326016426086,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Apples",
+              "product_id": 1,
+              "score": 0.06258972734212875,
+              "category": "Fruits",
+              "source": "transformer"
+            },
+            {
+              "product": "Tea",
+              "product_id": 39,
+              "score": 0.049866463989019394,
+              "category": "Beverages",
+              "source": "transformer"
+            }
+          ]
+        },
+        {
+          "basket": [
+            "Coffee",
+            "Sugar"
+          ],
+          "top_3": [
+            {
+              "product": "Cream",
+              "product_id": 15,
+              "score": 0.3449084162712097,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Cream Cheese",
+              "product_id": 16,
+              "score": 0.0597512423992157,
+              "category": "Dairy",
+              "source": "transformer"
+            },
+            {
+              "product": "Eggs",
+              "product_id": 19,
+              "score": 0.05784258991479874,
+              "category": "Dairy",
+              "source": "transformer"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "model_key": "baseline",
+      "model": "Baseline",
+      "checkpoint_size_bytes": 267685,
+      "model_size_mb": 0.267685,
+      "parameter_count": 61678,
+      "quantized_linear_count": 0,
+      "top1_accuracy": 0.1498120942944995,
+      "top1_accuracy_percent": 14.98120942944995,
+      "top3_accuracy": 0.28817902289033137,
+      "top3_accuracy_percent": 28.817902289033135,
+      "test_loss": 3.444106748090248,
+      "average_cpu_inference_latency_ms": 0.8845301999972435,
+      "median_cpu_inference_latency_ms": 0.8030499993765261,
+      "p95_cpu_inference_latency_ms": 1.4683149998745642,
+      "size_reduction_percent": 0.0,
+      "top1_accuracy_change": 0.0,
+      "top1_accuracy_change_percentage_points": 0.0,
+      "top1_relative_accuracy_change_percent": 0.0,
+      "top3_accuracy_change": 0.0,
+      "top3_accuracy_change_percentage_points": 0.0,
+      "top3_relative_accuracy_change_percent": 0.0,
+      "latency_change_ms": 0.0,
+      "latency_improvement_percent": 0.0,
+      "inference_speedup_ratio": 1.0,
+      "test_examples": 5854
+    },
+    {
+      "model_key": "dynamic_int8",
+      "model": "Dynamic INT8",
+      "checkpoint_size_bytes": 97561,
+      "model_size_mb": 0.097561,
+      "parameter_count": 61678,
+      "quantized_linear_count": 13,
+      "top1_accuracy": 0.14912880081995217,
+      "top1_accuracy_percent": 14.912880081995217,
+      "top3_accuracy": 0.2878373761530577,
+      "top3_accuracy_percent": 28.78373761530577,
+      "test_loss": 3.444338856844679,
+      "average_cpu_inference_latency_ms": 2.8200363999785623,
+      "median_cpu_inference_latency_ms": 2.709500000491971,
+      "p95_cpu_inference_latency_ms": 3.708174997518654,
+      "size_reduction_percent": 63.553803911313665,
+      "top1_accuracy_change": -0.0006832934745473196,
+      "top1_accuracy_change_percentage_points": -0.06832934745473196,
+      "top1_relative_accuracy_change_percent": -0.4561003420752576,
+      "top3_accuracy_change": -0.0003416467372736598,
+      "top3_accuracy_change_percentage_points": -0.03416467372736598,
+      "top3_relative_accuracy_change_percent": -0.11855364552460015,
+      "latency_change_ms": 1.9355061999813188,
+      "latency_improvement_percent": -218.8174242086195,
+      "inference_speedup_ratio": 0.3136591428408398,
+      "test_examples": 5854
+    },
+    {
+      "model_key": "static_int8",
+      "model": "Static INT8",
+      "checkpoint_size_bytes": 132309,
+      "model_size_mb": 0.132309,
+      "parameter_count": 61678,
+      "quantized_linear_count": 13,
+      "top1_accuracy": 0.14793303723949436,
+      "top1_accuracy_percent": 14.793303723949435,
+      "top3_accuracy": 0.2878373761530577,
+      "top3_accuracy_percent": 28.78373761530577,
+      "test_loss": 3.4445456924151756,
+      "average_cpu_inference_latency_ms": 3.374526399973547,
+      "median_cpu_inference_latency_ms": 3.1978499973774888,
+      "p95_cpu_inference_latency_ms": 4.654369999116168,
+      "size_reduction_percent": 50.57287483422679,
+      "top1_accuracy_change": -0.0018790570550051289,
+      "top1_accuracy_change_percentage_points": -0.1879057055005129,
+      "top1_relative_accuracy_change_percent": -1.2542759407069584,
+      "top3_accuracy_change": -0.0003416467372736598,
+      "top3_accuracy_change_percentage_points": -0.03416467372736598,
+      "top3_relative_accuracy_change_percent": -0.11855364552460015,
+      "latency_change_ms": 2.4899961999763036,
+      "latency_improvement_percent": -281.5049390042379,
+      "inference_speedup_ratio": 0.26211980442771976,
+      "test_examples": 5854
+    }
+  ],
+  "analysis": {
+    "greatest_size_reduction": {
+      "model": "Dynamic INT8",
+      "size_reduction_percent": 63.553803911313665,
+      "all_quantized_size_reductions": "Dynamic INT8: 63.55%, Static INT8: 50.57%"
+    },
+    "best_quantized_top1_accuracy": {
+      "model": "Dynamic INT8",
+      "top1_accuracy": 0.14912880081995217,
+      "top3_accuracy": 0.2878373761530577
+    },
+    "best_recommendation_accuracy_overall": {
+      "top1_model": "Baseline",
+      "top1_accuracy": 0.1498120942944995,
+      "top3_model": "Baseline",
+      "top3_accuracy": 0.28817902289033137
+    },
+    "latency": {
+      "fastest_model_overall": "Baseline",
+      "fastest_latency_ms": 0.8845301999972435,
+      "quantized_vs_baseline": "Dynamic INT8 was slower by 218.82% versus baseline.; Static INT8 was slower by 281.50% versus baseline."
+    },
+    "accuracy_cost": "Dynamic INT8: -0.07 pp (relative -0.46%); Static INT8: -0.19 pp (relative -1.25%)",
+    "best_tradeoff": {
+      "model": "Dynamic INT8",
+      "selection_rule": "Among quantized variants, prioritize measured Top-1 accuracy; break ties with smaller checkpoint size, then lower CPU latency.",
+      "top1_accuracy_change_percentage_points": -0.06832934745473196,
+      "size_reduction_percent": 63.553803911313665,
+      "latency_improvement_percent": -218.8174242086195,
+      "baseline_fastest_note": "Baseline had the lowest measured latency; baseline latency was 0.8845 ms/example."
+    }
+  }
+}

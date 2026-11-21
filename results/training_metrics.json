@@ -1,0 +1,38 @@
+{
+  "training_method": "trained from scratch",
+  "device": "cpu",
+  "parameter_count": 61678,
+  "epochs": 4,
+  "batch_size": 256,
+  "learning_rate": 0.0003,
+  "seed": 42,
+  "transaction_split_sizes": {
+    "train": 8000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "next_item_example_counts": {
+    "train": 46856,
+    "validation": 5875
+  },
+  "epoch_seconds": [
+    6.010742299999947,
+    6.330370199999379,
+    6.106639100000393,
+    7.163468400000056
+  ],
+  "model_config_path": "models\\baseline_model_config.json",
+  "model_weights_path": "models\\baseline_model_state_dict.pth",
+  "train_loss": [
+    3.7756391840419083,
+    3.6230774040573874,
+    3.5310958984750154,
+    3.4657869701278035
+  ],
+  "validation_loss": [
+    3.671074952308168,
+    3.5703812675070257,
+    3.4922878028382645,
+    3.440763995677867
+  ]
+}
