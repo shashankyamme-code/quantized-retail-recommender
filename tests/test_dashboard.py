@@ -1,6 +1,32 @@
+import tomllib
 from pathlib import Path
 
 from streamlit.testing.v1 import AppTest
+
+
+def test_dashboard_theme_has_readable_light_contrast():
+    project_root = Path(__file__).resolve().parents[1]
+    config = tomllib.loads(
+        (project_root / ".streamlit" / "config.toml").read_text(encoding="utf-8")
+    )
+    theme = config["theme"]
+
+    def luminance(color):
+        channels = [int(color[index:index + 2], 16) / 255 for index in (1, 3, 5)]
+        linear = [
+            channel / 12.92 if channel <= 0.04045 else ((channel + 0.055) / 1.055) ** 2.4
+            for channel in channels
+        ]
+        return sum(weight * channel for weight, channel in zip((0.2126, 0.7152, 0.0722), linear))
+
+    def contrast_ratio(foreground, background):
+        light, dark = sorted((luminance(foreground), luminance(background)), reverse=True)
+        return (light + 0.05) / (dark + 0.05)
+
+    assert theme["base"] == "light"
+    assert contrast_ratio(theme["textColor"], theme["backgroundColor"]) >= 4.5
+    assert contrast_ratio(theme["textColor"], theme["secondaryBackgroundColor"]) >= 4.5
+    assert contrast_ratio("#ffffff", theme["primaryColor"]) >= 4.5
 
 
 def test_dashboard_sections_and_interactive_flows():
@@ -30,7 +56,8 @@ def test_dashboard_sections_and_interactive_flows():
         app.button[0].click()
         app.run()
         assert not app.exception
-        assert len(app.dataframe) == 9
+        assert len(app.dataframe) == 3
+        assert all("Model" in dataframe.value.columns for dataframe in app.dataframe)
         assert app.success
 
         app.text_input[0].set_value("Unknown Product")

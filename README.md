@@ -172,7 +172,7 @@ It includes:
 1. **Project overview** — dataset and model-size KPIs, measured compression, and model
    description.
 2. **Shopping basket recommendations** — product selection or typed input, Top-1/3/5
-   Transformer recommendations, and optional three-model comparison.
+   Transformer recommendations, and an optional full-width three-model comparison.
 3. **Frequently bought together** — itemset filtering and basket-based rule probing,
    with support, confidence, and lift.
 4. **Quantization comparison** — actual comparison table, accuracy/size/latency charts,
@@ -182,7 +182,8 @@ It includes:
 
 Models and data are cached during the app session. The dashboard does not train or
 quantize on startup. It reports missing artifacts and displays actionable messages
-instead of silently substituting fabricated values.
+instead of silently substituting fabricated values. A project-level light theme keeps
+text readable across browser color-scheme preferences; navigation adapts to viewport size.
 
 ## Installation and use (Windows PowerShell)
 
@@ -261,6 +262,7 @@ quantization, comparison calculations, and dashboard sections/interactions.
 ```text
 quantized-retail-recommender/
 ├── .github/workflows/ci.yml
+├── .streamlit/config.toml       Consistent high-contrast light theme
 ├── app/
 │   ├── main.py                 Streamlit dashboard
 │   ├── llm.py                  Optional OpenAI-compatible chat helper; not used by recommender

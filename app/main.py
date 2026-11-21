@@ -41,7 +41,7 @@ st.set_page_config(
     page_title="Quantized Retail Recommender",
     page_icon="🛒",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 
 st.markdown(
@@ -53,18 +53,32 @@ st.markdown(
         --retail-mint: #e9f4f0;
         --retail-sand: #f5f2ea;
     }
-    .stApp { background: linear-gradient(180deg, #f8faf8 0%, #ffffff 36%); }
+    .stApp {
+        background: linear-gradient(180deg, #f8faf8 0%, #ffffff 36%);
+        color: var(--retail-ink);
+        color-scheme: light;
+    }
     h1, h2, h3 { color: var(--retail-ink); letter-spacing: -0.025em; }
     h1 { font-weight: 750; }
+    [data-testid="stAppViewContainer"],
+    [data-testid="stMain"],
+    [data-testid="stSidebar"] { color: var(--retail-ink); }
     [data-testid="stMetric"] {
         background: white; border: 1px solid #e4ece8; border-radius: 14px;
-        padding: 16px 18px; box-shadow: 0 3px 14px rgba(23, 59, 63, 0.045);
+        padding: 16px 18px; color: var(--retail-ink);
+        box-shadow: 0 3px 14px rgba(23, 59, 63, 0.045);
     }
+    [data-testid="stMetric"] [data-testid="stMetricLabel"],
+    [data-testid="stMetric"] [data-testid="stMetricValue"],
+    [data-testid="stMetric"] [data-testid="stMetricDelta"] { color: var(--retail-ink); }
     [data-testid="stSidebar"] { background: #f2f7f4; }
     [data-testid="stSidebar"] [role="radiogroup"] { gap: 0.35rem; }
     div[data-testid="stButton"] > button[kind="primary"] {
-        background: var(--retail-green); border-color: var(--retail-green);
+        background: var(--retail-green); border-color: var(--retail-green); color: white;
     }
+    [data-testid="stTextInput"] input,
+    [data-testid="stSelectbox"] input,
+    [data-testid="stMultiSelect"] input { color: var(--retail-ink); }
     .dashboard-kicker {
         color: var(--retail-green); font-size: 0.76rem; font-weight: 700;
         letter-spacing: 0.13em; text-transform: uppercase; margin-bottom: -0.5rem;
@@ -72,7 +86,7 @@ st.markdown(
     .dashboard-subtitle { color: #53686a; font-size: 1.05rem; }
     .dashboard-card {
         background: white; border: 1px solid #e4ece8; border-radius: 14px;
-        padding: 1rem 1.15rem; height: 100%;
+        padding: 1rem 1.15rem; height: 100%; color: var(--retail-ink);
     }
     </style>
     """,
@@ -420,21 +434,23 @@ def shopping_recommendations() -> None:
         for limit, tab in zip((1, 3, 5), tabs):
             with tab:
                 if compare_variants:
-                    columns = st.columns(len(model_predictions))
-                    for column, (model_name, predictions) in zip(
-                        columns, model_predictions.items(),
-                    ):
-                        with column:
-                            st.markdown(f"**{model_name}**")
-                            frame = _format_recommendation_frame(
-                                predictions[f"top_{limit}"],
-                            )
-                            if frame.empty:
-                                st.info("No eligible products remain.")
-                            else:
-                                st.dataframe(
-                                    frame, hide_index=True, width="stretch",
-                                )
+                    comparison_frames = []
+                    for model_name, predictions in model_predictions.items():
+                        frame = _format_recommendation_frame(
+                            predictions[f"top_{limit}"],
+                        )
+                        if not frame.empty:
+                            frame.insert(0, "Model", model_name)
+                            frame.insert(1, "Rank", range(1, len(frame) + 1))
+                            comparison_frames.append(frame)
+                    if comparison_frames:
+                        st.dataframe(
+                            pd.concat(comparison_frames, ignore_index=True),
+                            hide_index=True,
+                            width="stretch",
+                        )
+                    else:
+                        st.info("No eligible products remain.")
                 else:
                     predictions = model_predictions["Baseline"][f"top_{limit}"]
                     if predictions:
